@@ -26,8 +26,8 @@ export default function LanguageSelector() {
         aria-label="Select language"
       >
         <Globe className="h-6 w-6 text-blue-500" />
-        <span className="text-white text-sm font-medium hidden sm:inline">{currentLang.flag} {currentLang.name}</span>
-        <span className="text-white text-sm font-medium sm:hidden">{currentLang.flag}</span>
+        <span className="text-blue-500 text-sm font-medium hidden sm:inline">{currentLang.flag} {currentLang.name}</span>
+        <span className="text-blue-500 text-sm font-medium sm:hidden">{currentLang.flag}</span>
       </button>
 
       {isOpen && (

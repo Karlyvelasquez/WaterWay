@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { Building2, Home, BarChart3, TrendingUp, Database, ChevronLeft, Globe, Download, Loader2, Brain, FileText, MapPin, AlertTriangle, Lightbulb } from 'lucide-react'
 import { AreaChart, Area, BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import jsPDF from 'jspdf'
@@ -7,6 +8,7 @@ import 'jspdf-autotable'
 
 export default function GovernmentDashboard() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('inicio')
   const [selectedCountry, setSelectedCountry] = useState(null)
   const [showCountryModal, setShowCountryModal] = useState(true)
@@ -83,8 +85,8 @@ export default function GovernmentDashboard() {
           <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-slide-up">
             <div className="text-center mb-8">
               <Building2 className="h-16 w-16 text-purple-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold mb-2">Portal Gubernamental WaterWay</h2>
-              <p className="text-gray-600">Selecciona tu país para acceder a los datos</p>
+              <h2 className="text-3xl font-bold mb-2">{t('government.title')}</h2>
+              <p className="text-gray-600">{t('government.selectCountry')}</p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -124,7 +126,7 @@ export default function GovernmentDashboard() {
                 className="flex items-center text-gray-600 hover:text-gray-900 transition"
               >
                 <ChevronLeft className="h-5 w-5 mr-1" />
-                Volver
+                {t('common.back')}
               </button>
               <div className="flex items-center space-x-3">
                 <img src="/logo.png" alt="WaterWay" className="h-10 w-auto" />
@@ -146,7 +148,7 @@ export default function GovernmentDashboard() {
               )}
               <div className="flex items-center space-x-2 bg-purple-100 px-4 py-2 rounded-full">
                 <Building2 className="h-5 w-5 text-purple-600" />
-                <span className="font-medium text-purple-800">Gubernamental</span>
+                <span className="font-medium text-purple-800">{t('landing.governmentRole')}</span>
               </div>
             </div>
           </div>
@@ -159,25 +161,25 @@ export default function GovernmentDashboard() {
           <nav className="flex space-x-8">
             <TabButton
               icon={<Home className="h-5 w-5" />}
-              label="Dashboard"
+              label={t('government.tabs.dashboard')}
               active={activeTab === 'inicio'}
               onClick={() => setActiveTab('inicio')}
             />
             <TabButton
               icon={<BarChart3 className="h-5 w-5" />}
-              label="Consumo por Sector"
+              label={t('government.tabs.consumption')}
               active={activeTab === 'consumo'}
               onClick={() => setActiveTab('consumo')}
             />
             <TabButton
               icon={<TrendingUp className="h-5 w-5" />}
-              label="Proyecciones IA"
+              label={t('government.tabs.projections')}
               active={activeTab === 'proyecciones'}
               onClick={() => setActiveTab('proyecciones')}
             />
             <TabButton
               icon={<Database className="h-5 w-5" />}
-              label="Datos Abiertos"
+              label={t('government.tabs.data')}
               active={activeTab === 'datos'}
               onClick={() => setActiveTab('datos')}
             />

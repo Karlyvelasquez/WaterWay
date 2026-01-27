@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { Users, Home, MapPin, AlertTriangle, MessageCircle, ChevronLeft, Camera, Send, X, CheckCircle, Upload, Droplet, Microscope, MapPinned, Building2, Factory, Database, Cog, Gem, BarChart3, Smartphone, HelpCircle, FileText, Landmark, Check, AlertCircle, XCircle, ArrowDown, MousePointer2, RefreshCw, Lightbulb, Globe } from 'lucide-react'
 
 export default function CitizenDashboard() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('inicio')
   const [selectedCountry, setSelectedCountry] = useState(null)
   const [showCountryModal, setShowCountryModal] = useState(true)
@@ -21,8 +23,8 @@ export default function CitizenDashboard() {
           <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-slide-up">
             <div className="text-center mb-8">
               <Users className="h-16 w-16 text-green-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold mb-2">¡Bienvenido a WaterWay Ciudadano!</h2>
-              <p className="text-gray-600">Selecciona tu país para personalizar tu experiencia</p>
+              <h2 className="text-3xl font-bold mb-2">{t('common.welcome')} {t('landing.title')} {t('landing.citizenRole')}!</h2>
+              <p className="text-gray-600">{t('citizen.selectCountry')}</p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -62,7 +64,7 @@ export default function CitizenDashboard() {
                 className="flex items-center text-gray-600 hover:text-gray-900 transition"
               >
                 <ChevronLeft className="h-5 w-5 mr-1" />
-                Volver
+                {t('common.back')}
               </button>
               <div className="flex items-center space-x-3">
                 <img src="/logo.png" alt="WaterWay" className="h-10 w-auto" />
@@ -84,7 +86,7 @@ export default function CitizenDashboard() {
               )}
               <div className="flex items-center space-x-2 bg-green-100 px-4 py-2 rounded-full">
                 <Users className="h-5 w-5 text-green-600" />
-                <span className="font-medium text-green-800">Ciudadano</span>
+                <span className="font-medium text-green-800">{t('landing.citizenRole')}</span>
               </div>
             </div>
           </div>
@@ -97,25 +99,25 @@ export default function CitizenDashboard() {
           <nav className="flex space-x-8">
             <TabButton
               icon={<Home className="h-5 w-5" />}
-              label="Inicio"
+              label={t('citizen.tabs.home')}
               active={activeTab === 'inicio'}
               onClick={() => setActiveTab('inicio')}
             />
             <TabButton
               icon={<AlertTriangle className="h-5 w-5" />}
-              label="Reportar Problema"
+              label={t('citizen.tabs.report')}
               active={activeTab === 'reporte'}
               onClick={() => setActiveTab('reporte')}
             />
             <TabButton
               icon={<MapPin className="h-5 w-5" />}
-              label="Mapa de Riesgo"
+              label={t('citizen.tabs.map')}
               active={activeTab === 'mapa'}
               onClick={() => setActiveTab('mapa')}
             />
             <TabButton
               icon={<MessageCircle className="h-5 w-5" />}
-              label="Asistente"
+              label={t('citizen.tabs.assistant')}
               active={activeTab === 'asistente'}
               onClick={() => setActiveTab('asistente')}
             />

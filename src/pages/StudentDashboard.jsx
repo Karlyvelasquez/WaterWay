@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { GraduationCap, Home, MessageCircle, Droplet, BookOpen, ChevronLeft, ExternalLink, Newspaper, Bell, TrendingUp, X, Globe, MousePointer2, Cloud, CloudRain, Mountain, Zap, Waves, AlertCircle, Calculator, Lightbulb, Smartphone, HelpCircle, GraduationCapIcon } from 'lucide-react'
 
 export default function StudentDashboard() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('inicio')
   const [selectedCountry, setSelectedCountry] = useState(null)
   const [showCountryModal, setShowCountryModal] = useState(true)
@@ -21,8 +23,8 @@ export default function StudentDashboard() {
           <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-slide-up">
             <div className="text-center mb-8">
               <GraduationCap className="h-16 w-16 text-blue-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold mb-2">¡Bienvenido a WaterWay Educación!</h2>
-              <p className="text-gray-600">Selecciona tu país para personalizar tu experiencia</p>
+              <h2 className="text-3xl font-bold mb-2">{t('common.welcome')} {t('landing.title')} {t('landing.studentRole')}!</h2>
+              <p className="text-gray-600">{t('student.selectCountry')}</p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -32,8 +34,8 @@ export default function StudentDashboard() {
               >
                 <div className="text-white text-center">
                   <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Colombia</h3>
-                  <p className="text-sm opacity-90">Contenido adaptado para Colombia</p>
+                  <h3 className="text-2xl font-bold mb-2">{t('student.colombia')}</h3>
+                  <p className="text-sm opacity-90">Contenido adaptado para {t('student.colombia')}</p>
                 </div>
               </button>
               
@@ -43,8 +45,8 @@ export default function StudentDashboard() {
               >
                 <div className="text-white text-center">
                   <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Uruguay</h3>
-                  <p className="text-sm opacity-90">Contenido adaptado para Uruguay</p>
+                  <h3 className="text-2xl font-bold mb-2">{t('student.uruguay')}</h3>
+                  <p className="text-sm opacity-90">Contenido adaptado para {t('student.uruguay')}</p>
                 </div>
               </button>
             </div>
@@ -62,7 +64,7 @@ export default function StudentDashboard() {
                 className="flex items-center text-gray-600 hover:text-gray-900 transition"
               >
                 <ChevronLeft className="h-5 w-5 mr-1" />
-                Volver
+                {t('common.back')}
               </button>
               <div className="flex items-center space-x-3">
                 <img src="/logo.png" alt="WaterWay" className="h-10 w-auto" />
@@ -79,12 +81,12 @@ export default function StudentDashboard() {
                   className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg hover:bg-gray-200 transition text-sm"
                 >
                   <span>{selectedCountry === 'colombia' ? '🇨🇴' : '🇺🇾'}</span>
-                  <span className="text-gray-700">Cambiar país</span>
+                  <span className="text-gray-700">{t('student.selectCountry')}</span>
                 </button>
               )}
               <div className="flex items-center space-x-2 bg-blue-100 px-4 py-2 rounded-full">
                 <GraduationCap className="h-5 w-5 text-blue-600" />
-                <span className="font-medium text-blue-800">Estudiante</span>
+                <span className="font-medium text-blue-800">{t('landing.studentRole')}</span>
               </div>
             </div>
           </div>
@@ -97,25 +99,25 @@ export default function StudentDashboard() {
           <nav className="flex space-x-8">
             <TabButton
               icon={<Home className="h-5 w-5" />}
-              label="Inicio"
+              label={t('student.tabs.home')}
               active={activeTab === 'inicio'}
               onClick={() => setActiveTab('inicio')}
             />
             <TabButton
               icon={<Droplet className="h-5 w-5" />}
-              label="Ciclo del Agua"
+              label={t('student.tabs.cycle')}
               active={activeTab === 'ciclo'}
               onClick={() => setActiveTab('ciclo')}
             />
             <TabButton
               icon={<BookOpen className="h-5 w-5" />}
-              label="Mi Huella Hídrica"
+              label={t('student.tabs.footprint')}
               active={activeTab === 'huella'}
               onClick={() => setActiveTab('huella')}
             />
             <TabButton
               icon={<MessageCircle className="h-5 w-5" />}
-              label="Asistente de IA"
+              label={t('student.tabs.assistant')}
               active={activeTab === 'chatbot'}
               onClick={() => setActiveTab('chatbot')}
             />
