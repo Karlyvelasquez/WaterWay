@@ -1,0 +1,14 @@
+{
+  "fecha_generacion": "2026-01-26T20:45:10.338935",
+  "ciudad": "Montevideo",
+  "pais": "Uruguay",
+  "datos_reales": {
+    "calidad_agua": 487,
+    "clima": 0
+  },
+  "datos_sinteticos": {
+    "tarifas": 96,
+    "reportes": 500,
+    "interrupciones": 100
+  }
+}

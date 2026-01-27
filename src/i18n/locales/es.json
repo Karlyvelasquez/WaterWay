@@ -1,0 +1,318 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "close": "Cerrar",
+    "select": "Seleccionar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "download": "Descargar",
+    "language": "Idioma",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "landing": {
+    "title": "WaterWay",
+    "subtitle": "Plataforma de Gobernanza del Agua",
+    "description": "Mejora la comprensión, el uso responsable y la gobernanza del agua frente a los desafíos del cambio climático",
+    "forColombiaUruguay": "Colombia y Uruguay",
+    "climateActionLatam": "Acción Climática LATAM",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber más",
+    "guideButton": "Guía de uso",
+    "dataButton": "Datos detrás",
+    "login": "Iniciar sesión",
+    "studentRole": "Estudiante",
+    "citizenRole": "Ciudadano",
+    "governmentRole": "Gubernamental",
+    "studentDesc": "Enfoque formativo y educativo",
+    "citizenDesc": "Participación ciudadana activa",
+    "governmentDesc": "Análisis y toma de decisiones",
+    "problemTitle": "El Problema",
+    "problemText": "El agua es uno de los recursos más afectados por fenómenos como sequías prolongadas, variabilidad climática y crecimiento urbano desordenado.",
+    "solutionTitle": "Nuestra Solución",
+    "solutionText": "Plataforma web basada en datos públicos y abiertos e inteligencia artificial, orientada a mejorar la comprensión y gobernanza del agua.",
+    "odsTitle": "Contribución a los ODS",
+    "odsText": "WaterWay contribuye directamente a los Objetivos de Desarrollo Sostenible, especialmente al ODS 6: Agua limpia y saneamiento.",
+    "nav": {
+      "problem": "El problema",
+      "platform": "La plataforma",
+      "openData": "Datos abiertos",
+      "access": "Acceso"
+    },
+    "hero": {
+      "titlePart1": "Plataforma de gobernanza del agua con",
+  "titlePart2": "datos abiertos e IA",
+      "subtitle": "WaterWay integra inteligencia artificial y datos públicos para mejorar la comprensión, el uso responsable y la toma de decisiones sobre el agua en el contexto del cambio climático.",
+      "cta": "Acceder a la plataforma"
+    },
+    "problem": {
+      "title": "La crisis del agua en América Latina",
+      "text": "El cambio climático está generando escenarios de estrés hídrico cada vez más frecuentes en nuestra región.",
+      "stat1": "de la población urbana en LATAM enfrenta escasez de agua",
+      "stat2": "del agua se usa en agricultura, sector vulnerable al clima",
+      "stat3": "Año proyectado para duplicar el estrés hídrico regional",
+      "source": "Fuente"
+    },
+    "platform": {
+      "title": "La plataforma WaterWay",
+      "subtitle": "Una plataforma escalable y replicable que democratiza el acceso a información hídrica y empodera la toma de decisiones basada en datos.",
+      "mainFeatures": "Características principales",
+      "features": {
+        "ai": {
+          "title": "Inteligencia artificial",
+          "description": "Modelos predictivos, clasificación automática de reportes y análisis de patrones de consumo"
+        },
+        "openData": {
+          "title": "Datos abiertos",
+          "description": "Transparencia total. Toda la información es pública y reutilizable bajo estándares internacionales"
+        },
+        "participation": {
+          "title": "Participación ciudadana",
+          "description": "Empodera a la ciudadanía como detector temprano de problemáticas ambientales"
+        },
+        "scalable": {
+          "title": "Escalable y replicable",
+          "description": "Diseño adaptable a cualquier país o región con datos abiertos disponibles"
+        }
+      },
+      "keyComponents": "Componentes clave",
+      "components": {
+        "analysis": {
+          "title": "Módulo de análisis",
+          "description": "Visualizaciones interactivas y mapas de riesgo hídrico"
+        },
+        "chatbots": {
+          "title": "Chatbots inteligentes",
+          "description": "Educativo en Telegram y Q&A para ciudadanos"
+        },
+        "reports": {
+          "title": "Reportes georreferenciados",
+          "description": "Clasificación automática con IA y derivación a entidades"
+        },
+        "footprint": {
+          "title": "Huella hídrica",
+          "description": "Calculadora personal y simulador de impacto"
+        }
+      }
+    },
+    "sdg": {
+      "title": "Contribución a los ODS",
+      "subtitle": "WaterWay contribuye directamente al cumplimiento de los Objetivos de Desarrollo Sostenible",
+      "sdg6": "Agua limpia y saneamiento",
+      "sdg13": "Acción por el clima",
+      "sdg16": "Paz, justicia e instituciones sólidas"
+    },
+    "useCases": {
+      "title": "Casos de uso",
+      "subtitle": "Cómo diferentes actores utilizan WaterWay en su día a día",
+      "student": {
+        "name": "María, estudiante de secundaria",
+        "role": "Estudiante",
+        "scenario": "Usa el módulo educativo para aprender sobre el ciclo del agua y calcula su huella hídrica familiar. El chatbot de Telegram le ayuda con sus tareas sobre cambio climático.",
+        "impact": "Aumenta su conciencia ambiental y comparte lo aprendido con su familia, reduciendo el consumo en un 15%."
+      },
+      "citizen": {
+        "name": "Carlos, vecino de Bogotá",
+        "role": "Ciudadano",
+        "scenario": "Reporta un vertimiento ilegal en el río cercano a su barrio. La IA clasifica automáticamente el reporte y lo envía a la CAR. Recibe seguimiento en tiempo real.",
+        "impact": "El problema se atiende en 48 horas. La comunidad reporta 30 casos similares, identificando un patrón."
+      },
+      "government": {
+        "name": "Laura, analista municipal",
+        "role": "Gobierno",
+        "scenario": "Utiliza las proyecciones de IA para planificar la infraestructura hídrica de Montevideo. Los modelos muestran zonas de alto riesgo para 2030.",
+        "impact": "Prioriza inversiones y presenta un plan con datos sólidos al concejo, obteniendo aprobación presupuestal."
+      },
+      "scenarioLabel": "Escenario",
+      "impactLabel": "Impacto"
+    },
+    "urgency": {
+      "title": "¿Por qué ahora?",
+      "subtitle": "La urgencia climática exige soluciones inmediatas",
+      "recentEvents": "Eventos recientes",
+      "events": {
+        "uruguay": {
+          "title": "Crisis hídrica Uruguay 2023",
+          "description": "Montevideo sufrió restricciones severas de agua potable, afectando a 1.5M de personas"
+        },
+        "colombia": {
+          "title": "Sequías en Colombia 2024",
+          "description": "La Guajira y zonas andinas reportaron los niveles más bajos de reservorios en 40 años"
+        },
+        "extreme": {
+          "title": "Eventos climáticos extremos",
+          "description": "Aumento del 35% en sequías e inundaciones en la última década en LATAM"
+        }
+      },
+      "commitments": "Compromisos internacionales",
+      "international": {
+        "ndc": {
+          "title": "NDCs actualizadas",
+          "description": "Colombia y Uruguay comprometidos con reducción de vulnerabilidad hídrica para 2030"
+        },
+        "sdg": {
+          "title": "Agenda 2030 - ODS 6",
+          "description": "Garantizar disponibilidad y gestión sostenible del agua para todos"
+        },
+        "paris": {
+          "title": "Acuerdo de París",
+          "description": "Adaptación al cambio climático y fortalecimiento de resiliencia"
+        }
+      },
+      "moment": "El momento es ahora:",
+      "momentText": "Cada día sin datos para la toma de decisiones es un día perdido en la adaptación climática"
+    },
+    "openData": {
+      "title": "Compromiso con datos abiertos",
+      "transparent": "100% transparente",
+      "transparentText": "WaterWay está construida sobre los principios de la Carta Internacional de Datos Abiertos. Todos los datos procesados, generados y visualizados en esta plataforma son de acceso público.",
+      "dataTypes": {
+        "climate": "Datos climáticos e hidrológicos",
+        "consumption": "Estadísticas de consumo agregadas y anonimizadas",
+        "reports": "Reportes ciudadanos georreferenciados",
+        "projections": "Proyecciones y análisis de IA"
+      },
+      "reusable": "Reutilizable y escalable",
+      "reusableText": "La arquitectura de WaterWay permite integrar nuevas fuentes de datos y adaptarse a diferentes contextos regulatorios e institucionales.",
+      "standards": {
+        "international": "Estándares internacionales de datos abiertos",
+        "apis": "APIs públicas para desarrolladores",
+        "datasets": "Datasets descargables en formatos estándar",
+        "documentation": "Documentación técnica abierta"
+      },
+      "privacy": "Nota importante:",
+      "privacyText": "Todos los datos personales son tratados conforme a las leyes de protección de datos de Colombia y Uruguay. La plataforma implementa anonimización y agregación para proteger la privacidad."
+    },
+    "roles": {
+      "title": "Acceso por roles",
+      "subtitle": "Selecciona tu perfil para acceder a las funcionalidades diseñadas según tus necesidades",
+      "accessAs": "Acceder como"
+    },
+    "cta": {
+      "title": "Construyamos juntos un futuro hídrico sostenible",
+      "text": "WaterWay es más que una plataforma: es un movimiento hacia la transparencia, la participación ciudadana y la toma de decisiones basada en datos.",
+      "explore": "Explorar la plataforma",
+      "sourceCode": "Ver código fuente",
+      "features": {
+        "openSource": {
+          "title": "Open source",
+          "description": "Código abierto para que cualquier país pueda adaptarlo"
+        },
+        "publicData": {
+          "title": "Datos públicos",
+          "description": "100% transparente y reutilizable bajo licencias abiertas"
+        },
+        "collaborative": {
+          "title": "Colaborativo",
+          "description": "Diseñado con y para las comunidades afectadas"
+        }
+      }
+    },
+    "footer": {
+      "description": "Plataforma de gobernanza del agua basada en datos abiertos e inteligencia artificial.",
+      "project": "Proyecto",
+      "organizedBy": "Organizado por",
+      "funding": "Financiamiento",
+      "copyright": "© 2026 WaterWay - Open Data & AI Innovation Challenge | Acción Climática LATAM",
+      "developed": "Desarrollado para Colombia y Uruguay"
+    }
+  },
+  "student": {
+    "title": "Dashboard Estudiantil",
+    "selectCountry": "Selecciona tu país",
+    "colombia": "Colombia",
+    "uruguay": "Uruguay",
+    "tabs": {
+      "home": "Inicio",
+      "cycle": "Ciclo del Agua",
+      "footprint": "Mi Huella Hídrica",
+      "assistant": "Asistente de IA"
+    },
+    "cycle": {
+      "title": "El Ciclo del Agua",
+      "stage": "Etapa",
+      "evaporation": "Evaporación",
+      "condensation": "Condensación",
+      "precipitation": "Precipitación",
+      "infiltration": "Infiltración",
+      "runoff": "Escorrentía",
+      "collection": "Recolección"
+    },
+    "footprint": {
+      "title": "Mi Huella Hídrica",
+      "calculate": "Calcular",
+      "result": "Resultado"
+    },
+    "assistant": {
+      "title": "Asistente de IA Educativo",
+      "description": "Accede a nuestro chatbot educativo en Telegram",
+      "openTelegram": "Abrir en Telegram"
+    }
+  },
+  "citizen": {
+    "title": "Dashboard Ciudadano",
+    "selectCountry": "Selecciona tu país",
+    "tabs": {
+      "home": "Inicio",
+      "report": "Reportar Problema",
+      "map": "Mapa de Riesgo",
+      "assistant": "Asistente de IA"
+    },
+    "report": {
+      "title": "Reportar Problema",
+      "category": "Categoría",
+      "city": "Ciudad",
+      "description": "Descripción",
+      "image": "Adjuntar imagen",
+      "submit": "Enviar Reporte",
+      "success": "Reporte enviado exitosamente"
+    },
+    "map": {
+      "title": "Mapa de Riesgo Hídrico",
+      "layers": {
+        "risk": "Riesgo",
+        "quality": "Calidad del Agua",
+        "reports": "Reportes Ciudadanos",
+        "infrastructure": "Infraestructura"
+      }
+    }
+  },
+  "government": {
+    "title": "Portal Gubernamental",
+    "selectCountry": "Selecciona tu país",
+    "selectCity": "Selecciona la ciudad",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "consumption": "Consumo por Sector",
+      "projections": "Proyecciones IA",
+      "data": "Datos"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "realData": "Datos reales de",
+      "loading": "Cargando datos reales..."
+    },
+    "consumption": {
+      "title": "Consumo por Sector",
+      "exportPDF": "Exportar PDF"
+    },
+    "projections": {
+      "title": "Proyecciones IA",
+      "analyze": "Analizar con IA",
+      "exportPDF": "Exportar PDF",
+      "scenarios": {
+        "current": "Escenario Actual",
+        "optimistic": "Escenario Optimista",
+        "pessimistic": "Escenario Pesimista"
+      }
+    }
+  }
+}

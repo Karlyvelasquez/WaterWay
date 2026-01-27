@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "INT-MVD-001",
+    "barrio": "Nuevo París",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-11-28T20:45:10.304059",
+    "duracion_horas": 2,
+    "usuarios_afectados": 752,
+    "latitud": -34.901215,
+    "longitud": -56.181859
+  },
+  {
+    "id": "INT-MVD-002",
+    "barrio": "La Teja",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-20T20:45:10.304269",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2824,
+    "latitud": -34.883351,
+    "longitud": -56.184182
+  },
+  {
+    "id": "INT-MVD-003",
+    "barrio": "La Teja",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-18T20:45:10.304390",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1655,
+    "latitud": -34.916846,
+    "longitud": -56.155311
+  },
+  {
+    "id": "INT-MVD-004",
+    "barrio": "Palermo",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-12-26T20:45:10.305062",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1327,
+    "latitud": -34.907791,
+    "longitud": -56.156017
+  },
+  {
+    "id": "INT-MVD-005",
+    "barrio": "Carrasco",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-24T20:45:10.305243",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1619,
+    "latitud": -34.888021,
+    "longitud": -56.043144
+  },
+  {
+    "id": "INT-MVD-006",
+    "barrio": "Peñarol",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-25T20:45:10.305364",
+    "duracion_horas": 8,
+    "usuarios_afectados": 655,
+    "latitud": -34.905674,
+    "longitud": -56.168408
+  },
+  {
+    "id": "INT-MVD-007",
+    "barrio": "La Teja",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-12T20:45:10.305468",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1320,
+    "latitud": -34.918804,
+    "longitud": -56.172705
+  },
+  {
+    "id": "INT-MVD-008",
+    "barrio": "Cerro",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-06T20:45:10.305746",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1955,
+    "latitud": -34.862487,
+    "longitud": -56.245739
+  },
+  {
+    "id": "INT-MVD-009",
+    "barrio": "Pocitos",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-08-14T20:45:10.305870",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1685,
+    "latitud": -34.920812,
+    "longitud": -56.153796
+  },
+  {
+    "id": "INT-MVD-010",
+    "barrio": "Tres Cruces",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-09-10T20:45:10.305981",
+    "duracion_horas": 6,
+    "usuarios_afectados": 160,
+    "latitud": -34.917931,
+    "longitud": -56.145347
+  },
+  {
+    "id": "INT-MVD-011",
+    "barrio": "Pocitos",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-02T20:45:10.306087",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2794,
+    "latitud": -34.91676,
+    "longitud": -56.152781
+  },
+  {
+    "id": "INT-MVD-012",
+    "barrio": "Nuevo París",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-07T20:45:10.306197",
+    "duracion_horas": 12,
+    "usuarios_afectados": 2556,
+    "latitud": -34.906508,
+    "longitud": -56.14904
+  },
+  {
+    "id": "INT-MVD-013",
+    "barrio": "Malvín",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-11-03T20:45:10.306743",
+    "duracion_horas": 2,
+    "usuarios_afectados": 437,
+    "latitud": -34.873272,
+    "longitud": -56.115483
+  },
+  {
+    "id": "INT-MVD-014",
+    "barrio": "Pocitos",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-20T20:45:10.306959",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1843,
+    "latitud": -34.9163,
+    "longitud": -56.142147
+  },
+  {
+    "id": "INT-MVD-015",
+    "barrio": "Unión",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-11-08T20:45:10.307077",
+    "duracion_horas": 8,
+    "usuarios_afectados": 516,
+    "latitud": -34.908876,
+    "longitud": -56.151339
+  },
+  {
+    "id": "INT-MVD-016",
+    "barrio": "Buceo",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-12-24T20:45:10.307183",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2835,
+    "latitud": -34.882245,
+    "longitud": -56.182078
+  },
+  {
+    "id": "INT-MVD-017",
+    "barrio": "Centro",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-30T20:45:10.307284",
+    "duracion_horas": 12,
+    "usuarios_afectados": 2566,
+    "latitud": -34.902095,
+    "longitud": -56.170907
+  },
+  {
+    "id": "INT-MVD-018",
+    "barrio": "Peñarol",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-17T20:45:10.307444",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2829,
+    "latitud": -34.896346,
+    "longitud": -56.17226
+  },
+  {
+    "id": "INT-MVD-019",
+    "barrio": "Pocitos",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-15T20:45:10.307611",
+    "duracion_horas": 8,
+    "usuarios_afectados": 240,
+    "latitud": -34.891942,
+    "longitud": -56.16018
+  },
+  {
+    "id": "INT-MVD-020",
+    "barrio": "Ciudad Vieja",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-07-31T20:45:10.307725",
+    "duracion_horas": 12,
+    "usuarios_afectados": 2778,
+    "latitud": -34.905427,
+    "longitud": -56.219626
+  },
+  {
+    "id": "INT-MVD-021",
+    "barrio": "Punta Carretas",
+    "motivo": "Reparación",
+    "fecha_inicio": "2026-01-17T20:45:10.307845",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2578,
+    "latitud": -34.927772,
+    "longitud": -56.140085
+  },
+  {
+    "id": "INT-MVD-022",
+    "barrio": "Punta Carretas",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-29T20:45:10.307973",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2033,
+    "latitud": -34.929831,
+    "longitud": -56.139523
+  },
+  {
+    "id": "INT-MVD-023",
+    "barrio": "Tres Cruces",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-11T20:45:10.308085",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2634,
+    "latitud": -34.901575,
+    "longitud": -56.172108
+  },
+  {
+    "id": "INT-MVD-024",
+    "barrio": "Prado",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-12T20:45:10.308211",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2148,
+    "latitud": -34.883504,
+    "longitud": -56.14594
+  },
+  {
+    "id": "INT-MVD-025",
+    "barrio": "Pocitos",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-22T20:45:10.308719",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1099,
+    "latitud": -34.923948,
+    "longitud": -56.159378
+  },
+  {
+    "id": "INT-MVD-026",
+    "barrio": "Peñarol",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-11-22T20:45:10.308958",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1518,
+    "latitud": -34.904229,
+    "longitud": -56.166454
+  },
+  {
+    "id": "INT-MVD-027",
+    "barrio": "Unión",
+    "motivo": "Reparación",
+    "fecha_inicio": "2026-01-15T20:45:10.309074",
+    "duracion_horas": 8,
+    "usuarios_afectados": 1978,
+    "latitud": -34.892281,
+    "longitud": -56.169512
+  },
+  {
+    "id": "INT-MVD-028",
+    "barrio": "Parque Rodó",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-10-26T20:45:10.309195",
+    "duracion_horas": 12,
+    "usuarios_afectados": 370,
+    "latitud": -34.898211,
+    "longitud": -56.149836
+  },
+  {
+    "id": "INT-MVD-029",
+    "barrio": "Nuevo París",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-12-09T20:45:10.309298",
+    "duracion_horas": 12,
+    "usuarios_afectados": 2286,
+    "latitud": -34.897655,
+    "longitud": -56.165736
+  },
+  {
+    "id": "INT-MVD-030",
+    "barrio": "Unión",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-26T20:45:10.309436",
+    "duracion_horas": 8,
+    "usuarios_afectados": 1837,
+    "latitud": -34.914055,
+    "longitud": -56.169628
+  },
+  {
+    "id": "INT-MVD-031",
+    "barrio": "Parque Rodó",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-11-04T20:45:10.309579",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2762,
+    "latitud": -34.904287,
+    "longitud": -56.152348
+  },
+  {
+    "id": "INT-MVD-032",
+    "barrio": "Sayago",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-31T20:45:10.309682",
+    "duracion_horas": 12,
+    "usuarios_afectados": 426,
+    "latitud": -34.895227,
+    "longitud": -56.160141
+  },
+  {
+    "id": "INT-MVD-033",
+    "barrio": "Pocitos",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-31T20:45:10.309780",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2489,
+    "latitud": -34.909549,
+    "longitud": -56.147124
+  },
+  {
+    "id": "INT-MVD-034",
+    "barrio": "Unión",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-02T20:45:10.309879",
+    "duracion_horas": 12,
+    "usuarios_afectados": 957,
+    "latitud": -34.89564,
+    "longitud": -56.147149
+  },
+  {
+    "id": "INT-MVD-035",
+    "barrio": "Centro",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-02T20:45:10.309993",
+    "duracion_horas": 12,
+    "usuarios_afectados": 300,
+    "latitud": -34.903229,
+    "longitud": -56.183757
+  },
+  {
+    "id": "INT-MVD-036",
+    "barrio": "Aguada",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-11-21T20:45:10.310122",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1084,
+    "latitud": -34.909458,
+    "longitud": -56.14644
+  },
+  {
+    "id": "INT-MVD-037",
+    "barrio": "Bella Vista",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-11-01T20:45:10.310231",
+    "duracion_horas": 2,
+    "usuarios_afectados": 293,
+    "latitud": -34.889629,
+    "longitud": -56.151605
+  },
+  {
+    "id": "INT-MVD-038",
+    "barrio": "Tres Cruces",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-12T20:45:10.310336",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1522,
+    "latitud": -34.895075,
+    "longitud": -56.159282
+  },
+  {
+    "id": "INT-MVD-039",
+    "barrio": "Unión",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2026-01-12T20:45:10.310424",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1328,
+    "latitud": -34.891656,
+    "longitud": -56.170819
+  },
+  {
+    "id": "INT-MVD-040",
+    "barrio": "La Teja",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-21T20:45:10.310488",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1311,
+    "latitud": -34.886804,
+    "longitud": -56.175761
+  },
+  {
+    "id": "INT-MVD-041",
+    "barrio": "Punta Carretas",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-01T20:45:10.310612",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1346,
+    "latitud": -34.924767,
+    "longitud": -56.149945
+  },
+  {
+    "id": "INT-MVD-042",
+    "barrio": "Aguada",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2026-01-02T20:45:10.310680",
+    "duracion_horas": 12,
+    "usuarios_afectados": 2894,
+    "latitud": -34.897479,
+    "longitud": -56.168853
+  },
+  {
+    "id": "INT-MVD-043",
+    "barrio": "Unión",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-09-06T20:45:10.310743",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1529,
+    "latitud": -34.912332,
+    "longitud": -56.160918
+  },
+  {
+    "id": "INT-MVD-044",
+    "barrio": "Carrasco",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-11-10T20:45:10.310807",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1018,
+    "latitud": -34.877741,
+    "longitud": -56.049586
+  },
+  {
+    "id": "INT-MVD-045",
+    "barrio": "Tres Cruces",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-02T20:45:10.310877",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2229,
+    "latitud": -34.916477,
+    "longitud": -56.155192
+  },
+  {
+    "id": "INT-MVD-046",
+    "barrio": "Bella Vista",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2026-01-19T20:45:10.310939",
+    "duracion_horas": 4,
+    "usuarios_afectados": 951,
+    "latitud": -34.920548,
+    "longitud": -56.149879
+  },
+  {
+    "id": "INT-MVD-047",
+    "barrio": "Carrasco",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-24T20:45:10.311020",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1423,
+    "latitud": -34.867049,
+    "longitud": -56.044991
+  },
+  {
+    "id": "INT-MVD-048",
+    "barrio": "Pocitos",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-05T20:45:10.311086",
+    "duracion_horas": 12,
+    "usuarios_afectados": 146,
+    "latitud": -34.893787,
+    "longitud": -56.140487
+  },
+  {
+    "id": "INT-MVD-049",
+    "barrio": "Tres Cruces",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-14T20:45:10.311147",
+    "duracion_horas": 12,
+    "usuarios_afectados": 555,
+    "latitud": -34.917683,
+    "longitud": -56.156945
+  },
+  {
+    "id": "INT-MVD-050",
+    "barrio": "Cordón",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-12-02T20:45:10.311652",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2311,
+    "latitud": -34.925592,
+    "longitud": -56.177315
+  },
+  {
+    "id": "INT-MVD-051",
+    "barrio": "Centro",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-24T20:45:10.311774",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1660,
+    "latitud": -34.887882,
+    "longitud": -56.162445
+  },
+  {
+    "id": "INT-MVD-052",
+    "barrio": "Punta Carretas",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-17T20:45:10.311849",
+    "duracion_horas": 4,
+    "usuarios_afectados": 772,
+    "latitud": -34.920607,
+    "longitud": -56.140196
+  },
+  {
+    "id": "INT-MVD-053",
+    "barrio": "Buceo",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2026-01-16T20:45:10.311916",
+    "duracion_horas": 4,
+    "usuarios_afectados": 1717,
+    "latitud": -34.886691,
+    "longitud": -56.16188
+  },
+  {
+    "id": "INT-MVD-054",
+    "barrio": "Nuevo París",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2026-01-12T20:45:10.311995",
+    "duracion_horas": 2,
+    "usuarios_afectados": 1846,
+    "latitud": -34.896006,
+    "longitud": -56.148407
+  },
+  {
+    "id": "INT-MVD-055",
+    "barrio": "Cordón",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-26T20:45:10.312060",
+    "duracion_horas": 2,
+    "usuarios_afectados": 263,
+    "latitud": -34.892637,
+    "longitud": -56.17006
+  },
+  {
+    "id": "INT-MVD-056",
+    "barrio": "Unión",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-10T20:45:10.312123",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2867,
+    "latitud": -34.905686,
+    "longitud": -56.145061
+  },
+  {
+    "id": "INT-MVD-057",
+    "barrio": "Parque Rodó",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-22T20:45:10.312461",
+    "duracion_horas": 8,
+    "usuarios_afectados": 204,
+    "latitud": -34.898663,
+    "longitud": -56.16003
+  },
+  {
+    "id": "INT-MVD-058",
+    "barrio": "Pocitos",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2026-01-04T20:45:10.312597",
+    "duracion_horas": 4,
+    "usuarios_afectados": 1654,
+    "latitud": -34.892685,
+    "longitud": -56.135133
+  },
+  {
+    "id": "INT-MVD-059",
+    "barrio": "Cerro",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-16T20:45:10.312708",
+    "duracion_horas": 6,
+    "usuarios_afectados": 975,
+    "latitud": -34.873244,
+    "longitud": -56.252764
+  },
+  {
+    "id": "INT-MVD-060",
+    "barrio": "Bella Vista",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-13T20:45:10.312789",
+    "duracion_horas": 4,
+    "usuarios_afectados": 958,
+    "latitud": -34.894811,
+    "longitud": -56.148378
+  },
+  {
+    "id": "INT-MVD-061",
+    "barrio": "Unión",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-11-10T20:45:10.312854",
+    "duracion_horas": 2,
+    "usuarios_afectados": 959,
+    "latitud": -34.91717,
+    "longitud": -56.171199
+  },
+  {
+    "id": "INT-MVD-062",
+    "barrio": "Punta Carretas",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-20T20:45:10.312919",
+    "duracion_horas": 12,
+    "usuarios_afectados": 773,
+    "latitud": -34.909026,
+    "longitud": -56.145735
+  },
+  {
+    "id": "INT-MVD-063",
+    "barrio": "Centro",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-13T20:45:10.312983",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2488,
+    "latitud": -34.893635,
+    "longitud": -56.153626
+  },
+  {
+    "id": "INT-MVD-064",
+    "barrio": "Centro",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-08-17T20:45:10.313060",
+    "duracion_horas": 12,
+    "usuarios_afectados": 2094,
+    "latitud": -34.912594,
+    "longitud": -56.172525
+  },
+  {
+    "id": "INT-MVD-065",
+    "barrio": "Centro",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-08-15T20:45:10.313132",
+    "duracion_horas": 2,
+    "usuarios_afectados": 703,
+    "latitud": -34.907237,
+    "longitud": -56.181565
+  },
+  {
+    "id": "INT-MVD-066",
+    "barrio": "Malvín",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-30T20:45:10.313207",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2195,
+    "latitud": -34.885496,
+    "longitud": -56.113928
+  },
+  {
+    "id": "INT-MVD-067",
+    "barrio": "Ciudad Vieja",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-10-27T20:45:10.313283",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1593,
+    "latitud": -34.913006,
+    "longitud": -56.198559
+  },
+  {
+    "id": "INT-MVD-068",
+    "barrio": "Peñarol",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-11-14T20:45:10.313348",
+    "duracion_horas": 4,
+    "usuarios_afectados": 404,
+    "latitud": -34.892492,
+    "longitud": -56.150615
+  },
+  {
+    "id": "INT-MVD-069",
+    "barrio": "Aguada",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-09-02T20:45:10.313411",
+    "duracion_horas": 4,
+    "usuarios_afectados": 463,
+    "latitud": -34.888305,
+    "longitud": -56.151877
+  },
+  {
+    "id": "INT-MVD-070",
+    "barrio": "Cordón",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-15T20:45:10.313478",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2168,
+    "latitud": -34.924443,
+    "longitud": -56.169995
+  },
+  {
+    "id": "INT-MVD-071",
+    "barrio": "Cerro",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-25T20:45:10.313611",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1244,
+    "latitud": -34.894192,
+    "longitud": -56.231135
+  },
+  {
+    "id": "INT-MVD-072",
+    "barrio": "Peñarol",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-08-14T20:45:10.313727",
+    "duracion_horas": 6,
+    "usuarios_afectados": 598,
+    "latitud": -34.88768,
+    "longitud": -56.150396
+  },
+  {
+    "id": "INT-MVD-073",
+    "barrio": "Aguada",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-31T20:45:10.313834",
+    "duracion_horas": 4,
+    "usuarios_afectados": 1095,
+    "latitud": -34.891943,
+    "longitud": -56.162636
+  },
+  {
+    "id": "INT-MVD-074",
+    "barrio": "Tres Cruces",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-16T20:45:10.313941",
+    "duracion_horas": 8,
+    "usuarios_afectados": 297,
+    "latitud": -34.896441,
+    "longitud": -56.162775
+  },
+  {
+    "id": "INT-MVD-075",
+    "barrio": "Carrasco",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-03T20:45:10.314050",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2248,
+    "latitud": -34.870107,
+    "longitud": -56.070115
+  },
+  {
+    "id": "INT-MVD-076",
+    "barrio": "Aguada",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-09-19T20:45:10.314160",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2709,
+    "latitud": -34.896624,
+    "longitud": -56.171554
+  },
+  {
+    "id": "INT-MVD-077",
+    "barrio": "Prado",
+    "motivo": "Reparación",
+    "fecha_inicio": "2026-01-23T20:45:10.314281",
+    "duracion_horas": 8,
+    "usuarios_afectados": 1752,
+    "latitud": -34.905392,
+    "longitud": -56.183427
+  },
+  {
+    "id": "INT-MVD-078",
+    "barrio": "Prado",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-09-03T20:45:10.314400",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1163,
+    "latitud": -34.895216,
+    "longitud": -56.180884
+  },
+  {
+    "id": "INT-MVD-079",
+    "barrio": "Pocitos",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-31T20:45:10.314531",
+    "duracion_horas": 12,
+    "usuarios_afectados": 945,
+    "latitud": -34.926823,
+    "longitud": -56.132906
+  },
+  {
+    "id": "INT-MVD-080",
+    "barrio": "Tres Cruces",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-10-28T20:45:10.314666",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2232,
+    "latitud": -34.907105,
+    "longitud": -56.174639
+  },
+  {
+    "id": "INT-MVD-081",
+    "barrio": "Parque Rodó",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-22T20:45:10.314777",
+    "duracion_horas": 8,
+    "usuarios_afectados": 1314,
+    "latitud": -34.90808,
+    "longitud": -56.175147
+  },
+  {
+    "id": "INT-MVD-082",
+    "barrio": "Centro",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-09T20:45:10.314888",
+    "duracion_horas": 12,
+    "usuarios_afectados": 1058,
+    "latitud": -34.894409,
+    "longitud": -56.168688
+  },
+  {
+    "id": "INT-MVD-083",
+    "barrio": "Prado",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-11-05T20:45:10.314992",
+    "duracion_horas": 2,
+    "usuarios_afectados": 268,
+    "latitud": -34.882051,
+    "longitud": -56.180536
+  },
+  {
+    "id": "INT-MVD-084",
+    "barrio": "Unión",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-09-04T20:45:10.315089",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2631,
+    "latitud": -34.883861,
+    "longitud": -56.183964
+  },
+  {
+    "id": "INT-MVD-085",
+    "barrio": "Malvín",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-11T20:45:10.315209",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1677,
+    "latitud": -34.872345,
+    "longitud": -56.103654
+  },
+  {
+    "id": "INT-MVD-086",
+    "barrio": "Unión",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-09T20:45:10.315321",
+    "duracion_horas": 6,
+    "usuarios_afectados": 660,
+    "latitud": -34.883015,
+    "longitud": -56.180008
+  },
+  {
+    "id": "INT-MVD-087",
+    "barrio": "Peñarol",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-17T20:45:10.315432",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2306,
+    "latitud": -34.909982,
+    "longitud": -56.175126
+  },
+  {
+    "id": "INT-MVD-088",
+    "barrio": "Tres Cruces",
+    "motivo": "Reparación",
+    "fecha_inicio": "2026-01-02T20:45:10.315560",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2409,
+    "latitud": -34.918713,
+    "longitud": -56.166965
+  },
+  {
+    "id": "INT-MVD-089",
+    "barrio": "Centro",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-09-13T20:45:10.315661",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2935,
+    "latitud": -34.894287,
+    "longitud": -56.162802
+  },
+  {
+    "id": "INT-MVD-090",
+    "barrio": "Malvín",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-12-16T20:45:10.315760",
+    "duracion_horas": 8,
+    "usuarios_afectados": 2487,
+    "latitud": -34.905236,
+    "longitud": -56.111131
+  },
+  {
+    "id": "INT-MVD-091",
+    "barrio": "Malvín",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-08-11T20:45:10.315857",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2863,
+    "latitud": -34.88998,
+    "longitud": -56.136211
+  },
+  {
+    "id": "INT-MVD-092",
+    "barrio": "Carrasco",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-09-06T20:45:10.315957",
+    "duracion_horas": 6,
+    "usuarios_afectados": 1218,
+    "latitud": -34.885069,
+    "longitud": -56.070274
+  },
+  {
+    "id": "INT-MVD-093",
+    "barrio": "Sayago",
+    "motivo": "Reparación",
+    "fecha_inicio": "2026-01-15T20:45:10.316054",
+    "duracion_horas": 8,
+    "usuarios_afectados": 926,
+    "latitud": -34.896144,
+    "longitud": -56.165306
+  },
+  {
+    "id": "INT-MVD-094",
+    "barrio": "Tres Cruces",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-11-30T20:45:10.316154",
+    "duracion_horas": 6,
+    "usuarios_afectados": 388,
+    "latitud": -34.903749,
+    "longitud": -56.168566
+  },
+  {
+    "id": "INT-MVD-095",
+    "barrio": "Prado",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-03T20:45:10.316261",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2411,
+    "latitud": -34.89915,
+    "longitud": -56.154057
+  },
+  {
+    "id": "INT-MVD-096",
+    "barrio": "Bella Vista",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-11-10T20:45:10.316361",
+    "duracion_horas": 6,
+    "usuarios_afectados": 2671,
+    "latitud": -34.903561,
+    "longitud": -56.183318
+  },
+  {
+    "id": "INT-MVD-097",
+    "barrio": "Bella Vista",
+    "motivo": "Mantenimiento",
+    "fecha_inicio": "2025-12-13T20:45:10.316457",
+    "duracion_horas": 4,
+    "usuarios_afectados": 2246,
+    "latitud": -34.883951,
+    "longitud": -56.169047
+  },
+  {
+    "id": "INT-MVD-098",
+    "barrio": "Ciudad Vieja",
+    "motivo": "Bajo nivel en tanques",
+    "fecha_inicio": "2025-11-11T20:45:10.316584",
+    "duracion_horas": 12,
+    "usuarios_afectados": 172,
+    "latitud": -34.923771,
+    "longitud": -56.204732
+  },
+  {
+    "id": "INT-MVD-099",
+    "barrio": "Peñarol",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-10-03T20:45:10.316683",
+    "duracion_horas": 12,
+    "usuarios_afectados": 678,
+    "latitud": -34.896081,
+    "longitud": -56.147609
+  },
+  {
+    "id": "INT-MVD-100",
+    "barrio": "Prado",
+    "motivo": "Reparación",
+    "fecha_inicio": "2025-08-07T20:45:10.316779",
+    "duracion_horas": 2,
+    "usuarios_afectados": 2726,
+    "latitud": -34.882645,
+    "longitud": -56.145706
+  }
+]

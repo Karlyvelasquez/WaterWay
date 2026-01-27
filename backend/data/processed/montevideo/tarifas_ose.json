@@ -1,0 +1,770 @@
+[
+  {
+    "fecha": "2024-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-02-29",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-02-29",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-02-29",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-02-29",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2024-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-01-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-02-28",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-02-28",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-02-28",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-02-28",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-03-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-04-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-05-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-06-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-07-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-08-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-09-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-10-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-11-30",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 20,
+    "tarifa_por_m3": 18.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 40,
+    "tarifa_por_m3": 29.8,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 80,
+    "tarifa_por_m3": 45.2,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  },
+  {
+    "fecha": "2025-12-31",
+    "categoria": "Residencial",
+    "hasta_m3": 999,
+    "tarifa_por_m3": 62.5,
+    "cargo_fijo": 105.0,
+    "moneda": "UYU"
+  }
+]

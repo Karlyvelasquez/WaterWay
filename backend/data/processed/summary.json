@@ -1,0 +1,32 @@
+{
+  "fecha_generacion": "2026-01-26T14:52:41.079935",
+  "tarifas": {
+    "total": 11117,
+    "municipios": 25,
+    "estratos": 10
+  },
+  "interrupciones": {
+    "total": 428,
+    "usuarios_afectados": 1265,
+    "municipios": 1
+  },
+  "reportes": {
+    "total": 500,
+    "por_categoria": {
+      "vertimiento": 112,
+      "desperdicio": 102,
+      "falta_acceso": 101,
+      "infraestructura": 98,
+      "contaminacion": 87
+    },
+    "pendientes": 256
+  },
+  "consumo": {
+    "total": 192,
+    "estratos": 8
+  },
+  "clima": {
+    "total": 365,
+    "dias": 365
+  }
+}

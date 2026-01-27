@@ -1,0 +1,3898 @@
+[
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 52,
+    "Cloruro": 33,
+    "conductividad": 389.0,
+    "Solidos Totales": 252.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 38,
+    "Cloruro": 15,
+    "conductividad": 321.0,
+    "Solidos Totales": 216.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 41,
+    "Cloruro": 18,
+    "conductividad": 350.0,
+    "Solidos Totales": 232.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 35,
+    "Cloruro": 15,
+    "conductividad": 324.0,
+    "Solidos Totales": 218.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 74,
+    "Cloruro": 79,
+    "conductividad": 645.0,
+    "Solidos Totales": 388.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 34,
+    "Cloruro": 17,
+    "conductividad": 408.0,
+    "Solidos Totales": 262.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 67,
+    "Cloruro": 59,
+    "conductividad": 371.0,
+    "Solidos Totales": 243.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 34,
+    "Cloruro": 16,
+    "conductividad": 338.0,
+    "Solidos Totales": 225.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 48,
+    "Cloruro": 26,
+    "conductividad": 380.0,
+    "Solidos Totales": 247.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 36,
+    "Cloruro": 15,
+    "conductividad": 321.0,
+    "Solidos Totales": 216.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 137,
+    "Cloruro": 163,
+    "conductividad": 829.0,
+    "Solidos Totales": 485.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 45,
+    "Cloruro": 24,
+    "conductividad": 373.0,
+    "Solidos Totales": 244.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 94,
+    "Cloruro": 82,
+    "conductividad": 669.0,
+    "Solidos Totales": 401.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 87,
+    "Cloruro": 115,
+    "conductividad": 851.0,
+    "Solidos Totales": 497.0
+  },
+  {
+    "Fecha": "2023-08-21 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 36,
+    "Cloruro": 17,
+    "conductividad": 345.0,
+    "Solidos Totales": 229.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 143,
+    "Cloruro": 212,
+    "conductividad": 1047.0,
+    "Solidos Totales": 601.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 126,
+    "Cloruro": 176,
+    "conductividad": 936.0,
+    "Solidos Totales": 542.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 134,
+    "Cloruro": 212,
+    "conductividad": 1078.0,
+    "Solidos Totales": 617.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 133,
+    "Cloruro": 208,
+    "conductividad": 1073.0,
+    "Solidos Totales": 615.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 134,
+    "Cloruro": 185,
+    "conductividad": 1001.0,
+    "Solidos Totales": 577.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 125,
+    "Cloruro": 185,
+    "conductividad": 1007.0,
+    "Solidos Totales": 580.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 112,
+    "Cloruro": 160,
+    "conductividad": 924.0,
+    "Solidos Totales": 547.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 131,
+    "Cloruro": 198,
+    "conductividad": 1221.0,
+    "Solidos Totales": 693.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 139,
+    "Cloruro": 218,
+    "conductividad": 1025.0,
+    "Solidos Totales": 589.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 124,
+    "Cloruro": 206,
+    "conductividad": 1388.0,
+    "Solidos Totales": 782.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 123,
+    "Cloruro": 198,
+    "conductividad": 1068.0,
+    "Solidos Totales": 612.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 139,
+    "Cloruro": 204,
+    "conductividad": 1388.0,
+    "Solidos Totales": 782.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 150,
+    "Cloruro": 226,
+    "conductividad": 1033.0,
+    "Solidos Totales": 594.0
+  },
+  {
+    "Fecha": "2023-08-17 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 145,
+    "Cloruro": 216,
+    "conductividad": 1027.0,
+    "Solidos Totales": 590.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 147,
+    "Cloruro": 194,
+    "conductividad": 992.0,
+    "Solidos Totales": 572.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 147,
+    "Cloruro": 196,
+    "conductividad": 1003.0,
+    "Solidos Totales": 578.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 171,
+    "Cloruro": 208,
+    "conductividad": 1041.0,
+    "Solidos Totales": 598.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 153,
+    "Cloruro": 192,
+    "conductividad": 986.0,
+    "Solidos Totales": 569.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 164,
+    "Cloruro": 210,
+    "conductividad": 1044.0,
+    "Solidos Totales": 599.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 162,
+    "Cloruro": 196,
+    "conductividad": 1006.0,
+    "Solidos Totales": 579.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 147,
+    "Cloruro": 169,
+    "conductividad": 944.0,
+    "Solidos Totales": 546.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 154,
+    "Cloruro": 192,
+    "conductividad": 1005.0,
+    "Solidos Totales": 579.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 136,
+    "Cloruro": 183,
+    "conductividad": 944.0,
+    "Solidos Totales": 546.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 144,
+    "Cloruro": 189,
+    "conductividad": 984.0,
+    "Solidos Totales": 568.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 158,
+    "Cloruro": 194,
+    "conductividad": 1050.0,
+    "Solidos Totales": 603.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 148,
+    "Cloruro": 192,
+    "conductividad": 1025.0,
+    "Solidos Totales": 589.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 156,
+    "Cloruro": 204,
+    "conductividad": 1097.0,
+    "Solidos Totales": 627.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 163,
+    "Cloruro": 222,
+    "conductividad": 1102.0,
+    "Solidos Totales": 630.0
+  },
+  {
+    "Fecha": "2023-08-14 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 162,
+    "Cloruro": 228,
+    "conductividad": 1066.0,
+    "Solidos Totales": 611.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 158,
+    "Cloruro": 202,
+    "conductividad": 1148.0,
+    "Solidos Totales": 654.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 167,
+    "Cloruro": 222,
+    "conductividad": 1197.0,
+    "Solidos Totales": 680.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 164,
+    "Cloruro": 210,
+    "conductividad": 1166.0,
+    "Solidos Totales": 664.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 173,
+    "Cloruro": 220,
+    "conductividad": 1180.0,
+    "Solidos Totales": 671.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 154,
+    "Cloruro": 188,
+    "conductividad": 1107.0,
+    "Solidos Totales": 633.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 162,
+    "Cloruro": 202,
+    "conductividad": 1140.0,
+    "Solidos Totales": 650.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 174,
+    "Cloruro": 224,
+    "conductividad": 1196.0,
+    "Solidos Totales": 680.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 163,
+    "Cloruro": 208,
+    "conductividad": 1256.0,
+    "Solidos Totales": 712.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 163,
+    "Cloruro": 218,
+    "conductividad": 1158.0,
+    "Solidos Totales": 660.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 153,
+    "Cloruro": 197,
+    "conductividad": 1133.0,
+    "Solidos Totales": 647.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 154,
+    "Cloruro": 192,
+    "conductividad": 1125.0,
+    "Solidos Totales": 642.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 170,
+    "Cloruro": 218,
+    "conductividad": 1186.0,
+    "Solidos Totales": 675.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 158,
+    "Cloruro": 212,
+    "conductividad": 1150.0,
+    "Solidos Totales": 656.0
+  },
+  {
+    "Fecha": "2023-08-10 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 156,
+    "Cloruro": 194,
+    "conductividad": 1192.0,
+    "Solidos Totales": 678.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 180,
+    "Cloruro": 224,
+    "conductividad": 1140.0,
+    "Solidos Totales": 650.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 192,
+    "Cloruro": 222,
+    "conductividad": 1115.0,
+    "Solidos Totales": 637.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 180,
+    "Cloruro": 188,
+    "conductividad": 1061.0,
+    "Solidos Totales": 608.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 165,
+    "Cloruro": 208,
+    "conductividad": 1084.0,
+    "Solidos Totales": 621.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 151,
+    "Cloruro": 175,
+    "conductividad": 998.0,
+    "Solidos Totales": 575.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 200,
+    "Cloruro": 208,
+    "conductividad": 1069.0,
+    "Solidos Totales": 613.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 172,
+    "Cloruro": 178,
+    "conductividad": 1083.0,
+    "Solidos Totales": 620.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 185,
+    "Cloruro": 193,
+    "conductividad": 1054.0,
+    "Solidos Totales": 605.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 161,
+    "Cloruro": 190,
+    "conductividad": 995.0,
+    "Solidos Totales": 573.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 183,
+    "Cloruro": 212,
+    "conductividad": 1075.0,
+    "Solidos Totales": 616.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 170,
+    "Cloruro": 175,
+    "conductividad": 1008.0,
+    "Solidos Totales": 580.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 183,
+    "Cloruro": 198,
+    "conductividad": 993.0,
+    "Solidos Totales": 572.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 158,
+    "Cloruro": 161,
+    "conductividad": 1032.0,
+    "Solidos Totales": 593.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 197,
+    "Cloruro": 204,
+    "conductividad": 1081.0,
+    "Solidos Totales": 620.0
+  },
+  {
+    "Fecha": "2023-08-07 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 154,
+    "Cloruro": 204,
+    "conductividad": 1045.0,
+    "Solidos Totales": 600.0
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 161,
+    "Cloruro": 176,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 139,
+    "Cloruro": 140,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 144,
+    "Cloruro": 144,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 133,
+    "Cloruro": 129,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 159,
+    "Cloruro": 178,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 134,
+    "Cloruro": 129,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 161,
+    "Cloruro": 176,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 144,
+    "Cloruro": 165,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 156,
+    "Cloruro": 177,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 131,
+    "Cloruro": 131,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 162,
+    "Cloruro": 175,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 142,
+    "Cloruro": 145,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 151,
+    "Cloruro": 153,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 143,
+    "Cloruro": 150,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-08-03 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 138,
+    "Cloruro": 136,
+    "conductividad": NaN,
+    "Solidos Totales": NaN
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 174,
+    "Cloruro": 192,
+    "conductividad": 1117.0,
+    "Solidos Totales": 638.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 160,
+    "Cloruro": 183,
+    "conductividad": 1125.0,
+    "Solidos Totales": 642.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 147,
+    "Cloruro": 204,
+    "conductividad": 1109.0,
+    "Solidos Totales": 634.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 159,
+    "Cloruro": 160,
+    "conductividad": 997.0,
+    "Solidos Totales": 574.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 174,
+    "Cloruro": 234,
+    "conductividad": 1251.0,
+    "Solidos Totales": 709.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 127,
+    "Cloruro": 145,
+    "conductividad": 953.0,
+    "Solidos Totales": 551.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 154,
+    "Cloruro": 206,
+    "conductividad": 1129.0,
+    "Solidos Totales": 644.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 129,
+    "Cloruro": 151,
+    "conductividad": 990.0,
+    "Solidos Totales": 571.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 147,
+    "Cloruro": 182,
+    "conductividad": 1067.0,
+    "Solidos Totales": 612.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 148,
+    "Cloruro": 167,
+    "conductividad": 1020.0,
+    "Solidos Totales": 587.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 193,
+    "Cloruro": 224,
+    "conductividad": 1216.0,
+    "Solidos Totales": 691.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 150,
+    "Cloruro": 200,
+    "conductividad": 1100.0,
+    "Solidos Totales": 629.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 221,
+    "Cloruro": 306,
+    "conductividad": 1570.0,
+    "Solidos Totales": 878.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 163,
+    "Cloruro": 196,
+    "conductividad": 1106.0,
+    "Solidos Totales": 632.0
+  },
+  {
+    "Fecha": "2023-07-31 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 139,
+    "Cloruro": 174,
+    "conductividad": 1060.0,
+    "Solidos Totales": 608.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 118,
+    "Cloruro": 175,
+    "conductividad": 1047.0,
+    "Solidos Totales": 601.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 133,
+    "Cloruro": 178,
+    "conductividad": 1066.0,
+    "Solidos Totales": 611.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 124,
+    "Cloruro": 179,
+    "conductividad": 1043.0,
+    "Solidos Totales": 599.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 143,
+    "Cloruro": 168,
+    "conductividad": 1007.0,
+    "Solidos Totales": 580.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 139,
+    "Cloruro": 153,
+    "conductividad": 1050.0,
+    "Solidos Totales": 603.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 147,
+    "Cloruro": 182,
+    "conductividad": 1042.0,
+    "Solidos Totales": 598.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 121,
+    "Cloruro": 157,
+    "conductividad": 975.0,
+    "Solidos Totales": 563.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 114,
+    "Cloruro": 153,
+    "conductividad": 963.0,
+    "Solidos Totales": 556.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 122,
+    "Cloruro": 162,
+    "conductividad": 1004.0,
+    "Solidos Totales": 578.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 111,
+    "Cloruro": 169,
+    "conductividad": 1045.0,
+    "Solidos Totales": 600.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 122,
+    "Cloruro": 173,
+    "conductividad": 1036.0,
+    "Solidos Totales": 595.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 113,
+    "Cloruro": 174,
+    "conductividad": 1208.0,
+    "Solidos Totales": 686.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 147,
+    "Cloruro": 181,
+    "conductividad": 1043.0,
+    "Solidos Totales": 599.0
+  },
+  {
+    "Fecha": "2023-07-27 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 152,
+    "Cloruro": 186,
+    "conductividad": 1084.0,
+    "Solidos Totales": 621.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 108,
+    "Cloruro": 162,
+    "conductividad": 1012.0,
+    "Solidos Totales": 582.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 99,
+    "Cloruro": 171,
+    "conductividad": 1029.0,
+    "Solidos Totales": 591.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 77,
+    "Cloruro": 119,
+    "conductividad": 1058.0,
+    "Solidos Totales": 607.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 131,
+    "Cloruro": 171,
+    "conductividad": 1030.0,
+    "Solidos Totales": 592.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 91,
+    "Cloruro": 117,
+    "conductividad": 873.0,
+    "Solidos Totales": 509.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 112,
+    "Cloruro": 166,
+    "conductividad": 1001.0,
+    "Solidos Totales": 577.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 120,
+    "Cloruro": 172,
+    "conductividad": 1043.0,
+    "Solidos Totales": 599.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 101,
+    "Cloruro": 156,
+    "conductividad": 987.0,
+    "Solidos Totales": 569.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 139,
+    "Cloruro": 188,
+    "conductividad": 1087.0,
+    "Solidos Totales": 622.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 118,
+    "Cloruro": 167,
+    "conductividad": 1015.0,
+    "Solidos Totales": 584.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 77,
+    "Cloruro": 113,
+    "conductividad": 942.0,
+    "Solidos Totales": 545.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 116,
+    "Cloruro": 176,
+    "conductividad": 1048.0,
+    "Solidos Totales": 602.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 56,
+    "Cloruro": 73,
+    "conductividad": 750.0,
+    "Solidos Totales": 444.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 126,
+    "Cloruro": 175,
+    "conductividad": 1051.0,
+    "Solidos Totales": 603.0
+  },
+  {
+    "Fecha": "2023-07-24 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 109,
+    "Cloruro": 170,
+    "conductividad": 1025.0,
+    "Solidos Totales": 589.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 60,
+    "Cloruro": 53,
+    "conductividad": 722.0,
+    "Solidos Totales": 429.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 49,
+    "Cloruro": 48,
+    "conductividad": 734.0,
+    "Solidos Totales": 435.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 55,
+    "Cloruro": 47,
+    "conductividad": 702.0,
+    "Solidos Totales": 418.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 48,
+    "Cloruro": 46,
+    "conductividad": 709.0,
+    "Solidos Totales": 422.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 72,
+    "Cloruro": 113,
+    "conductividad": 902.0,
+    "Solidos Totales": 524.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 54,
+    "Cloruro": 46,
+    "conductividad": 708.0,
+    "Solidos Totales": 421.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 58,
+    "Cloruro": 50,
+    "conductividad": 705.0,
+    "Solidos Totales": 420.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 51,
+    "Cloruro": 49,
+    "conductividad": 709.0,
+    "Solidos Totales": 422.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 135,
+    "Cloruro": 284,
+    "conductividad": 1433.0,
+    "Solidos Totales": 806.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 56,
+    "Cloruro": 46,
+    "conductividad": 707.0,
+    "Solidos Totales": 421.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 91,
+    "Cloruro": 151,
+    "conductividad": 893.0,
+    "Solidos Totales": 519.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 54,
+    "Cloruro": 49,
+    "conductividad": 714.0,
+    "Solidos Totales": 424.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 52,
+    "Cloruro": 53,
+    "conductividad": 761.0,
+    "Solidos Totales": 449.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 61,
+    "Cloruro": 49,
+    "conductividad": 707.0,
+    "Solidos Totales": 421.0
+  },
+  {
+    "Fecha": "2023-07-19 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 51,
+    "Cloruro": 47,
+    "conductividad": 716.0,
+    "Solidos Totales": 426.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 82,
+    "Cloruro": 103,
+    "conductividad": 859.0,
+    "Solidos Totales": 501.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 88,
+    "Cloruro": 116,
+    "conductividad": 863.0,
+    "Solidos Totales": 503.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 116,
+    "Cloruro": 112,
+    "conductividad": 829.0,
+    "Solidos Totales": 485.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 90,
+    "Cloruro": 117,
+    "conductividad": 843.0,
+    "Solidos Totales": 493.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 124,
+    "Cloruro": 259,
+    "conductividad": 1287.0,
+    "Solidos Totales": 728.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 91,
+    "Cloruro": 104,
+    "conductividad": 781.0,
+    "Solidos Totales": 460.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 90,
+    "Cloruro": 100,
+    "conductividad": 795.0,
+    "Solidos Totales": 467.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 71,
+    "Cloruro": 93,
+    "conductividad": 782.0,
+    "Solidos Totales": 461.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 99,
+    "Cloruro": 100,
+    "conductividad": 797.0,
+    "Solidos Totales": 468.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 83,
+    "Cloruro": 100,
+    "conductividad": 792.0,
+    "Solidos Totales": 466.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 215,
+    "Cloruro": 491,
+    "conductividad": 921.0,
+    "Solidos Totales": 534.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 85,
+    "Cloruro": 85,
+    "conductividad": 769.0,
+    "Solidos Totales": 454.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 142,
+    "Cloruro": 239,
+    "conductividad": 1375.0,
+    "Solidos Totales": 775.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 79,
+    "Cloruro": 104,
+    "conductividad": 805.0,
+    "Solidos Totales": 473.0
+  },
+  {
+    "Fecha": "2023-07-17 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 71,
+    "Cloruro": 117,
+    "conductividad": 862.0,
+    "Solidos Totales": 503.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 402,
+    "Cloruro": 671,
+    "conductividad": 2849.0,
+    "Solidos Totales": 1556.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 381,
+    "Cloruro": 631,
+    "conductividad": 2253.0,
+    "Solidos Totales": 1240.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 402,
+    "Cloruro": 675,
+    "conductividad": 2425.0,
+    "Solidos Totales": 1331.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 418,
+    "Cloruro": 731,
+    "conductividad": 3041.0,
+    "Solidos Totales": 1658.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 396,
+    "Cloruro": 660,
+    "conductividad": 2371.0,
+    "Solidos Totales": 1303.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 383,
+    "Cloruro": 636,
+    "conductividad": 2150.0,
+    "Solidos Totales": 1186.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 437,
+    "Cloruro": 726,
+    "conductividad": 2835.0,
+    "Solidos Totales": 1549.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 397,
+    "Cloruro": 671,
+    "conductividad": 3161.0,
+    "Solidos Totales": 1721.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 417,
+    "Cloruro": 720,
+    "conductividad": 2803.0,
+    "Solidos Totales": 1532.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 388,
+    "Cloruro": 694,
+    "conductividad": 2469.0,
+    "Solidos Totales": 1355.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 395,
+    "Cloruro": 666,
+    "conductividad": 2451.0,
+    "Solidos Totales": 1345.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 373,
+    "Cloruro": 622,
+    "conductividad": 2363.0,
+    "Solidos Totales": 1298.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 387,
+    "Cloruro": 656,
+    "conductividad": 1908.0,
+    "Solidos Totales": 1057.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 395,
+    "Cloruro": 666,
+    "conductividad": 2329.0,
+    "Solidos Totales": 1280.0
+  },
+  {
+    "Fecha": "2023-07-13 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 388,
+    "Cloruro": 646,
+    "conductividad": 3285.0,
+    "Solidos Totales": 1787.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 477,
+    "Cloruro": 718,
+    "conductividad": 2831.0,
+    "Solidos Totales": 1546.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 405,
+    "Cloruro": 639,
+    "conductividad": 2524.0,
+    "Solidos Totales": 1384.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 439,
+    "Cloruro": 686,
+    "conductividad": 2656.0,
+    "Solidos Totales": 1454.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 432,
+    "Cloruro": 687,
+    "conductividad": 2682.0,
+    "Solidos Totales": 1468.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 406,
+    "Cloruro": 737,
+    "conductividad": 2554.0,
+    "Solidos Totales": 1400.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 448,
+    "Cloruro": 768,
+    "conductividad": 2821.0,
+    "Solidos Totales": 1541.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 423,
+    "Cloruro": 669,
+    "conductividad": 2589.0,
+    "Solidos Totales": 1418.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 457,
+    "Cloruro": 787,
+    "conductividad": 2847.0,
+    "Solidos Totales": 1555.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 424,
+    "Cloruro": 648,
+    "conductividad": 2601.0,
+    "Solidos Totales": 1425.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 461,
+    "Cloruro": 707,
+    "conductividad": 2794.0,
+    "Solidos Totales": 1527.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 401,
+    "Cloruro": 614,
+    "conductividad": 2616.0,
+    "Solidos Totales": 1433.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 424,
+    "Cloruro": 648,
+    "conductividad": 2518.0,
+    "Solidos Totales": 1381.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 499,
+    "Cloruro": 815,
+    "conductividad": 2790.0,
+    "Solidos Totales": 1525.0
+  },
+  {
+    "Fecha": "2023-07-10 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 451,
+    "Cloruro": 777,
+    "conductividad": 2810.0,
+    "Solidos Totales": 1535.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 462,
+    "Cloruro": 784,
+    "conductividad": 2696.0,
+    "Solidos Totales": 1475.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 408,
+    "Cloruro": 665,
+    "conductividad": 2402.0,
+    "Solidos Totales": 1319.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 433,
+    "Cloruro": 712,
+    "conductividad": 2708.0,
+    "Solidos Totales": 1481.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 421,
+    "Cloruro": 695,
+    "conductividad": 2398.0,
+    "Solidos Totales": 1317.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 429,
+    "Cloruro": 737,
+    "conductividad": 2573.0,
+    "Solidos Totales": 1410.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 454,
+    "Cloruro": 794,
+    "conductividad": 2590.0,
+    "Solidos Totales": 1419.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 400,
+    "Cloruro": 677,
+    "conductividad": 2359.0,
+    "Solidos Totales": 1296.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 399,
+    "Cloruro": 680,
+    "conductividad": 2490.0,
+    "Solidos Totales": 1366.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 397,
+    "Cloruro": 665,
+    "conductividad": 2387.0,
+    "Solidos Totales": 1311.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 400,
+    "Cloruro": 665,
+    "conductividad": 2405.0,
+    "Solidos Totales": 1321.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 432,
+    "Cloruro": 747,
+    "conductividad": 2596.0,
+    "Solidos Totales": 1422.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 401,
+    "Cloruro": 680,
+    "conductividad": 2482.0,
+    "Solidos Totales": 1362.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 471,
+    "Cloruro": 819,
+    "conductividad": 2951.0,
+    "Solidos Totales": 1610.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 393,
+    "Cloruro": 668,
+    "conductividad": 2370.0,
+    "Solidos Totales": 1302.0
+  },
+  {
+    "Fecha": "2023-07-06 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 412,
+    "Cloruro": 712,
+    "conductividad": 2280.0,
+    "Solidos Totales": 1254.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 466,
+    "Cloruro": 702,
+    "conductividad": 2849.0,
+    "Solidos Totales": 1556.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 472,
+    "Cloruro": 758,
+    "conductividad": 2253.0,
+    "Solidos Totales": 1240.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 515,
+    "Cloruro": 795,
+    "conductividad": 2425.0,
+    "Solidos Totales": 1331.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 504,
+    "Cloruro": 792,
+    "conductividad": 3041.0,
+    "Solidos Totales": 1658.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 418,
+    "Cloruro": 655,
+    "conductividad": 2371.0,
+    "Solidos Totales": 1303.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 488,
+    "Cloruro": 741,
+    "conductividad": 2150.0,
+    "Solidos Totales": 1186.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 538,
+    "Cloruro": 837,
+    "conductividad": 2835.0,
+    "Solidos Totales": 1549.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 493,
+    "Cloruro": 774,
+    "conductividad": 3161.0,
+    "Solidos Totales": 1721.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 556,
+    "Cloruro": 872,
+    "conductividad": 2803.0,
+    "Solidos Totales": 1532.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 501,
+    "Cloruro": 799,
+    "conductividad": 2469.0,
+    "Solidos Totales": 1355.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 430,
+    "Cloruro": 685,
+    "conductividad": 2451.0,
+    "Solidos Totales": 1345.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 462,
+    "Cloruro": 692,
+    "conductividad": 2363.0,
+    "Solidos Totales": 1298.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 456,
+    "Cloruro": 662,
+    "conductividad": 1908.0,
+    "Solidos Totales": 1057.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 466,
+    "Cloruro": 699,
+    "conductividad": 2329.0,
+    "Solidos Totales": 1280.0
+  },
+  {
+    "Fecha": "2023-07-03 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 428,
+    "Cloruro": 634,
+    "conductividad": 3285.0,
+    "Solidos Totales": 1787.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 480,
+    "Cloruro": 737,
+    "conductividad": 2858.0,
+    "Solidos Totales": 1561.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 477,
+    "Cloruro": 739,
+    "conductividad": 2908.0,
+    "Solidos Totales": 1587.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 441,
+    "Cloruro": 690,
+    "conductividad": 2921.0,
+    "Solidos Totales": 1594.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 475,
+    "Cloruro": 741,
+    "conductividad": 2832.0,
+    "Solidos Totales": 1547.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 453,
+    "Cloruro": 683,
+    "conductividad": 2735.0,
+    "Solidos Totales": 1496.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 491,
+    "Cloruro": 704,
+    "conductividad": 2936.0,
+    "Solidos Totales": 1602.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 335,
+    "Cloruro": 494,
+    "conductividad": 2084.0,
+    "Solidos Totales": 1151.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 451,
+    "Cloruro": 711,
+    "conductividad": 2797.0,
+    "Solidos Totales": 1528.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 377,
+    "Cloruro": 555,
+    "conductividad": 2278.0,
+    "Solidos Totales": 1253.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 458,
+    "Cloruro": 718,
+    "conductividad": 2806.0,
+    "Solidos Totales": 1533.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 444,
+    "Cloruro": 676,
+    "conductividad": 2573.0,
+    "Solidos Totales": 1410.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 427,
+    "Cloruro": 664,
+    "conductividad": 2487.0,
+    "Solidos Totales": 1364.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 428,
+    "Cloruro": 662,
+    "conductividad": 2588.0,
+    "Solidos Totales": 1418.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 470,
+    "Cloruro": 716,
+    "conductividad": 2838.0,
+    "Solidos Totales": 1550.0
+  },
+  {
+    "Fecha": "2023-06-29 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 478,
+    "Cloruro": 732,
+    "conductividad": 2839.0,
+    "Solidos Totales": 1551.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 411,
+    "Cloruro": 784,
+    "conductividad": 2760.0,
+    "Solidos Totales": 1509.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 479,
+    "Cloruro": 816,
+    "conductividad": 2991.0,
+    "Solidos Totales": 1631.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 475,
+    "Cloruro": 834,
+    "conductividad": 2979.0,
+    "Solidos Totales": 1625.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 475,
+    "Cloruro": 851,
+    "conductividad": 3014.0,
+    "Solidos Totales": 1643.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 388,
+    "Cloruro": 675,
+    "conductividad": 2479.0,
+    "Solidos Totales": 1360.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 458,
+    "Cloruro": 685,
+    "conductividad": 2965.0,
+    "Solidos Totales": 1618.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 437,
+    "Cloruro": 747,
+    "conductividad": 2691.0,
+    "Solidos Totales": 1472.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 486,
+    "Cloruro": 758,
+    "conductividad": 2946.0,
+    "Solidos Totales": 1607.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 404,
+    "Cloruro": 668,
+    "conductividad": 2724.0,
+    "Solidos Totales": 1490.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 511,
+    "Cloruro": 831,
+    "conductividad": 2918.0,
+    "Solidos Totales": 1593.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 363,
+    "Cloruro": 622,
+    "conductividad": 2491.0,
+    "Solidos Totales": 1366.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 372,
+    "Cloruro": 550,
+    "conductividad": 2239.0,
+    "Solidos Totales": 1233.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 440,
+    "Cloruro": 737,
+    "conductividad": 2795.0,
+    "Solidos Totales": 1527.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 426,
+    "Cloruro": 752,
+    "conductividad": 2654.0,
+    "Solidos Totales": 1453.0
+  },
+  {
+    "Fecha": "2023-06-26 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 463,
+    "Cloruro": 901,
+    "conductividad": 3154.0,
+    "Solidos Totales": 1718.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 469,
+    "Cloruro": 819,
+    "conductividad": 3039.0,
+    "Solidos Totales": 1657.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 473,
+    "Cloruro": 816,
+    "conductividad": 2991.0,
+    "Solidos Totales": 1631.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 456,
+    "Cloruro": 799,
+    "conductividad": 2925.0,
+    "Solidos Totales": 1596.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 473,
+    "Cloruro": 831,
+    "conductividad": 2822.0,
+    "Solidos Totales": 1542.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 392,
+    "Cloruro": 665,
+    "conductividad": 2499.0,
+    "Solidos Totales": 1371.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 453,
+    "Cloruro": 806,
+    "conductividad": 2915.0,
+    "Solidos Totales": 1591.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 438,
+    "Cloruro": 752,
+    "conductividad": 2755.0,
+    "Solidos Totales": 1506.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 368,
+    "Cloruro": 648,
+    "conductividad": 2360.0,
+    "Solidos Totales": 1297.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 414,
+    "Cloruro": 720,
+    "conductividad": 2919.0,
+    "Solidos Totales": 1593.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 443,
+    "Cloruro": 762,
+    "conductividad": 2724.0,
+    "Solidos Totales": 1490.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 374,
+    "Cloruro": 638,
+    "conductividad": 2475.0,
+    "Solidos Totales": 1358.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 424,
+    "Cloruro": 735,
+    "conductividad": 2711.0,
+    "Solidos Totales": 1483.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 422,
+    "Cloruro": 717,
+    "conductividad": 2741.0,
+    "Solidos Totales": 1499.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 487,
+    "Cloruro": 871,
+    "conductividad": 3044.0,
+    "Solidos Totales": 1659.0
+  },
+  {
+    "Fecha": "2023-06-23 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 469,
+    "Cloruro": 829,
+    "conductividad": 2894.0,
+    "Solidos Totales": 1580.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 460,
+    "Cloruro": 765,
+    "conductividad": 2612.0,
+    "Solidos Totales": 1430.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 458,
+    "Cloruro": 830,
+    "conductividad": 2964.0,
+    "Solidos Totales": 1617.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 460,
+    "Cloruro": 781,
+    "conductividad": 2840.0,
+    "Solidos Totales": 1551.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 401,
+    "Cloruro": 670,
+    "conductividad": 2487.0,
+    "Solidos Totales": 1364.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 475,
+    "Cloruro": 825,
+    "conductividad": 2986.0,
+    "Solidos Totales": 1629.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 354,
+    "Cloruro": 593,
+    "conductividad": 2239.0,
+    "Solidos Totales": 1233.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 439,
+    "Cloruro": 752,
+    "conductividad": 2724.0,
+    "Solidos Totales": 1490.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 377,
+    "Cloruro": 647,
+    "conductividad": 2481.0,
+    "Solidos Totales": 1361.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 448,
+    "Cloruro": 769,
+    "conductividad": 2778.0,
+    "Solidos Totales": 1518.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 423,
+    "Cloruro": 732,
+    "conductividad": 2526.0,
+    "Solidos Totales": 1385.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 319,
+    "Cloruro": 521,
+    "conductividad": 2041.0,
+    "Solidos Totales": 1128.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 439,
+    "Cloruro": 746,
+    "conductividad": 2836.0,
+    "Solidos Totales": 1549.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 492,
+    "Cloruro": 765,
+    "conductividad": 2703.0,
+    "Solidos Totales": 1479.0
+  },
+  {
+    "Fecha": "2023-06-20 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 425,
+    "Cloruro": 760,
+    "conductividad": 2720.0,
+    "Solidos Totales": 1488.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 451,
+    "Cloruro": 745,
+    "conductividad": 2673.0,
+    "Solidos Totales": 1463.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 491,
+    "Cloruro": 818,
+    "conductividad": 2889.0,
+    "Solidos Totales": 1577.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 510,
+    "Cloruro": 878,
+    "conductividad": 3012.0,
+    "Solidos Totales": 1642.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 407,
+    "Cloruro": 678,
+    "conductividad": 2441.0,
+    "Solidos Totales": 1340.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 472,
+    "Cloruro": 797,
+    "conductividad": 2892.0,
+    "Solidos Totales": 1579.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 438,
+    "Cloruro": 732,
+    "conductividad": 2646.0,
+    "Solidos Totales": 1448.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 477,
+    "Cloruro": 797,
+    "conductividad": 2790.0,
+    "Solidos Totales": 1525.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 444,
+    "Cloruro": 745,
+    "conductividad": 2687.0,
+    "Solidos Totales": 1470.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 499,
+    "Cloruro": 836,
+    "conductividad": 2943.0,
+    "Solidos Totales": 1606.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 417,
+    "Cloruro": 704,
+    "conductividad": 2517.0,
+    "Solidos Totales": 1380.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 367,
+    "Cloruro": 602,
+    "conductividad": 2363.0,
+    "Solidos Totales": 1298.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 414,
+    "Cloruro": 654,
+    "conductividad": 2510.0,
+    "Solidos Totales": 1376.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 463,
+    "Cloruro": 789,
+    "conductividad": 2788.0,
+    "Solidos Totales": 1524.0
+  },
+  {
+    "Fecha": "2023-06-12 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 464,
+    "Cloruro": 792,
+    "conductividad": 2756.0,
+    "Solidos Totales": 1507.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 447,
+    "Cloruro": 740,
+    "conductividad": 2618.0,
+    "Solidos Totales": 1434.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 480,
+    "Cloruro": 795,
+    "conductividad": 2765.0,
+    "Solidos Totales": 1512.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 472,
+    "Cloruro": 763,
+    "conductividad": 2765.0,
+    "Solidos Totales": 1512.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 371,
+    "Cloruro": 587,
+    "conductividad": 2364.0,
+    "Solidos Totales": 1299.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 414,
+    "Cloruro": 660,
+    "conductividad": 2443.0,
+    "Solidos Totales": 1341.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 547,
+    "Cloruro": 883,
+    "conductividad": 2958.0,
+    "Solidos Totales": 1614.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 457,
+    "Cloruro": 748,
+    "conductividad": 2631.0,
+    "Solidos Totales": 1440.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 568,
+    "Cloruro": 914,
+    "conductividad": 3234.0,
+    "Solidos Totales": 1760.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 462,
+    "Cloruro": 737,
+    "conductividad": 2676.0,
+    "Solidos Totales": 1464.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 536,
+    "Cloruro": 862,
+    "conductividad": 3046.0,
+    "Solidos Totales": 1660.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 390,
+    "Cloruro": 597,
+    "conductividad": 2423.0,
+    "Solidos Totales": 1330.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 423,
+    "Cloruro": 691,
+    "conductividad": 2462.0,
+    "Solidos Totales": 1351.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 383,
+    "Cloruro": 592,
+    "conductividad": 2337.0,
+    "Solidos Totales": 1285.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 441,
+    "Cloruro": 722,
+    "conductividad": 2717.0,
+    "Solidos Totales": 1486.0
+  },
+  {
+    "Fecha": "2023-06-08 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 443,
+    "Cloruro": 722,
+    "conductividad": 2602.0,
+    "Solidos Totales": 1425.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 450,
+    "Cloruro": 806,
+    "conductividad": 2967.0,
+    "Solidos Totales": 1619.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 487,
+    "Cloruro": 843,
+    "conductividad": 3014.0,
+    "Solidos Totales": 1643.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 403,
+    "Cloruro": 728,
+    "conductividad": 2490.0,
+    "Solidos Totales": 1366.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 470,
+    "Cloruro": 825,
+    "conductividad": 3076.0,
+    "Solidos Totales": 1676.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 428,
+    "Cloruro": 738,
+    "conductividad": 2718.0,
+    "Solidos Totales": 1487.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 461,
+    "Cloruro": 761,
+    "conductividad": 2781.0,
+    "Solidos Totales": 1520.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 194,
+    "Cloruro": 262,
+    "conductividad": 1295.0,
+    "Solidos Totales": 732.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 441,
+    "Cloruro": 723,
+    "conductividad": 2663.0,
+    "Solidos Totales": 1457.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 212,
+    "Cloruro": 292,
+    "conductividad": 1324.0,
+    "Solidos Totales": 748.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 435,
+    "Cloruro": 721,
+    "conductividad": 2697.0,
+    "Solidos Totales": 1475.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 395,
+    "Cloruro": 651,
+    "conductividad": 2454.0,
+    "Solidos Totales": 1347.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 301,
+    "Cloruro": 481,
+    "conductividad": 1870.0,
+    "Solidos Totales": 1037.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 451,
+    "Cloruro": 773,
+    "conductividad": 2969.0,
+    "Solidos Totales": 1620.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 341,
+    "Cloruro": 566,
+    "conductividad": 2252.0,
+    "Solidos Totales": 1240.0
+  },
+  {
+    "Fecha": "2023-06-05 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 471,
+    "Cloruro": 806,
+    "conductividad": 2929.0,
+    "Solidos Totales": 1598.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 406,
+    "Cloruro": 656,
+    "conductividad": 2576.0,
+    "Solidos Totales": 1411.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 483,
+    "Cloruro": 835,
+    "conductividad": 3055.0,
+    "Solidos Totales": 1665.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 428,
+    "Cloruro": 720,
+    "conductividad": 2633.0,
+    "Solidos Totales": 1442.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 410,
+    "Cloruro": 690,
+    "conductividad": 2662.0,
+    "Solidos Totales": 1457.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 404,
+    "Cloruro": 681,
+    "conductividad": 2567.0,
+    "Solidos Totales": 1407.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 404,
+    "Cloruro": 592,
+    "conductividad": 2604.0,
+    "Solidos Totales": 1426.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 505,
+    "Cloruro": 877,
+    "conductividad": 3218.0,
+    "Solidos Totales": 1752.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 401,
+    "Cloruro": 708,
+    "conductividad": 2639.0,
+    "Solidos Totales": 1445.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 498,
+    "Cloruro": 857,
+    "conductividad": 3110.0,
+    "Solidos Totales": 1694.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 401,
+    "Cloruro": 656,
+    "conductividad": 2545.0,
+    "Solidos Totales": 1395.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 453,
+    "Cloruro": 764,
+    "conductividad": 2852.0,
+    "Solidos Totales": 1558.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 495,
+    "Cloruro": 843,
+    "conductividad": 3260.0,
+    "Solidos Totales": 1774.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 427,
+    "Cloruro": 725,
+    "conductividad": 2992.0,
+    "Solidos Totales": 1632.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 445,
+    "Cloruro": 754,
+    "conductividad": 2804.0,
+    "Solidos Totales": 1532.0
+  },
+  {
+    "Fecha": "2023-06-01 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 446,
+    "Cloruro": 759,
+    "conductividad": 2848.0,
+    "Solidos Totales": 1556.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 388,
+    "Cloruro": 553,
+    "conductividad": 2849.0,
+    "Solidos Totales": 1556.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 375,
+    "Cloruro": 556,
+    "conductividad": 2253.0,
+    "Solidos Totales": 1240.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 484,
+    "Cloruro": 537,
+    "conductividad": 2425.0,
+    "Solidos Totales": 1331.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 372,
+    "Cloruro": 558,
+    "conductividad": 3041.0,
+    "Solidos Totales": 1658.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 412,
+    "Cloruro": 619,
+    "conductividad": 2371.0,
+    "Solidos Totales": 1303.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 370,
+    "Cloruro": 541,
+    "conductividad": 2150.0,
+    "Solidos Totales": 1186.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 476,
+    "Cloruro": 535,
+    "conductividad": 2835.0,
+    "Solidos Totales": 1549.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 358,
+    "Cloruro": 526,
+    "conductividad": 3161.0,
+    "Solidos Totales": 1721.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 394,
+    "Cloruro": 589,
+    "conductividad": 2803.0,
+    "Solidos Totales": 1532.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 361,
+    "Cloruro": 531,
+    "conductividad": 2469.0,
+    "Solidos Totales": 1355.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 414,
+    "Cloruro": 624,
+    "conductividad": 2451.0,
+    "Solidos Totales": 1345.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 507,
+    "Cloruro": 562,
+    "conductividad": 2363.0,
+    "Solidos Totales": 1298.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 428,
+    "Cloruro": 637,
+    "conductividad": 1908.0,
+    "Solidos Totales": 1057.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 381,
+    "Cloruro": 560,
+    "conductividad": 2329.0,
+    "Solidos Totales": 1280.0
+  },
+  {
+    "Fecha": "2023-05-29 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 369,
+    "Cloruro": 542,
+    "conductividad": 3285.0,
+    "Solidos Totales": 1787.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 438,
+    "Cloruro": 662,
+    "conductividad": 2706.0,
+    "Solidos Totales": 1480.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 413,
+    "Cloruro": 612,
+    "conductividad": 2596.0,
+    "Solidos Totales": 1422.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 430,
+    "Cloruro": 637,
+    "conductividad": 2648.0,
+    "Solidos Totales": 1450.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 425,
+    "Cloruro": 630,
+    "conductividad": 2646.0,
+    "Solidos Totales": 1448.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 347,
+    "Cloruro": 508,
+    "conductividad": 2217.0,
+    "Solidos Totales": 1221.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 419,
+    "Cloruro": 621,
+    "conductividad": 2615.0,
+    "Solidos Totales": 1432.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 438,
+    "Cloruro": 662,
+    "conductividad": 2679.0,
+    "Solidos Totales": 1466.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 424,
+    "Cloruro": 628,
+    "conductividad": 2657.0,
+    "Solidos Totales": 1454.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 454,
+    "Cloruro": 691,
+    "conductividad": 2823.0,
+    "Solidos Totales": 1542.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 415,
+    "Cloruro": 628,
+    "conductividad": 2571.0,
+    "Solidos Totales": 1409.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 423,
+    "Cloruro": 605,
+    "conductividad": 2471.0,
+    "Solidos Totales": 1356.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 455,
+    "Cloruro": 693,
+    "conductividad": 2814.0,
+    "Solidos Totales": 1537.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 390,
+    "Cloruro": 610,
+    "conductividad": 2658.0,
+    "Solidos Totales": 1455.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 422,
+    "Cloruro": 646,
+    "conductividad": 2667.0,
+    "Solidos Totales": 1460.0
+  },
+  {
+    "Fecha": "2023-05-26 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 452,
+    "Cloruro": 675,
+    "conductividad": 2799.0,
+    "Solidos Totales": 1530.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 417,
+    "Cloruro": 700,
+    "conductividad": 2651.0,
+    "Solidos Totales": 1451.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 394,
+    "Cloruro": 635,
+    "conductividad": 2535.0,
+    "Solidos Totales": 1390.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 409,
+    "Cloruro": 698,
+    "conductividad": 2670.0,
+    "Solidos Totales": 1461.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 402,
+    "Cloruro": 667,
+    "conductividad": 2435.0,
+    "Solidos Totales": 1337.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 298,
+    "Cloruro": 456,
+    "conductividad": 1918.0,
+    "Solidos Totales": 1063.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 393,
+    "Cloruro": 647,
+    "conductividad": 2470.0,
+    "Solidos Totales": 1355.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 408,
+    "Cloruro": 693,
+    "conductividad": 2554.0,
+    "Solidos Totales": 1400.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 437,
+    "Cloruro": 741,
+    "conductividad": 2746.0,
+    "Solidos Totales": 1501.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 347,
+    "Cloruro": 559,
+    "conductividad": 2221.0,
+    "Solidos Totales": 1223.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 418,
+    "Cloruro": 683,
+    "conductividad": 2621.0,
+    "Solidos Totales": 1435.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 315,
+    "Cloruro": 496,
+    "conductividad": 1811.0,
+    "Solidos Totales": 1006.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 408,
+    "Cloruro": 693,
+    "conductividad": 2428.0,
+    "Solidos Totales": 1333.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 164,
+    "Cloruro": 166,
+    "conductividad": 1002.0,
+    "Solidos Totales": 577.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 395,
+    "Cloruro": 647,
+    "conductividad": 2545.0,
+    "Solidos Totales": 1395.0
+  },
+  {
+    "Fecha": "2023-05-24 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 369,
+    "Cloruro": 602,
+    "conductividad": 2362.0,
+    "Solidos Totales": 1298.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 164,
+    "Cloruro": 179,
+    "conductividad": 998.0,
+    "Solidos Totales": 575.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 147,
+    "Cloruro": 169,
+    "conductividad": 985.0,
+    "Solidos Totales": 568.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 267,
+    "Cloruro": 390,
+    "conductividad": 1518.0,
+    "Solidos Totales": 851.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 159,
+    "Cloruro": 199,
+    "conductividad": 1088.0,
+    "Solidos Totales": 623.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 356,
+    "Cloruro": 567,
+    "conductividad": 2275.0,
+    "Solidos Totales": 1252.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 125,
+    "Cloruro": 139,
+    "conductividad": 974.0,
+    "Solidos Totales": 562.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 151,
+    "Cloruro": 169,
+    "conductividad": 1008.0,
+    "Solidos Totales": 580.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 119,
+    "Cloruro": 121,
+    "conductividad": 846.0,
+    "Solidos Totales": 494.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 255,
+    "Cloruro": 380,
+    "conductividad": 1672.0,
+    "Solidos Totales": 932.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 118,
+    "Cloruro": 128,
+    "conductividad": 858.0,
+    "Solidos Totales": 501.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 438,
+    "Cloruro": 735,
+    "conductividad": 2801.0,
+    "Solidos Totales": 1531.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 252,
+    "Cloruro": 380,
+    "conductividad": 1648.0,
+    "Solidos Totales": 920.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 451,
+    "Cloruro": 796,
+    "conductividad": 3108.0,
+    "Solidos Totales": 1693.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 222,
+    "Cloruro": 307,
+    "conductividad": 1380.0,
+    "Solidos Totales": 777.0
+  },
+  {
+    "Fecha": "2023-05-23 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 123,
+    "Cloruro": 128,
+    "conductividad": 873.0,
+    "Solidos Totales": 509.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 321,
+    "Cloruro": 511,
+    "conductividad": 2290.0,
+    "Solidos Totales": 1260.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 497,
+    "Cloruro": 866,
+    "conductividad": 1799.0,
+    "Solidos Totales": 1000.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 328,
+    "Cloruro": 511,
+    "conductividad": 2161.0,
+    "Solidos Totales": 1191.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 254,
+    "Cloruro": 388,
+    "conductividad": 1829.0,
+    "Solidos Totales": 1015.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 338,
+    "Cloruro": 536,
+    "conductividad": 2185.0,
+    "Solidos Totales": 1204.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 497,
+    "Cloruro": 864,
+    "conductividad": 3183.0,
+    "Solidos Totales": 1733.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 445,
+    "Cloruro": 758,
+    "conductividad": 2708.0,
+    "Solidos Totales": 1481.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 503,
+    "Cloruro": 884,
+    "conductividad": 3256.0,
+    "Solidos Totales": 1772.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 453,
+    "Cloruro": 788,
+    "conductividad": 2943.0,
+    "Solidos Totales": 1606.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 496,
+    "Cloruro": 864,
+    "conductividad": 3280.0,
+    "Solidos Totales": 1784.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 335,
+    "Cloruro": 526,
+    "conductividad": 2206.0,
+    "Solidos Totales": 1215.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 230,
+    "Cloruro": 327,
+    "conductividad": 1552.0,
+    "Solidos Totales": 869.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 417,
+    "Cloruro": 733,
+    "conductividad": 2756.0,
+    "Solidos Totales": 1507.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 326,
+    "Cloruro": 521,
+    "conductividad": 2185.0,
+    "Solidos Totales": 1204.0
+  },
+  {
+    "Fecha": "2023-05-19 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 291,
+    "Cloruro": 456,
+    "conductividad": 1918.0,
+    "Solidos Totales": 1063.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 389,
+    "Cloruro": 637,
+    "conductividad": 2482.0,
+    "Solidos Totales": 1362.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 408,
+    "Cloruro": 610,
+    "conductividad": 2585.0,
+    "Solidos Totales": 1416.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 386,
+    "Cloruro": 622,
+    "conductividad": 2485.0,
+    "Solidos Totales": 1363.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 377,
+    "Cloruro": 610,
+    "conductividad": 2452.0,
+    "Solidos Totales": 1346.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 443,
+    "Cloruro": 735,
+    "conductividad": 2844.0,
+    "Solidos Totales": 1553.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 413,
+    "Cloruro": 672,
+    "conductividad": 2636.0,
+    "Solidos Totales": 1443.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 289,
+    "Cloruro": 413,
+    "conductividad": 1861.0,
+    "Solidos Totales": 1032.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 371,
+    "Cloruro": 597,
+    "conductividad": 2426.0,
+    "Solidos Totales": 1332.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 209,
+    "Cloruro": 280,
+    "conductividad": 1364.0,
+    "Solidos Totales": 769.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 329,
+    "Cloruro": 516,
+    "conductividad": 2571.0,
+    "Solidos Totales": 1409.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 430,
+    "Cloruro": 715,
+    "conductividad": 2810.0,
+    "Solidos Totales": 1535.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 204,
+    "Cloruro": 270,
+    "conductividad": 1385.0,
+    "Solidos Totales": 780.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 453,
+    "Cloruro": 743,
+    "conductividad": 3184.0,
+    "Solidos Totales": 1734.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 297,
+    "Cloruro": 461,
+    "conductividad": 2035.0,
+    "Solidos Totales": 1125.0
+  },
+  {
+    "Fecha": "2023-05-17 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 416,
+    "Cloruro": 688,
+    "conductividad": 2663.0,
+    "Solidos Totales": 1457.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 407,
+    "Cloruro": 678,
+    "conductividad": 2644.0,
+    "Solidos Totales": 1447.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 401,
+    "Cloruro": 703,
+    "conductividad": 2518.0,
+    "Solidos Totales": 1381.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 384,
+    "Cloruro": 733,
+    "conductividad": 2665.0,
+    "Solidos Totales": 1459.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 409,
+    "Cloruro": 673,
+    "conductividad": 2543.0,
+    "Solidos Totales": 1394.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 393,
+    "Cloruro": 741,
+    "conductividad": 2702.0,
+    "Solidos Totales": 1478.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 396,
+    "Cloruro": 663,
+    "conductividad": 2481.0,
+    "Solidos Totales": 1361.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 365,
+    "Cloruro": 693,
+    "conductividad": 2352.0,
+    "Solidos Totales": 1293.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 432,
+    "Cloruro": 726,
+    "conductividad": 2716.0,
+    "Solidos Totales": 1486.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 401,
+    "Cloruro": 761,
+    "conductividad": 2804.0,
+    "Solidos Totales": 1532.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 399,
+    "Cloruro": 683,
+    "conductividad": 2702.0,
+    "Solidos Totales": 1478.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 295,
+    "Cloruro": 521,
+    "conductividad": 2112.0,
+    "Solidos Totales": 1165.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 345,
+    "Cloruro": 633,
+    "conductividad": 2381.0,
+    "Solidos Totales": 1308.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 352,
+    "Cloruro": 666,
+    "conductividad": 2480.0,
+    "Solidos Totales": 1360.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 431,
+    "Cloruro": 741,
+    "conductividad": 2721.0,
+    "Solidos Totales": 1488.0
+  },
+  {
+    "Fecha": "2023-05-15 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 362,
+    "Cloruro": 668,
+    "conductividad": 2516.0,
+    "Solidos Totales": 1380.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 450,
+    "Cloruro": 771,
+    "conductividad": 2849.0,
+    "Solidos Totales": 1556.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 331,
+    "Cloruro": 536,
+    "conductividad": 2253.0,
+    "Solidos Totales": 1240.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 378,
+    "Cloruro": 609,
+    "conductividad": 2425.0,
+    "Solidos Totales": 1331.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 441,
+    "Cloruro": 741,
+    "conductividad": 3041.0,
+    "Solidos Totales": 1658.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 349,
+    "Cloruro": 713,
+    "conductividad": 2371.0,
+    "Solidos Totales": 1303.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 348,
+    "Cloruro": 556,
+    "conductividad": 2329.0,
+    "Solidos Totales": 1280.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 427,
+    "Cloruro": 736,
+    "conductividad": 2835.0,
+    "Solidos Totales": 1549.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 442,
+    "Cloruro": 753,
+    "conductividad": 3161.0,
+    "Solidos Totales": 1721.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 419,
+    "Cloruro": 571,
+    "conductividad": 2803.0,
+    "Solidos Totales": 1532.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 380,
+    "Cloruro": 628,
+    "conductividad": 2469.0,
+    "Solidos Totales": 1355.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 369,
+    "Cloruro": 611,
+    "conductividad": 2451.0,
+    "Solidos Totales": 1345.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 360,
+    "Cloruro": 586,
+    "conductividad": 2363.0,
+    "Solidos Totales": 1298.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 322,
+    "Cloruro": 516,
+    "conductividad": 1908.0,
+    "Solidos Totales": 1057.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 479,
+    "Cloruro": 830,
+    "conductividad": 2150.0,
+    "Solidos Totales": 1186.0
+  },
+  {
+    "Fecha": "2023-05-12 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 504,
+    "Cloruro": 885,
+    "conductividad": 3285.0,
+    "Solidos Totales": 1787.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 384,
+    "Cloruro": 594,
+    "conductividad": 2544.0,
+    "Solidos Totales": 1394.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 424,
+    "Cloruro": 722,
+    "conductividad": 3004.0,
+    "Solidos Totales": 1638.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 394,
+    "Cloruro": 616,
+    "conductividad": 2647.0,
+    "Solidos Totales": 1449.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 341,
+    "Cloruro": 516,
+    "conductividad": 2296.0,
+    "Solidos Totales": 1263.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 417,
+    "Cloruro": 707,
+    "conductividad": 2953.0,
+    "Solidos Totales": 1611.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 442,
+    "Cloruro": 763,
+    "conductividad": 3140.0,
+    "Solidos Totales": 1710.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 322,
+    "Cloruro": 484,
+    "conductividad": 2194.0,
+    "Solidos Totales": 1209.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 451,
+    "Cloruro": 712,
+    "conductividad": 2978.0,
+    "Solidos Totales": 1624.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 380,
+    "Cloruro": 628,
+    "conductividad": 2719.0,
+    "Solidos Totales": 1487.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 351,
+    "Cloruro": 565,
+    "conductividad": 2449.0,
+    "Solidos Totales": 1344.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 408,
+    "Cloruro": 687,
+    "conductividad": 2935.0,
+    "Solidos Totales": 1602.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 412,
+    "Cloruro": 690,
+    "conductividad": 2885.0,
+    "Solidos Totales": 1575.0
+  },
+  {
+    "Fecha": "2023-05-10 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 393,
+    "Cloruro": 619,
+    "conductividad": 2673.0,
+    "Solidos Totales": 1463.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Aquiles Lanza",
+    "Sodio": 310,
+    "Cloruro": 501,
+    "conductividad": 2181.0,
+    "Solidos Totales": 1202.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Barrio Sur",
+    "Sodio": 416,
+    "Cloruro": 731,
+    "conductividad": 2980.0,
+    "Solidos Totales": 1625.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Buceo",
+    "Sodio": 340,
+    "Cloruro": 565,
+    "conductividad": 2448.0,
+    "Solidos Totales": 1344.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Casabo",
+    "Sodio": 378,
+    "Cloruro": 660,
+    "conductividad": 2720.0,
+    "Solidos Totales": 1488.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Colon",
+    "Sodio": 396,
+    "Cloruro": 470,
+    "conductividad": 2096.0,
+    "Solidos Totales": 1157.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Crottogini",
+    "Sodio": 396,
+    "Cloruro": 704,
+    "conductividad": 2840.0,
+    "Solidos Totales": 1551.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "INVE 16",
+    "Sodio": 158,
+    "Cloruro": 203,
+    "conductividad": 1117.0,
+    "Solidos Totales": 638.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Irma Gentile",
+    "Sodio": 477,
+    "Cloruro": 870,
+    "conductividad": 3460.0,
+    "Solidos Totales": 1880.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Los Angeles",
+    "Sodio": 203,
+    "Cloruro": 286,
+    "conductividad": 1462.0,
+    "Solidos Totales": 821.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Luisa Tirapare",
+    "Sodio": 371,
+    "Cloruro": 636,
+    "conductividad": 2650.0,
+    "Solidos Totales": 1451.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Odont. F. Pucci",
+    "Sodio": 352,
+    "Cloruro": 594,
+    "conductividad": 2517.0,
+    "Solidos Totales": 1380.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Odont. J.P. Varela",
+    "Sodio": 207,
+    "Cloruro": 310,
+    "conductividad": 1499.0,
+    "Solidos Totales": 841.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Punta de Rieles",
+    "Sodio": 329,
+    "Cloruro": 530,
+    "conductividad": 2336.0,
+    "Solidos Totales": 1284.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Yucatan",
+    "Sodio": 225,
+    "Cloruro": 329,
+    "conductividad": 1593.0,
+    "Solidos Totales": 890.0
+  },
+  {
+    "Fecha": "2023-05-08 00:00:00",
+    "Policlinica": "Zully Sanchez",
+    "Sodio": 492,
+    "Cloruro": 883,
+    "conductividad": 3535.0,
+    "Solidos Totales": 1920.0
+  }
+]

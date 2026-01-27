@@ -1,0 +1,866 @@
+[
+  {
+    "fecha": "2026-01-01",
+    "estrato": "1",
+    "consumo_actual": 17.04,
+    "consumo_pesimista": 17.34,
+    "consumo_optimista": 17.19,
+    "incremento_pesimista_pct": 1.79,
+    "incremento_optimista_pct": 0.86
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "1",
+    "consumo_actual": 19.0,
+    "consumo_pesimista": 18.56,
+    "consumo_optimista": 19.03,
+    "incremento_pesimista_pct": -2.32,
+    "incremento_optimista_pct": 0.15
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "1",
+    "consumo_actual": 19.2,
+    "consumo_pesimista": 18.72,
+    "consumo_optimista": 18.72,
+    "incremento_pesimista_pct": -2.52,
+    "incremento_optimista_pct": -2.52
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "1",
+    "consumo_actual": 18.71,
+    "consumo_pesimista": 18.82,
+    "consumo_optimista": 18.82,
+    "incremento_pesimista_pct": 0.55,
+    "incremento_optimista_pct": 0.55
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "1",
+    "consumo_actual": 18.92,
+    "consumo_pesimista": 18.54,
+    "consumo_optimista": 18.39,
+    "incremento_pesimista_pct": -2.02,
+    "incremento_optimista_pct": -2.78
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "1",
+    "consumo_actual": 18.61,
+    "consumo_pesimista": 18.61,
+    "consumo_optimista": 18.61,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "1",
+    "consumo_actual": 18.11,
+    "consumo_pesimista": 18.59,
+    "consumo_optimista": 19.1,
+    "incremento_pesimista_pct": 2.63,
+    "incremento_optimista_pct": 5.45
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "1",
+    "consumo_actual": 18.15,
+    "consumo_pesimista": 18.59,
+    "consumo_optimista": 18.46,
+    "incremento_pesimista_pct": 2.42,
+    "incremento_optimista_pct": 1.73
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "1",
+    "consumo_actual": 18.67,
+    "consumo_pesimista": 18.55,
+    "consumo_optimista": 18.44,
+    "incremento_pesimista_pct": -0.68,
+    "incremento_optimista_pct": -1.23
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "1",
+    "consumo_actual": 18.4,
+    "consumo_pesimista": 18.53,
+    "consumo_optimista": 18.53,
+    "incremento_pesimista_pct": 0.67,
+    "incremento_optimista_pct": 0.67
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "1",
+    "consumo_actual": 18.07,
+    "consumo_pesimista": 18.54,
+    "consumo_optimista": 19.08,
+    "incremento_pesimista_pct": 2.65,
+    "incremento_optimista_pct": 5.63
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "1",
+    "consumo_actual": 19.5,
+    "consumo_pesimista": 18.96,
+    "consumo_optimista": 18.87,
+    "incremento_pesimista_pct": -2.72,
+    "incremento_optimista_pct": -3.2
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "2",
+    "consumo_actual": 20.3,
+    "consumo_pesimista": 17.51,
+    "consumo_optimista": 19.07,
+    "incremento_pesimista_pct": -13.77,
+    "incremento_optimista_pct": -6.1
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "2",
+    "consumo_actual": 21.47,
+    "consumo_pesimista": 17.84,
+    "consumo_optimista": 20.87,
+    "incremento_pesimista_pct": -16.91,
+    "incremento_optimista_pct": -2.81
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "2",
+    "consumo_actual": 20.87,
+    "consumo_pesimista": 17.93,
+    "consumo_optimista": 17.93,
+    "incremento_pesimista_pct": -14.07,
+    "incremento_optimista_pct": -14.07
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "2",
+    "consumo_actual": 18.42,
+    "consumo_pesimista": 18.03,
+    "consumo_optimista": 18.03,
+    "incremento_pesimista_pct": -2.16,
+    "incremento_optimista_pct": -2.16
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "2",
+    "consumo_actual": 21.4,
+    "consumo_pesimista": 19.45,
+    "consumo_optimista": 20.78,
+    "incremento_pesimista_pct": -9.14,
+    "incremento_optimista_pct": -2.89
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "2",
+    "consumo_actual": 17.78,
+    "consumo_pesimista": 17.78,
+    "consumo_optimista": 17.78,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "2",
+    "consumo_actual": 20.58,
+    "consumo_pesimista": 17.77,
+    "consumo_optimista": 20.73,
+    "incremento_pesimista_pct": -13.67,
+    "incremento_optimista_pct": 0.73
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "2",
+    "consumo_actual": 20.69,
+    "consumo_pesimista": 17.77,
+    "consumo_optimista": 19.32,
+    "incremento_pesimista_pct": -14.12,
+    "incremento_optimista_pct": -6.63
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "2",
+    "consumo_actual": 20.57,
+    "consumo_pesimista": 17.77,
+    "consumo_optimista": 18.16,
+    "incremento_pesimista_pct": -13.61,
+    "incremento_optimista_pct": -11.68
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "2",
+    "consumo_actual": 19.27,
+    "consumo_pesimista": 17.72,
+    "consumo_optimista": 17.72,
+    "incremento_pesimista_pct": -8.04,
+    "incremento_optimista_pct": -8.04
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "2",
+    "consumo_actual": 20.69,
+    "consumo_pesimista": 17.65,
+    "consumo_optimista": 20.83,
+    "incremento_pesimista_pct": -14.68,
+    "incremento_optimista_pct": 0.72
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "2",
+    "consumo_actual": 20.86,
+    "consumo_pesimista": 17.69,
+    "consumo_optimista": 18.08,
+    "incremento_pesimista_pct": -15.23,
+    "incremento_optimista_pct": -13.36
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "3",
+    "consumo_actual": 21.98,
+    "consumo_pesimista": 20.05,
+    "consumo_optimista": 21.02,
+    "incremento_pesimista_pct": -8.8,
+    "incremento_optimista_pct": -4.36
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "3",
+    "consumo_actual": 22.53,
+    "consumo_pesimista": 20.42,
+    "consumo_optimista": 22.81,
+    "incremento_pesimista_pct": -9.35,
+    "incremento_optimista_pct": 1.25
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "3",
+    "consumo_actual": 22.89,
+    "consumo_pesimista": 20.59,
+    "consumo_optimista": 20.59,
+    "incremento_pesimista_pct": -10.03,
+    "incremento_optimista_pct": -10.03
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "3",
+    "consumo_actual": 20.74,
+    "consumo_pesimista": 20.69,
+    "consumo_optimista": 20.69,
+    "incremento_pesimista_pct": -0.25,
+    "incremento_optimista_pct": -0.25
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "3",
+    "consumo_actual": 22.43,
+    "consumo_pesimista": 21.55,
+    "consumo_optimista": 22.61,
+    "incremento_pesimista_pct": -3.9,
+    "incremento_optimista_pct": 0.81
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "3",
+    "consumo_actual": 20.68,
+    "consumo_pesimista": 20.68,
+    "consumo_optimista": 20.68,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "3",
+    "consumo_actual": 22.6,
+    "consumo_pesimista": 20.63,
+    "consumo_optimista": 22.92,
+    "incremento_pesimista_pct": -8.7,
+    "incremento_optimista_pct": 1.43
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "3",
+    "consumo_actual": 22.68,
+    "consumo_pesimista": 20.63,
+    "consumo_optimista": 21.57,
+    "incremento_pesimista_pct": -9.04,
+    "incremento_optimista_pct": -4.89
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "3",
+    "consumo_actual": 22.74,
+    "consumo_pesimista": 20.63,
+    "consumo_optimista": 20.68,
+    "incremento_pesimista_pct": -9.26,
+    "incremento_optimista_pct": -9.04
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "3",
+    "consumo_actual": 21.54,
+    "consumo_pesimista": 20.59,
+    "consumo_optimista": 20.59,
+    "incremento_pesimista_pct": -4.4,
+    "incremento_optimista_pct": -4.4
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "3",
+    "consumo_actual": 23.24,
+    "consumo_pesimista": 21.04,
+    "consumo_optimista": 23.57,
+    "incremento_pesimista_pct": -9.5,
+    "incremento_optimista_pct": 1.39
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "3",
+    "consumo_actual": 24.04,
+    "consumo_pesimista": 21.51,
+    "consumo_optimista": 21.57,
+    "incremento_pesimista_pct": -10.53,
+    "incremento_optimista_pct": -10.29
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "4",
+    "consumo_actual": 25.16,
+    "consumo_pesimista": 22.24,
+    "consumo_optimista": 23.88,
+    "incremento_pesimista_pct": -11.63,
+    "incremento_optimista_pct": -5.09
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "4",
+    "consumo_actual": 24.37,
+    "consumo_pesimista": 22.34,
+    "consumo_optimista": 25.82,
+    "incremento_pesimista_pct": -8.35,
+    "incremento_optimista_pct": 5.95
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "4",
+    "consumo_actual": 26.46,
+    "consumo_pesimista": 23.03,
+    "consumo_optimista": 23.03,
+    "incremento_pesimista_pct": -12.95,
+    "incremento_optimista_pct": -12.95
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "4",
+    "consumo_actual": 23.2,
+    "consumo_pesimista": 22.84,
+    "consumo_optimista": 22.84,
+    "incremento_pesimista_pct": -1.56,
+    "incremento_optimista_pct": -1.56
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "4",
+    "consumo_actual": 25.14,
+    "consumo_pesimista": 24.14,
+    "consumo_optimista": 25.52,
+    "incremento_pesimista_pct": -3.96,
+    "incremento_optimista_pct": 1.53
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "4",
+    "consumo_actual": 22.39,
+    "consumo_pesimista": 22.39,
+    "consumo_optimista": 22.39,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "4",
+    "consumo_actual": 24.65,
+    "consumo_pesimista": 22.35,
+    "consumo_optimista": 25.8,
+    "incremento_pesimista_pct": -9.35,
+    "incremento_optimista_pct": 4.66
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "4",
+    "consumo_actual": 25.42,
+    "consumo_pesimista": 22.34,
+    "consumo_optimista": 23.99,
+    "incremento_pesimista_pct": -12.1,
+    "incremento_optimista_pct": -5.63
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "4",
+    "consumo_actual": 25.43,
+    "consumo_pesimista": 22.34,
+    "consumo_optimista": 22.71,
+    "incremento_pesimista_pct": -12.15,
+    "incremento_optimista_pct": -10.73
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "4",
+    "consumo_actual": 23.98,
+    "consumo_pesimista": 22.33,
+    "consumo_optimista": 22.33,
+    "incremento_pesimista_pct": -6.88,
+    "incremento_optimista_pct": -6.88
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "4",
+    "consumo_actual": 25.34,
+    "consumo_pesimista": 22.78,
+    "consumo_optimista": 26.43,
+    "incremento_pesimista_pct": -10.09,
+    "incremento_optimista_pct": 4.33
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "4",
+    "consumo_actual": 27.36,
+    "consumo_pesimista": 23.78,
+    "consumo_optimista": 24.08,
+    "incremento_pesimista_pct": -13.09,
+    "incremento_optimista_pct": -12.01
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "5",
+    "consumo_actual": 29.65,
+    "consumo_pesimista": 29.35,
+    "consumo_optimista": 29.94,
+    "incremento_pesimista_pct": -1.0,
+    "incremento_optimista_pct": 0.99
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "5",
+    "consumo_actual": 29.32,
+    "consumo_pesimista": 29.45,
+    "consumo_optimista": 29.92,
+    "incremento_pesimista_pct": 0.45,
+    "incremento_optimista_pct": 2.06
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "5",
+    "consumo_actual": 29.93,
+    "consumo_pesimista": 29.47,
+    "consumo_optimista": 29.47,
+    "incremento_pesimista_pct": -1.55,
+    "incremento_optimista_pct": -1.55
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "5",
+    "consumo_actual": 29.85,
+    "consumo_pesimista": 29.49,
+    "consumo_optimista": 29.49,
+    "incremento_pesimista_pct": -1.21,
+    "incremento_optimista_pct": -1.21
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "5",
+    "consumo_actual": 28.98,
+    "consumo_pesimista": 30.06,
+    "consumo_optimista": 29.73,
+    "incremento_pesimista_pct": 3.7,
+    "incremento_optimista_pct": 2.59
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "5",
+    "consumo_actual": 29.39,
+    "consumo_pesimista": 29.39,
+    "consumo_optimista": 29.39,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "5",
+    "consumo_actual": 28.61,
+    "consumo_pesimista": 29.45,
+    "consumo_optimista": 29.91,
+    "incremento_pesimista_pct": 2.95,
+    "incremento_optimista_pct": 4.57
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "5",
+    "consumo_actual": 29.74,
+    "consumo_pesimista": 29.53,
+    "consumo_optimista": 30.12,
+    "incremento_pesimista_pct": -0.71,
+    "incremento_optimista_pct": 1.27
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "5",
+    "consumo_actual": 29.88,
+    "consumo_pesimista": 29.57,
+    "consumo_optimista": 29.93,
+    "incremento_pesimista_pct": -1.04,
+    "incremento_optimista_pct": 0.17
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "5",
+    "consumo_actual": 30.17,
+    "consumo_pesimista": 29.58,
+    "consumo_optimista": 29.58,
+    "incremento_pesimista_pct": -1.97,
+    "incremento_optimista_pct": -1.97
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "5",
+    "consumo_actual": 29.33,
+    "consumo_pesimista": 29.62,
+    "consumo_optimista": 30.11,
+    "incremento_pesimista_pct": 0.97,
+    "incremento_optimista_pct": 2.65
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "5",
+    "consumo_actual": 30.97,
+    "consumo_pesimista": 30.54,
+    "consumo_optimista": 30.84,
+    "incremento_pesimista_pct": -1.36,
+    "incremento_optimista_pct": -0.41
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "6",
+    "consumo_actual": 36.18,
+    "consumo_pesimista": 36.14,
+    "consumo_optimista": 36.46,
+    "incremento_pesimista_pct": -0.13,
+    "incremento_optimista_pct": 0.78
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "6",
+    "consumo_actual": 36.18,
+    "consumo_pesimista": 36.12,
+    "consumo_optimista": 36.07,
+    "incremento_pesimista_pct": -0.18,
+    "incremento_optimista_pct": -0.31
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "6",
+    "consumo_actual": 36.05,
+    "consumo_pesimista": 36.11,
+    "consumo_optimista": 36.11,
+    "incremento_pesimista_pct": 0.15,
+    "incremento_optimista_pct": 0.15
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "6",
+    "consumo_actual": 36.39,
+    "consumo_pesimista": 36.13,
+    "consumo_optimista": 36.13,
+    "incremento_pesimista_pct": -0.72,
+    "incremento_optimista_pct": -0.72
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "6",
+    "consumo_actual": 35.78,
+    "consumo_pesimista": 36.37,
+    "consumo_optimista": 36.06,
+    "incremento_pesimista_pct": 1.65,
+    "incremento_optimista_pct": 0.78
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "6",
+    "consumo_actual": 35.97,
+    "consumo_pesimista": 35.97,
+    "consumo_optimista": 35.97,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "6",
+    "consumo_actual": 36.42,
+    "consumo_pesimista": 36.47,
+    "consumo_optimista": 36.41,
+    "incremento_pesimista_pct": 0.13,
+    "incremento_optimista_pct": -0.03
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "6",
+    "consumo_actual": 34.9,
+    "consumo_pesimista": 34.87,
+    "consumo_optimista": 35.2,
+    "incremento_pesimista_pct": -0.07,
+    "incremento_optimista_pct": 0.86
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "6",
+    "consumo_actual": 34.66,
+    "consumo_pesimista": 34.87,
+    "consumo_optimista": 35.13,
+    "incremento_pesimista_pct": 0.61,
+    "incremento_optimista_pct": 1.36
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "6",
+    "consumo_actual": 35.21,
+    "consumo_pesimista": 34.88,
+    "consumo_optimista": 34.88,
+    "incremento_pesimista_pct": -0.94,
+    "incremento_optimista_pct": -0.94
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "6",
+    "consumo_actual": 35.03,
+    "consumo_pesimista": 35.0,
+    "consumo_optimista": 34.96,
+    "incremento_pesimista_pct": -0.08,
+    "incremento_optimista_pct": -0.19
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "6",
+    "consumo_actual": 35.54,
+    "consumo_pesimista": 35.65,
+    "consumo_optimista": 35.84,
+    "incremento_pesimista_pct": 0.31,
+    "incremento_optimista_pct": 0.86
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.05,
+    "consumo_pesimista": 172.08,
+    "consumo_optimista": 172.07,
+    "incremento_pesimista_pct": 0.02,
+    "incremento_optimista_pct": 0.01
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "Comercial",
+    "consumo_actual": 173.1,
+    "consumo_pesimista": 172.68,
+    "consumo_optimista": 172.66,
+    "incremento_pesimista_pct": -0.24,
+    "incremento_optimista_pct": -0.25
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.2,
+    "consumo_pesimista": 172.21,
+    "consumo_optimista": 172.21,
+    "incremento_pesimista_pct": 0.01,
+    "incremento_optimista_pct": 0.01
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.21,
+    "consumo_pesimista": 172.23,
+    "consumo_optimista": 172.23,
+    "incremento_pesimista_pct": 0.01,
+    "incremento_optimista_pct": 0.01
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.01,
+    "consumo_pesimista": 172.22,
+    "consumo_optimista": 172.19,
+    "incremento_pesimista_pct": 0.12,
+    "incremento_optimista_pct": 0.1
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.22,
+    "consumo_pesimista": 172.22,
+    "consumo_optimista": 172.22,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.6,
+    "consumo_pesimista": 172.23,
+    "consumo_optimista": 172.21,
+    "incremento_pesimista_pct": -0.21,
+    "incremento_optimista_pct": -0.22
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.12,
+    "consumo_pesimista": 172.16,
+    "consumo_optimista": 172.15,
+    "incremento_pesimista_pct": 0.02,
+    "incremento_optimista_pct": 0.01
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.13,
+    "consumo_pesimista": 172.16,
+    "consumo_optimista": 172.14,
+    "incremento_pesimista_pct": 0.02,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.15,
+    "consumo_pesimista": 172.16,
+    "consumo_optimista": 172.16,
+    "incremento_pesimista_pct": 0.01,
+    "incremento_optimista_pct": 0.01
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.55,
+    "consumo_pesimista": 172.16,
+    "consumo_optimista": 172.14,
+    "incremento_pesimista_pct": -0.23,
+    "incremento_optimista_pct": -0.24
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "Comercial",
+    "consumo_actual": 172.14,
+    "consumo_pesimista": 172.16,
+    "consumo_optimista": 172.15,
+    "incremento_pesimista_pct": 0.01,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-01-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.42,
+    "consumo_pesimista": 572.56,
+    "consumo_optimista": 572.56,
+    "incremento_pesimista_pct": 0.02,
+    "incremento_optimista_pct": 0.02
+  },
+  {
+    "fecha": "2026-02-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.42,
+    "consumo_pesimista": 572.56,
+    "consumo_optimista": 572.56,
+    "incremento_pesimista_pct": 0.02,
+    "incremento_optimista_pct": 0.02
+  },
+  {
+    "fecha": "2026-03-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.61,
+    "consumo_pesimista": 572.62,
+    "consumo_optimista": 572.62,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-04-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.61,
+    "consumo_pesimista": 572.62,
+    "consumo_optimista": 572.62,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-05-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.48,
+    "consumo_pesimista": 572.61,
+    "consumo_optimista": 572.47,
+    "incremento_pesimista_pct": 0.02,
+    "incremento_optimista_pct": -0.0
+  },
+  {
+    "fecha": "2026-06-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.62,
+    "consumo_pesimista": 572.62,
+    "consumo_optimista": 572.62,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-07-01",
+    "estrato": "Industrial",
+    "consumo_actual": 572.47,
+    "consumo_pesimista": 572.62,
+    "consumo_optimista": 572.61,
+    "incremento_pesimista_pct": 0.03,
+    "incremento_optimista_pct": 0.02
+  },
+  {
+    "fecha": "2026-08-01",
+    "estrato": "Industrial",
+    "consumo_actual": 570.69,
+    "consumo_pesimista": 570.71,
+    "consumo_optimista": 570.7,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-09-01",
+    "estrato": "Industrial",
+    "consumo_actual": 570.7,
+    "consumo_pesimista": 570.7,
+    "consumo_optimista": 570.7,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-10-01",
+    "estrato": "Industrial",
+    "consumo_actual": 570.7,
+    "consumo_pesimista": 570.7,
+    "consumo_optimista": 570.7,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-11-01",
+    "estrato": "Industrial",
+    "consumo_actual": 570.69,
+    "consumo_pesimista": 570.7,
+    "consumo_optimista": 570.7,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  },
+  {
+    "fecha": "2026-12-01",
+    "estrato": "Industrial",
+    "consumo_actual": 570.7,
+    "consumo_pesimista": 570.7,
+    "consumo_optimista": 570.7,
+    "incremento_pesimista_pct": 0.0,
+    "incremento_optimista_pct": 0.0
+  }
+]
