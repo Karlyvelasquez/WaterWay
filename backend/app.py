@@ -14,8 +14,14 @@ CORS(app)
 
 # Inicializar cliente de OpenAI (opcional)
 try:
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-    OPENAI_AVAILABLE = True
+    api_key = os.getenv('OPENAI_API_KEY')
+    if api_key:
+        client = OpenAI(api_key=api_key)
+        OPENAI_AVAILABLE = True
+    else:
+        print("Warning: OPENAI_API_KEY not found in environment")
+        client = None
+        OPENAI_AVAILABLE = False
 except Exception as e:
     print(f"Warning: OpenAI client not available: {e}")
     client = None
