@@ -35,11 +35,11 @@ export default function GovernmentDashboard() {
       let endpoint, params, source
       
       if (country === 'colombia' && city === 'Medellín') {
-        endpoint = 'http://localhost:5000/api/epm'
+        endpoint = '/api/epm'
         params = 'municipio=Medellín'
         source = 'EPM'
       } else if (country === 'uruguay' && city === 'Montevideo') {
-        endpoint = 'http://localhost:5000/api/uruguay'
+        endpoint = '/api/uruguay'
         params = ''
         source = 'OSE'
       }
@@ -57,7 +57,7 @@ export default function GovernmentDashboard() {
       // Cargar proyecciones ML para Medellín
       if (country === 'colombia' && city === 'Medellín') {
         requests.push(
-          fetch('http://localhost:5000/api/ml/proyecciones?ciudad=Medellín')
+          fetch('/api/ml/proyecciones?ciudad=Medellín')
         )
       }
       
@@ -1441,7 +1441,7 @@ function ProyeccionesTab({ selectedCountry, selectedCity, setSelectedCity, realD
   const analyzeWithAI = async () => {
     setAnalyzing(true)
     try {
-      const response = await fetch('http://localhost:5000/api/analyze-water-data', {
+      const response = await fetch('/api/analyze-water-data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
