@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { Globe } from 'lucide-react'
 import { useState } from 'react'
 
-export default function LanguageSelector() {
+export default function LanguageSelector({ scrolled = false }) {
   const { i18n } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
 
@@ -22,12 +22,14 @@ export default function LanguageSelector() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm border border-white/20"
+        className={`flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-white/20 transition-colors backdrop-blur-sm border ${
+          scrolled ? 'bg-blue-50 border-blue-200' : 'bg-white/10 border-white/20'
+        }`}
         aria-label="Select language"
       >
-        <Globe className="h-6 w-6 text-blue-500" />
-        <span className="text-blue-500 text-sm font-medium hidden sm:inline">{currentLang.flag} {currentLang.name}</span>
-        <span className="text-blue-500 text-sm font-medium sm:hidden">{currentLang.flag}</span>
+        <Globe className={`h-6 w-6 ${scrolled ? 'text-blue-500' : 'text-white'}`} />
+        <span className={`text-sm font-medium hidden sm:inline ${scrolled ? 'text-blue-500' : 'text-white'}`}>{currentLang.flag} {currentLang.name}</span>
+        <span className={`text-sm font-medium sm:hidden ${scrolled ? 'text-blue-500' : 'text-white'}`}>{currentLang.flag}</span>
       </button>
 
       {isOpen && (

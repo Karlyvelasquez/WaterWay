@@ -26,16 +26,16 @@ export default function LandingPage() {
             <div className="flex items-center space-x-3">
               <img src="/logo.png" alt="WaterWay Logo" className="h-12 w-auto" />
               <div>
-                <h1 className="text-2xl font-bold text-gradient">{t('landing.title')}</h1>
-                <p className="text-xs text-gray-600">{t('landing.forColombiaUruguay')}</p>
+                <h1 className={`text-2xl font-bold transition-colors ${scrolled ? 'text-gradient' : 'text-white'}`}>{t('landing.title')}</h1>
+                <p className={`text-xs transition-colors ${scrolled ? 'text-gray-600' : 'text-white/90'}`}>{t('landing.forColombiaUruguay')}</p>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#problema" className="text-gray-700 hover:text-primary-600 transition">{t('landing.nav.problem')}</a>
-              <a href="#plataforma" className="text-gray-700 hover:text-primary-600 transition">{t('landing.nav.platform')}</a>
-              <a href="#datos-abiertos" className="text-gray-700 hover:text-primary-600 transition">{t('landing.nav.openData')}</a>
-              <a href="#roles" className="text-gray-700 hover:text-primary-600 transition">{t('landing.nav.access')}</a>
-              <LanguageSelector />
+              <a href="#problema" className={`transition ${scrolled ? 'text-gray-700 hover:text-primary-600' : 'text-white hover:text-blue-200'}`}>{t('landing.nav.problem')}</a>
+              <a href="#plataforma" className={`transition ${scrolled ? 'text-gray-700 hover:text-primary-600' : 'text-white hover:text-blue-200'}`}>{t('landing.nav.platform')}</a>
+              <a href="#datos-abiertos" className={`transition ${scrolled ? 'text-gray-700 hover:text-primary-600' : 'text-white hover:text-blue-200'}`}>{t('landing.nav.openData')}</a>
+              <a href="#roles" className={`transition ${scrolled ? 'text-gray-700 hover:text-primary-600' : 'text-white hover:text-blue-200'}`}>{t('landing.nav.access')}</a>
+              <LanguageSelector scrolled={scrolled} />
             </div>
           </div>
         </div>
@@ -43,41 +43,54 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto">
+        {/* Video de fondo */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src="/video.mp4" type="video/mp4" />
+        </video>
+        {/* Overlay para mejor legibilidad */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-green-900/70 z-0"></div>
+        
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
-              <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
+              <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full mb-6 border border-white/30">
                 <MapPin className="h-4 w-4" />
                 <span className="text-sm font-medium">{t('landing.forColombiaUruguay')} | {t('landing.climateActionLatam')}</span>
               </div>
-                  <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              {t('landing.hero.titlePart1')} <span className="text-gradient">{t('landing.hero.titlePart2')}</span>
+                  <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
+              {t('landing.hero.titlePart1')} <span className="text-blue-200">{t('landing.hero.titlePart2')}</span>
             </h1>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="text-xl text-white/90 mb-8 drop-shadow-md">
                 {t('landing.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a 
-                  href="#roles" 
-                  className="inline-flex items-center justify-center px-6 py-2.5 bg-gradient-to-r from-water-DEFAULT to-primary-500 text-white rounded-lg font-medium hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300"
-                >
-                  {t('landing.hero.cta')}
-                  <ChevronDown className="ml-2 h-4 w-4" />
-                </a>
-                <a 
-                  href="https://example.com/waterway-guia.pdf" 
+                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQDTeKOvVTCESbxlVKNJ5-gVAWV4ERXpMzt2pq7IU4JbA40?e=io6OAv" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-5 py-2.5 border border-primary-500 text-primary-600 rounded-lg font-medium hover:bg-primary-50 transition-all duration-300"
+                  className="inline-flex items-center justify-center px-5 py-2.5 border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-blue-600 transition-all duration-300 backdrop-blur-sm"
                 >
                   <FileText className="mr-2 h-4 w-4" />
                   {t('landing.guideButton')}
                 </a>
                 <a 
-                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQBykFTe2zPiSK4K6fPqPvyNATQj0lWflD7PaMuO1t1qbM0?e=HsAkm0" 
+                  href="/centro-descargas" 
+                  className="inline-flex items-center justify-center px-5 py-2.5 border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-purple-600 transition-all duration-300 backdrop-blur-sm"
+                >
+                  <Database className="mr-2 h-4 w-4" />
+                  Centro de Descargas
+                </a>
+                <a 
+                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQDgRh53ZEVbR6ly7O1KY57cAQxAul6gDXCHevddJqaV_y4?e=hgAkWc" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-5 py-2.5 border border-green-600 text-green-700 rounded-lg font-medium hover:bg-green-50 transition-all duration-300"
+                  className="inline-flex items-center justify-center px-5 py-2.5 border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-green-600 transition-all duration-300 backdrop-blur-sm"
                 >
                   <FileText className="mr-2 h-4 w-4" />
                   {t('landing.dataButton')}
@@ -519,7 +532,7 @@ export default function LandingPage() {
               <p className="text-sm text-gray-400 mb-4">Patrick J. McGovern Foundation</p>
               <div className="space-y-2">
                 <a 
-                  href="https://example.com/waterway-guia.pdf"
+                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQDTeKOvVTCESbxlVKNJ5-gVAWV4ERXpMzt2pq7IU4JbA40?e=io6OAv"
                   className="inline-flex items-center text-sm text-blue-400 hover:text-blue-300 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -528,7 +541,7 @@ export default function LandingPage() {
                   {t('landing.guideButton')}
                 </a>
                 <a 
-                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQBykFTe2zPiSK4K6fPqPvyNATQj0lWflD7PaMuO1t1qbM0?e=HsAkm0"
+                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQDgRh53ZEVbR6ly7O1KY57cAQxAul6gDXCHevddJqaV_y4?e=hgAkWc"
                   className="inline-flex items-center text-sm text-green-400 hover:text-green-300 transition block"
                   target="_blank"
                   rel="noopener noreferrer"
