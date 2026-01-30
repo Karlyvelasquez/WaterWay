@@ -74,7 +74,7 @@ export default function LandingPage() {
                   {t('landing.guideButton')}
                 </a>
                 <a 
-                  href="https://example.com/waterway-investigacion.pdf" 
+                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQBykFTe2zPiSK4K6fPqPvyNATQj0lWflD7PaMuO1t1qbM0?e=HsAkm0" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-5 py-2.5 border border-green-600 text-green-700 rounded-lg font-medium hover:bg-green-50 transition-all duration-300"
@@ -455,7 +455,7 @@ export default function LandingPage() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/Karlyvelasquez/WaterWay" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-all duration-300"
@@ -528,7 +528,7 @@ export default function LandingPage() {
                   {t('landing.guideButton')}
                 </a>
                 <a 
-                  href="https://example.com/waterway-investigacion.pdf"
+                  href="https://unaulaedu-my.sharepoint.com/:b:/g/personal/karly_velasquez0845_unaula_edu_co/IQBykFTe2zPiSK4K6fPqPvyNATQj0lWflD7PaMuO1t1qbM0?e=HsAkm0"
                   className="inline-flex items-center text-sm text-green-400 hover:text-green-300 transition block"
                   target="_blank"
                   rel="noopener noreferrer"
