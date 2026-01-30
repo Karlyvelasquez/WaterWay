@@ -12,8 +12,14 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-# Inicializar cliente de OpenAI
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+# Inicializar cliente de OpenAI (opcional)
+try:
+    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    OPENAI_AVAILABLE = True
+except Exception as e:
+    print(f"Warning: OpenAI client not available: {e}")
+    client = None
+    OPENAI_AVAILABLE = False
 
 # Inicializar predictor de ML (opcional)
 try:
@@ -303,6 +309,13 @@ def get_datasets():
 def analyze_water_data():
     """Analizar datos de agua con ML + GPT-4 para obtener insights y recomendaciones"""
     try:
+        # Verificar si OpenAI está disponible
+        if not OPENAI_AVAILABLE or not client:
+            return jsonify({
+                "success": False,
+                "error": "Servicio de análisis IA no disponible temporalmente"
+            })
+            
         data = request.get_json()
         city = data.get('city')
         country = data.get('country')
