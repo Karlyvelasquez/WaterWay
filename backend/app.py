@@ -5,7 +5,6 @@ import os
 from datetime import datetime
 from openai import OpenAI
 from data_loader import data_loader
-from predictor import get_predictor
 
 # Cargar variables de entorno
 load_dotenv()
@@ -16,8 +15,14 @@ CORS(app)
 # Inicializar cliente de OpenAI
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
-# Inicializar predictor de ML
-predictor = get_predictor()
+# Inicializar predictor de ML (opcional)
+try:
+    from predictor import get_predictor
+    predictor = get_predictor()
+    ML_AVAILABLE = True
+except ImportError:
+    predictor = None
+    ML_AVAILABLE = False
 
 # Base de datos en memoria (mock data - solo como fallback)
 reportes_db = []
@@ -307,7 +312,7 @@ def analyze_water_data():
         proyecciones_ml = []
         modelo_activo = False
         
-        if city == 'Medellín' and predictor.ml_enabled:
+        if city == 'Medellín' and ML_AVAILABLE and predictor.ml_enabled:
             proyecciones_ml = predictor.obtener_proyecciones(city)
             modelo_activo = True
             
