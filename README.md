@@ -8,12 +8,12 @@ Una solución innovadora para América Latina que combina datos abiertos e IA pa
 
 ## 🌍 Acerca del Proyecto
 
-WaterWay es una plataforma web escalable diseñada para mejorar la comprensión, el uso responsable y la gobernanza del agua frente al cambio climático en Colombia y Uruguay, con potencial de replicarse en toda América Latina.
+WaterWay es una plataforma web escalable diseñada para mejorar la comprensión, el uso responsable y la gobernanza del agua frente al cambio climático en Colombia, con potencial de replicarse en toda América Latina.
 
 ### Desarrollado para:
 **Open Data & AI Innovation Challenge - Edición Acción Climática LATAM**
 - Organizado por: Open Data Charter
-- Apoyo: AGESIC (Uruguay) y MINTIC (Colombia)  
+- Apoyo: MINTIC (Colombia)  
 - Financiamiento: Patrick J. McGovern Foundation
 
 ---
@@ -228,10 +228,9 @@ Para más información sobre el proyecto, contacta a través del concurso en `in
 ## 🙏 Agradecimientos
 
 - Open Data Charter
-- AGESIC (Uruguay)
 - MINTIC (Colombia)
 - Patrick J. McGovern Foundation
-- Comunidades de datos abiertos de Colombia y Uruguay
+- Comunidades de datos abiertos de Colombia
 
 ---
 

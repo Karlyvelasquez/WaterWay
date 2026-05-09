@@ -27,7 +27,7 @@ export default function LandingPage() {
               <img src="/logo.png" alt="WaterWay Logo" className="h-12 w-auto" />
               <div>
                 <h1 className={`text-2xl font-bold transition-colors ${scrolled ? 'text-gradient' : 'text-white'}`}>{t('landing.title')}</h1>
-                <p className={`text-xs transition-colors ${scrolled ? 'text-gray-600' : 'text-white/90'}`}>{t('landing.forColombiaUruguay')}</p>
+                <p className={`text-xs transition-colors ${scrolled ? 'text-gray-600' : 'text-white/90'}`}>{t('landing.forColombia')}</p>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-6">
@@ -61,7 +61,7 @@ export default function LandingPage() {
             <div className="animate-slide-up">
               <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full mb-6 border border-white/30">
                 <MapPin className="h-4 w-4" />
-                <span className="text-sm font-medium">{t('landing.forColombiaUruguay')} | {t('landing.climateActionLatam')}</span>
+                <span className="text-sm font-medium">{t('landing.forColombia')} | {t('landing.climateActionLatam')}</span>
               </div>
                   <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
               {t('landing.hero.titlePart1')} <span className="text-blue-200">{t('landing.hero.titlePart2')}</span>
@@ -307,8 +307,8 @@ export default function LandingPage() {
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">{t('landing.urgency.recentEvents')}</h3>
                 <ul className="space-y-4">
                   <UrgencyItem
-                    title={t('landing.urgency.events.uruguay.title')}
-                    description={t('landing.urgency.events.uruguay.description')}
+                    title={t('landing.urgency.events.colombia.title')}
+                    description={t('landing.urgency.events.colombia.description')}
                   />
                   <UrgencyItem
                     title={t('landing.urgency.events.colombia.title')}
@@ -523,7 +523,6 @@ export default function LandingPage() {
               <h4 className="font-semibold mb-4">{t('landing.footer.organizedBy')}</h4>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>Open Data Charter</li>
-                <li>AGESIC (Uruguay)</li>
                 <li>MINTIC (Colombia)</li>
               </ul>
             </div>

@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Database, Brain, BarChart3, Droplet, MapPin, AlertTriangle, TrendingUp, Globe, Home, Download, FileText } from 'lucide-react'
 
 export default function CentroDescargas() {
   const navigate = useNavigate()
-  const [selectedCountry, setSelectedCountry] = useState(null)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50">
@@ -63,173 +61,56 @@ export default function CentroDescargas() {
         </div>
       </section>
 
-      {/* Selector de país */}
-      <section className="px-4 sm:px-6 lg:px-8 pb-8">
+      {/* Contenido de datasets */}
+      <section className="px-4 sm:px-6 lg:px-8 pb-12">
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-center space-x-4 mb-8">
-            <button
-              onClick={() => setSelectedCountry('colombia')}
-              className={`flex items-center space-x-3 px-6 py-3 rounded-xl font-semibold transition-all ${
-                selectedCountry === 'colombia' 
-                  ? 'bg-gradient-to-r from-yellow-400 to-blue-600 text-white shadow-lg scale-105' 
-                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-500'
-              }`}
-            >
-              <img src="https://flagcdn.com/w80/co.png" alt="Colombia" className="h-6" />
-              <span>Colombia</span>
-            </button>
-            <button
-              onClick={() => setSelectedCountry('uruguay')}
-              className={`flex items-center space-x-3 px-6 py-3 rounded-xl font-semibold transition-all ${
-                selectedCountry === 'uruguay' 
-                  ? 'bg-gradient-to-r from-blue-500 to-blue-700 text-white shadow-lg scale-105' 
-                  : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-blue-500'
-              }`}
-            >
-              <img src="https://flagcdn.com/w80/uy.png" alt="Uruguay" className="h-6" />
-              <span>Uruguay</span>
-            </button>
+          <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <img src="https://flagcdn.com/w80/co.png" alt="Colombia" className="h-10 mr-4" />
+              <div>
+                <h2 className="text-3xl font-bold">Datasets - Colombia</h2>
+                <p className="text-gray-600">EPM Medellín y fuentes gubernamentales</p>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <DatasetCard 
+                title="Consumo de Agua - EPM Medellín"
+                description="Series temporales de consumo de agua potable en diferentes sectores de Medellín. Incluye datos históricos desde 2015 con frecuencia mensual."
+                icon={<BarChart3 className="h-6 w-6 text-blue-600" />}
+                format="JSON, CSV"
+                source="EPM Medellín"
+                modelUse="Entrenamiento de modelos LSTM para predicción de demanda futura y detección de anomalías en patrones de consumo."
+              />
+              <DatasetCard 
+                title="Calidad del Agua"
+                description="Parámetros fisicoquímicos y microbiológicos del agua potable. Incluye pH, turbidez, cloro residual, coliformes totales y más."
+                icon={<Droplet className="h-6 w-6 text-blue-600" />}
+                format="JSON, CSV"
+                source="EPM - Laboratorio de Aguas"
+                modelUse="Análisis de calidad del agua y generación de alertas tempranas sobre posibles problemas de calidad."
+              />
+              <DatasetCard 
+                title="Reportes Ciudadanos"
+                description="Incidencias reportadas por la comunidad sobre el servicio de agua. Incluye tipo de problema, ubicación geográfica y tiempo de resolución."
+                icon={<MapPin className="h-6 w-6 text-blue-600" />}
+                format="JSON"
+                source="Sistema de Reportes WaterWay"
+                modelUse="Clasificación automática con Random Forest para priorización de reportes y detección de patrones espaciales."
+              />
+              <DatasetCard 
+                title="Proyecciones de Consumo (ML)"
+                description="Predicciones generadas por nuestros modelos LSTM sobre el consumo futuro de agua en Medellín para los próximos 12 meses."
+                icon={<Brain className="h-6 w-6 text-purple-600" />}
+                format="JSON, CSV"
+                source="WaterWay - Modelos Predictivos"
+                modelUse="Dataset generado por nuestros modelos, disponible para investigación y validación externa."
+                isNew
+              />
+            </div>
           </div>
         </div>
       </section>
-
-      {/* Contenido de datasets */}
-      {!selectedCountry && (
-        <section className="px-4 sm:px-6 lg:px-8 py-20">
-          <div className="max-w-3xl mx-auto text-center">
-            <Database className="h-20 w-20 text-gray-300 mx-auto mb-4" />
-            <h3 className="text-2xl font-semibold text-gray-400 mb-2">
-              Selecciona un país para ver los datasets disponibles
-            </h3>
-            <p className="text-gray-500">
-              Elige Colombia o Uruguay para explorar los datasets oficiales y las proyecciones generadas por nuestros modelos
-            </p>
-          </div>
-        </section>
-      )}
-
-      {/* Datasets Colombia */}
-      {selectedCountry === 'colombia' && (
-        <section className="px-4 sm:px-6 lg:px-8 pb-12">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
-              <div className="flex items-center mb-6">
-                <img src="https://flagcdn.com/w80/co.png" alt="Colombia" className="h-10 mr-4" />
-                <div>
-                  <h2 className="text-3xl font-bold">Datasets - Colombia</h2>
-                  <p className="text-gray-600">EPM Medellín y fuentes gubernamentales</p>
-                </div>
-              </div>
-              
-              <div className="space-y-4">
-                <DatasetCard 
-                  title="Consumo de Agua - EPM Medellín"
-                  description="Series temporales de consumo de agua potable en diferentes sectores de Medellín. Incluye datos históricos desde 2015 con frecuencia mensual."
-                  icon={<BarChart3 className="h-6 w-6 text-blue-600" />}
-                  format="JSON, CSV"
-                  source="EPM Medellín"
-                  modelUse="Entrenamiento de modelos LSTM para predicción de demanda futura y detección de anomalías en patrones de consumo."
-                />
-                <DatasetCard 
-                  title="Calidad del Agua"
-                  description="Parámetros fisicoquímicos y microbiológicos del agua potable. Incluye pH, turbidez, cloro residual, coliformes totales y más."
-                  icon={<Droplet className="h-6 w-6 text-blue-600" />}
-                  format="JSON, CSV"
-                  source="EPM - Laboratorio de Aguas"
-                  modelUse="Análisis de calidad del agua y generación de alertas tempranas sobre posibles problemas de calidad."
-                />
-                <DatasetCard 
-                  title="Reportes Ciudadanos"
-                  description="Incidencias reportadas por la comunidad sobre el servicio de agua. Incluye tipo de problema, ubicación geográfica y tiempo de resolución."
-                  icon={<MapPin className="h-6 w-6 text-blue-600" />}
-                  format="JSON"
-                  source="Sistema de Reportes WaterWay"
-                  modelUse="Clasificación automática con Random Forest para priorización de reportes y detección de patrones espaciales."
-                />
-                <DatasetCard 
-                  title="Proyecciones de Consumo (ML)"
-                  description="Predicciones generadas por nuestros modelos LSTM sobre el consumo futuro de agua en Medellín para los próximos 12 meses."
-                  icon={<Brain className="h-6 w-6 text-purple-600" />}
-                  format="JSON, CSV"
-                  source="WaterWay - Modelos Predictivos"
-                  modelUse="Dataset generado por nuestros modelos, disponible para investigación y validación externa."
-                  isNew
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Datasets Uruguay */}
-      {selectedCountry === 'uruguay' && (
-        <section className="px-4 sm:px-6 lg:px-8 pb-12">
-          <div className="max-w-7xl mx-auto">
-            <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
-              <div className="flex items-center mb-6">
-                <img src="https://flagcdn.com/w80/uy.png" alt="Uruguay" className="h-10 mr-4" />
-                <div>
-                  <h2 className="text-3xl font-bold">Datasets - Uruguay</h2>
-                  <p className="text-gray-600">OSE y Catalogodatos.gub.uy</p>
-                </div>
-              </div>
-              
-              <div className="space-y-4">
-                <DatasetCard 
-                  title="Calidad del Agua - Crisis Hídrica"
-                  description="Análisis del agua durante la crisis hídrica de Uruguay (2023-2024). Incluye parámetros de calidad y niveles de embalses."
-                  icon={<AlertTriangle className="h-6 w-6 text-orange-600" />}
-                  format="CSV"
-                  source="Catalogodatos.gub.uy"
-                  modelUse="Análisis histórico de crisis hídricas y entrenamiento de modelos para detección temprana de situaciones críticas."
-                  url="https://catalogodatos.gub.uy/dataset/analisis-del-agua-durante-la-crisis-hidrica"
-                />
-                <DatasetCard 
-                  title="Mediciones de Nivel - DINAGUA"
-                  description="Niveles de cuerpos de agua monitoreados por DINAGUA. Datos históricos de embalses, ríos y lagos principales."
-                  icon={<TrendingUp className="h-6 w-6 text-blue-600" />}
-                  format="CSV"
-                  source="DINAGUA - Catalogodatos.gub.uy"
-                  modelUse="Modelos de predicción de niveles de agua y alertas de escasez hídrica basados en tendencias históricas."
-                  url="https://catalogodatos.gub.uy/dataset/ambiente-dinagua-mediciones-de-nivel-2019"
-                />
-                <DatasetCard 
-                  title="Datos Meteorológicos - INUMET"
-                  description="Temperatura, humedad relativa y precipitación registradas por estaciones meteorológicas en todo Uruguay."
-                  icon={<Globe className="h-6 w-6 text-blue-600" />}
-                  format="CSV"
-                  source="INUMET - Catalogodatos.gub.uy"
-                  modelUse="Variables climáticas como features para modelos predictivos de estrés hídrico y disponibilidad de agua."
-                  url="https://catalogodatos.gub.uy/dataset/inumet-observaciones-meteorologicas-precipitacion-puntual-en-el-uruguay"
-                />
-                <DatasetCard 
-                  title="Proyecciones de Estrés Hídrico (ML)"
-                  description="Predicciones de estrés hídrico para diferentes regiones de Uruguay basadas en modelos de ML que combinan datos climáticos, de consumo y niveles de agua."
-                  icon={<Brain className="h-6 w-6 text-purple-600" />}
-                  format="JSON, CSV"
-                  source="WaterWay - Modelos Predictivos"
-                  modelUse="Dataset generado por nuestros modelos, disponible para investigación y planificación de políticas públicas."
-                  isNew
-                />
-              </div>
-            </div>
-
-            {/* Nota sobre OSE */}
-            <div className="bg-yellow-50 rounded-2xl p-6 border-l-4 border-yellow-500">
-              <div className="flex items-start space-x-3">
-                <AlertTriangle className="h-6 w-6 text-yellow-600 flex-shrink-0 mt-1" />
-                <div>
-                  <h4 className="font-bold text-gray-800 mb-2">Nota sobre OSE (Obras Sanitarias del Estado)</h4>
-                  <p className="text-sm text-gray-700">
-                    OSE no tiene datasets descargables en formato abierto. Sin embargo, WaterWay integra información pública 
-                    disponible en su sitio web oficial sobre calidad del agua, red de laboratorios y análisis (50,000 análisis/año).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Modelos de ML */}
       {selectedCountry && (
@@ -271,7 +152,7 @@ export default function CentroDescargas() {
             <span className="font-bold text-lg">WaterWay</span>
           </div>
           <p className="text-gray-400 text-sm mb-4">
-            Plataforma de gestión hídrica inteligente para Colombia y Uruguay
+            Plataforma de gestión hídrica inteligente para Colombia
           </p>
           <p className="text-gray-500 text-xs">
             © 2026 WaterWay. Datos abiertos para el desarrollo sostenible.

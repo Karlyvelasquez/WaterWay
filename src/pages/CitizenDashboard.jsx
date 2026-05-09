@@ -7,53 +7,10 @@ export default function CitizenDashboard() {
   const navigate = useNavigate()
   const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('inicio')
-  const [selectedCountry, setSelectedCountry] = useState(null)
-  const [showCountryModal, setShowCountryModal] = useState(true)
-
-  const handleCountrySelect = (country) => {
-    setSelectedCountry(country)
-    setShowCountryModal(false)
-  }
+  const selectedCountry = 'colombia'
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
-      {/* Modal de selección de país */}
-      {showCountryModal && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-slide-up">
-            <div className="text-center mb-8">
-              <Users className="h-16 w-16 text-green-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold mb-2">{t('common.welcome')} {t('landing.title')} {t('landing.citizenRole')}!</h2>
-              <p className="text-gray-600">{t('citizen.selectCountry')}</p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <button
-                onClick={() => handleCountrySelect('colombia')}
-                className="group bg-gradient-to-br from-yellow-400 to-blue-600 p-8 rounded-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="text-white text-center">
-                  <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Colombia</h3>
-                  <p className="text-sm opacity-90">Contenido adaptado para Colombia</p>
-                </div>
-              </button>
-              
-              <button
-                onClick={() => handleCountrySelect('uruguay')}
-                className="group bg-gradient-to-br from-sky-400 to-blue-800 p-8 rounded-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="text-white text-center">
-                  <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Uruguay</h3>
-                  <p className="text-sm opacity-90">Contenido adaptado para Uruguay</p>
-                </div>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Header */}
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -75,15 +32,10 @@ export default function CitizenDashboard() {
               </div>
             </div>
             <div className="flex items-center space-x-3">
-              {selectedCountry && (
-                <button
-                  onClick={() => setShowCountryModal(true)}
-                  className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg hover:bg-gray-200 transition text-sm"
-                >
-                  <Globe className="h-4 w-4 text-gray-700" />
-                  <span className="text-gray-700">{selectedCountry === 'colombia' ? 'Colombia' : 'Uruguay'}</span>
-                </button>
-              )}
+              <div className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg text-sm">
+                <Globe className="h-4 w-4 text-gray-700" />
+                <span className="text-gray-700">Colombia</span>
+              </div>
               <div className="flex items-center space-x-2 bg-green-100 px-4 py-2 rounded-full">
                 <Users className="h-5 w-5 text-green-600" />
                 <span className="font-medium text-green-800">{t('landing.citizenRole')}</span>
@@ -153,45 +105,23 @@ function TabButton({ icon, label, active, onClick }) {
 }
 
 function InicioTab({ selectedCountry }) {
-  // Contenido específico por país
-  const contentByCountry = {
-    colombia: {
-      stats: [
-        { number: "312", label: "Reportes en Colombia" },
-        { number: "91%", label: "Tasa de respuesta" },
-        { number: "23", label: "Entidades activas" }
-      ],
-      news: [
-        { title: "IDEAM publica nuevo reporte sobre cuencas", date: "Hace 1 día" },
-        { title: "CAR anuncia plan de conservación del río Bogotá", date: "Hace 3 días" },
-        { title: "MinAmbiente lanza estrategia de agua 2024", date: "Hace 5 días" }
-      ],
-      links: [
-        { name: "IDEAM - Instituto de Hidrología", url: "http://www.ideam.gov.co" },
-        { name: "MinAmbiente", url: "https://www.minambiente.gov.co" },
-        { name: "CAR - Corporación Autónoma Regional", url: "https://www.car.gov.co" }
-      ]
-    },
-    uruguay: {
-      stats: [
-        { number: "187", label: "Reportes en Uruguay" },
-        { number: "94%", label: "Tasa de respuesta" },
-        { number: "12", label: "Entidades activas" }
-      ],
-      news: [
-        { title: "OSE anuncia mejoras en red de distribución", date: "Hace 2 días" },
-        { title: "MVOTMA presenta plan de gestión hídrica", date: "Hace 4 días" },
-        { title: "Dinagua actualiza datos de calidad del agua", date: "Hace 1 semana" }
-      ],
-      links: [
-        { name: "OSE - Obras Sanitarias del Estado", url: "https://www.ose.com.uy" },
-        { name: "Dinagua", url: "https://www.gub.uy/ministerio-ambiente" },
-        { name: "MVOTMA - Ministerio de Ambiente", url: "https://www.gub.uy/ministerio-ambiente" }
-      ]
-    }
+  const content = {
+    stats: [
+      { number: '312', label: 'Reportes en Colombia' },
+      { number: '91%', label: 'Tasa de respuesta' },
+      { number: '23', label: 'Entidades activas' }
+    ],
+    news: [
+      { title: 'IDEAM publica nuevo reporte sobre cuencas', date: 'Hace 1 día' },
+      { title: 'CAR anuncia plan de conservación del río Bogotá', date: 'Hace 3 días' },
+      { title: 'MinAmbiente lanza estrategia de agua 2024', date: 'Hace 5 días' }
+    ],
+    links: [
+      { name: 'IDEAM - Instituto de Hidrología', url: 'http://www.ideam.gov.co' },
+      { name: 'MinAmbiente', url: 'https://www.minambiente.gov.co' },
+      { name: 'CAR - Corporación Autónoma Regional', url: 'https://www.car.gov.co' }
+    ]
   }
-
-  const content = selectedCountry ? contentByCountry[selectedCountry] : contentByCountry.colombia
 
   return (
     <div className="space-y-6">
@@ -208,11 +138,10 @@ function InicioTab({ selectedCountry }) {
         ))}
       </div>
 
-      {/* Noticias */}
       <div className="bg-white rounded-2xl shadow-xl p-8 border border-green-100">
         <h3 className="text-2xl font-bold mb-6 flex items-center">
           <span className="bg-gradient-to-r from-green-500 to-blue-600 text-white rounded-lg p-2 mr-3"></span>
-          Novedades {selectedCountry === 'colombia' ? 'en Colombia' : 'en Uruguay'}
+          Novedades en Colombia
         </h3>
         <div className="space-y-3">
           {content.news.map((item, idx) => (
@@ -227,7 +156,6 @@ function InicioTab({ selectedCountry }) {
         </div>
       </div>
 
-      {/* Enlaces útiles */}
       <div className="bg-white rounded-2xl shadow-xl p-8 border border-blue-100">
         <h3 className="text-2xl font-bold mb-6 flex items-center">
           <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg p-2 mr-3"></span>
@@ -266,14 +194,9 @@ function ReporteTab({ selectedCountry }) {
   // Ciudades por país
   const ciudadesPorPais = {
     colombia: [
-      'Bogotá', 'Medellín', 'Cali', 'Barranquilla', 'Cartagena', 
+      'Bogotá', 'Medellín', 'Cali', 'Barranquilla', 'Cartagena',
       'Cúcuta', 'Bucaramanga', 'Pereira', 'Santa Marta', 'Ibagué',
       'Pasto', 'Manizales', 'Neiva', 'Villavicencio', 'Armenia'
-    ],
-    uruguay: [
-      'Montevideo', 'Salto', 'Paysandú', 'Maldonado', 'Rivera',
-      'Tacuarembó', 'Melo', 'Mercedes', 'Artigas', 'Minas',
-      'Colonia', 'Florida', 'Durazno', 'Treinta y Tres', 'Rocha'
     ]
   }
 
@@ -284,11 +207,6 @@ function ReporteTab({ selectedCountry }) {
       'Medellín': { vertimiento: 'Área Metropolitana del Valle de Aburrá', contaminacion: 'AMVA', fuga: 'EPM', 'falta-acceso': 'EPM', infraestructura: 'EPM' },
       'Cali': { vertimiento: 'CVC y DAGMA', contaminacion: 'CVC', fuga: 'EMCALI', 'falta-acceso': 'EMCALI', infraestructura: 'EMCALI' },
       'default': { vertimiento: 'Corporación Autónoma Regional', contaminacion: 'Autoridad Ambiental Local', fuga: 'Empresa de Acueducto Local', 'falta-acceso': 'Empresa de Acueducto Local', infraestructura: 'Empresa de Acueducto Local' }
-    },
-    uruguay: {
-      'Montevideo': { vertimiento: 'Intendencia de Montevideo - Desarrollo Ambiental', contaminacion: 'DINAMA', fuga: 'OSE', 'falta-acceso': 'OSE', infraestructura: 'OSE' },
-      'Salto': { vertimiento: 'Intendencia de Salto', contaminacion: 'DINAMA', fuga: 'OSE', 'falta-acceso': 'OSE', infraestructura: 'OSE' },
-      'default': { vertimiento: 'Intendencia Departamental', contaminacion: 'DINAMA', fuga: 'OSE', 'falta-acceso': 'OSE', infraestructura: 'OSE' }
     }
   }
 
@@ -337,7 +255,7 @@ function ReporteTab({ selectedCountry }) {
     }, 5000)
   }
 
-  const ciudades = selectedCountry ? ciudadesPorPais[selectedCountry] : ciudadesPorPais.colombia
+  const ciudades = ciudadesPorPais.colombia
 
   return (
     <div className="space-y-6">
@@ -576,91 +494,7 @@ function MapaTab({ selectedCountry }) {
         { id: 8, tipo: 'estacion', nombre: 'Est. Bombeo La Guajira', x: 240, y: 70, region: 1 }
       ]
     },
-    uruguay: {
-      regiones: [
-        { 
-          id: 1, 
-          nombre: 'Montevideo', 
-          riesgo: 'medio', 
-          estres: 52, 
-          poblacion: '1.4M', 
-          consumo: 155, 
-          calidad: 'buena', 
-          reportes: 28,
-          descripcion: 'Área metropolitana'
-        },
-        { 
-          id: 2, 
-          nombre: 'Sur', 
-          riesgo: 'bajo', 
-          estres: 38, 
-          poblacion: '650K', 
-          consumo: 130, 
-          calidad: 'buena', 
-          reportes: 12,
-          descripcion: 'Canelones, San José, Colonia'
-        },
-        { 
-          id: 3, 
-          nombre: 'Litoral Oeste', 
-          riesgo: 'medio', 
-          estres: 58, 
-          poblacion: '420K', 
-          consumo: 148, 
-          calidad: 'regular', 
-          reportes: 31,
-          descripcion: 'Paysandú, Río Negro, Soriano'
-        },
-        { 
-          id: 4, 
-          nombre: 'Centro', 
-          riesgo: 'bajo', 
-          estres: 35, 
-          poblacion: '380K', 
-          consumo: 125, 
-          calidad: 'buena', 
-          reportes: 15,
-          descripcion: 'Durazno, Flores, Florida'
-        },
-        { 
-          id: 5, 
-          nombre: 'Norte', 
-          riesgo: 'medio', 
-          estres: 62, 
-          poblacion: '340K', 
-          consumo: 160, 
-          calidad: 'regular', 
-          reportes: 24,
-          descripcion: 'Artigas, Salto, Rivera'
-        },
-        { 
-          id: 6, 
-          nombre: 'Este', 
-          riesgo: 'bajo', 
-          estres: 28, 
-          poblacion: '290K', 
-          consumo: 118, 
-          calidad: 'buena', 
-          reportes: 9,
-          descripcion: 'Maldonado, Rocha, Treinta y Tres'
-        }
-      ],
-      infraestructura: [
-        { id: 1, tipo: 'planta', nombre: 'Planta Aguas Corrientes', x: 300, y: 280, region: 1 },
-        { id: 2, tipo: 'embalse', nombre: 'Embalse Paso Severino', x: 280, y: 250, region: 2 },
-        { id: 3, tipo: 'planta', nombre: 'OSE Canelones', x: 320, y: 270, region: 2 },
-        { id: 4, tipo: 'embalse', nombre: 'Represa Salto Grande', x: 180, y: 120, region: 5 },
-        { id: 5, tipo: 'planta', nombre: 'Planta Paysandú', x: 200, y: 180, region: 3 },
-        { id: 6, tipo: 'acuifero', nombre: 'Acuífero Guaraní', x: 250, y: 200, region: 4 },
-        { id: 7, tipo: 'estacion', nombre: 'Est. OSE Maldonado', x: 380, y: 290, region: 6 }
-      ]
-    }
   }
-
-  // Seleccionar datos según país
-  const datosActuales = selectedCountry === 'colombia' ? datosPorPais.colombia : datosPorPais.uruguay
-  const regiones = datosActuales.regiones
-  const infraestructura = datosActuales.infraestructura
 
   const capas = [
     { id: 'riesgo', nombre: 'Riesgo Hídrico', IconComponent: Droplet, color: 'blue' },

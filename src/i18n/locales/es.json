@@ -22,7 +22,7 @@
     "title": "WaterWay",
     "subtitle": "Plataforma de Gobernanza del Agua",
     "description": "Mejora la comprensión, el uso responsable y la gobernanza del agua frente a los desafíos del cambio climático",
-    "forColombiaUruguay": "Colombia y Uruguay",
+    "forColombia": "Colombia",
     "climateActionLatam": "Acción Climática LATAM",
     "getStarted": "Comenzar",
     "learnMore": "Saber más",
@@ -128,7 +128,7 @@
       "government": {
         "name": "Laura, analista municipal",
         "role": "Gobierno",
-        "scenario": "Utiliza las proyecciones de IA para planificar la infraestructura hídrica de Montevideo. Los modelos muestran zonas de alto riesgo para 2030.",
+        "scenario": "Utiliza las proyecciones de IA para planificar la infraestructura hídrica de Medellín. Los modelos muestran zonas de alto riesgo para 2030.",
         "impact": "Prioriza inversiones y presenta un plan con datos sólidos al concejo, obteniendo aprobación presupuestal."
       },
       "scenarioLabel": "Escenario",
@@ -139,10 +139,6 @@
       "subtitle": "La urgencia climática exige soluciones inmediatas",
       "recentEvents": "Eventos recientes",
       "events": {
-        "uruguay": {
-          "title": "Crisis hídrica Uruguay 2023",
-          "description": "Montevideo sufrió restricciones severas de agua potable, afectando a 1.5M de personas"
-        },
         "colombia": {
           "title": "Sequías en Colombia 2024",
           "description": "La Guajira y zonas andinas reportaron los niveles más bajos de reservorios en 40 años"
@@ -156,7 +152,7 @@
       "international": {
         "ndc": {
           "title": "NDCs actualizadas",
-          "description": "Colombia y Uruguay comprometidos con reducción de vulnerabilidad hídrica para 2030"
+          "description": "Colombia comprometida con la reducción de la vulnerabilidad hídrica para 2030"
         },
         "sdg": {
           "title": "Agenda 2030 - ODS 6",
@@ -189,7 +185,7 @@
         "documentation": "Documentación técnica abierta"
       },
       "privacy": "Nota importante:",
-      "privacyText": "Todos los datos personales son tratados conforme a las leyes de protección de datos de Colombia y Uruguay. La plataforma implementa anonimización y agregación para proteger la privacidad."
+      "privacyText": "Todos los datos personales son tratados conforme a las leyes de protección de datos de Colombia. La plataforma implementa anonimización y agregación para proteger la privacidad."
     },
     "roles": {
       "title": "Acceso por roles",
@@ -222,14 +218,13 @@
       "organizedBy": "Organizado por",
       "funding": "Financiamiento",
       "copyright": "© 2026 WaterWay - Open Data & AI Innovation Challenge | Acción Climática LATAM",
-      "developed": "Desarrollado para Colombia y Uruguay"
+      "developed": "Desarrollado para Colombia"
     }
   },
   "student": {
     "title": "Dashboard Estudiantil",
     "selectCountry": "Selecciona tu país",
     "colombia": "Colombia",
-    "uruguay": "Uruguay",
     "tabs": {
       "home": "Inicio",
       "cycle": "Ciclo del Agua",

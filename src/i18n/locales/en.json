@@ -22,7 +22,7 @@
     "title": "WaterWay",
     "subtitle": "Water Governance Platform",
     "description": "Improve understanding, responsible use and governance of water in the face of climate change challenges",
-    "forColombiaUruguay": "Colombia and Uruguay",
+    "forColombia": "Colombia",
     "climateActionLatam": "Climate Action LATAM",
     "getStarted": "Get Started",
     "learnMore": "Learn More",
@@ -128,7 +128,7 @@
       "government": {
         "name": "Laura, municipal analyst",
         "role": "Government",
-        "scenario": "Uses AI projections to plan Montevideo's water infrastructure. Models show high-risk areas for 2030.",
+        "scenario": "Uses AI projections to plan Medellin's water infrastructure. Models show high-risk areas for 2030.",
         "impact": "Prioritizes investments and presents a plan with solid data to the council, obtaining budget approval."
       },
       "scenarioLabel": "Scenario",
@@ -139,10 +139,6 @@
       "subtitle": "The climate urgency demands immediate solutions",
       "recentEvents": "Recent events",
       "events": {
-        "uruguay": {
-          "title": "Uruguay water crisis 2023",
-          "description": "Montevideo suffered severe drinking water restrictions, affecting 1.5M people"
-        },
         "colombia": {
           "title": "Droughts in Colombia 2024",
           "description": "La Guajira and Andean areas reported the lowest reservoir levels in 40 years"
@@ -156,7 +152,7 @@
       "international": {
         "ndc": {
           "title": "Updated NDCs",
-          "description": "Colombia and Uruguay committed to reducing water vulnerability by 2030"
+          "description": "Colombia committed to reducing water vulnerability by 2030"
         },
         "sdg": {
           "title": "2030 Agenda - SDG 6",
@@ -189,7 +185,7 @@
         "documentation": "Open technical documentation"
       },
       "privacy": "Important note:",
-      "privacyText": "All personal data is treated in accordance with the data protection laws of Colombia and Uruguay. The platform implements anonymization and aggregation to protect privacy."
+      "privacyText": "All personal data is treated in accordance with the data protection laws of Colombia. The platform implements anonymization and aggregation to protect privacy."
     },
     "roles": {
       "title": "Access by roles",
@@ -222,14 +218,13 @@
       "organizedBy": "Organized by",
       "funding": "Funding",
       "copyright": "© 2026 WaterWay - Open Data & AI Innovation Challenge | Climate Action LATAM",
-      "developed": "Developed for Colombia and Uruguay"
+      "developed": "Developed for Colombia"
     }
   },
   "student": {
     "title": "Student Dashboard",
     "selectCountry": "Select your country",
     "colombia": "Colombia",
-    "uruguay": "Uruguay",
     "tabs": {
       "home": "Home",
       "cycle": "Water Cycle",

@@ -1,59 +1,16 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { GraduationCap, Home, MessageCircle, Droplet, BookOpen, ChevronLeft, ExternalLink, Newspaper, Bell, TrendingUp, X, Globe, MousePointer2, Cloud, CloudRain, Mountain, Zap, Waves, AlertCircle, Calculator, Lightbulb, Smartphone, HelpCircle, GraduationCapIcon } from 'lucide-react'
+import { GraduationCap, Home, MessageCircle, Droplet, BookOpen, ChevronLeft, ExternalLink, Newspaper, Bell, TrendingUp, X, MousePointer2, Cloud, CloudRain, Mountain, Zap, Waves, AlertCircle, Calculator, Lightbulb, Smartphone, HelpCircle, GraduationCapIcon } from 'lucide-react'
 
 export default function StudentDashboard() {
   const navigate = useNavigate()
   const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('inicio')
-  const [selectedCountry, setSelectedCountry] = useState(null)
-  const [showCountryModal, setShowCountryModal] = useState(true)
-
-  const handleCountrySelect = (country) => {
-    setSelectedCountry(country)
-    setShowCountryModal(false)
-  }
+  const selectedCountry = 'colombia'
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
-      {/* Modal de selección de país */}
-      {showCountryModal && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-slide-up">
-            <div className="text-center mb-8">
-              <GraduationCap className="h-16 w-16 text-blue-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold mb-2">{t('common.welcome')} {t('landing.title')} {t('landing.studentRole')}!</h2>
-              <p className="text-gray-600">{t('student.selectCountry')}</p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <button
-                onClick={() => handleCountrySelect('colombia')}
-                className="group bg-gradient-to-br from-yellow-400 to-blue-600 p-8 rounded-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="text-white text-center">
-                  <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">{t('student.colombia')}</h3>
-                  <p className="text-sm opacity-90">Contenido adaptado para {t('student.colombia')}</p>
-                </div>
-              </button>
-              
-              <button
-                onClick={() => handleCountrySelect('uruguay')}
-                className="group bg-gradient-to-br from-sky-400 to-blue-800 p-8 rounded-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="text-white text-center">
-                  <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">{t('student.uruguay')}</h3>
-                  <p className="text-sm opacity-90">Contenido adaptado para {t('student.uruguay')}</p>
-                </div>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Header */}
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -75,15 +32,10 @@ export default function StudentDashboard() {
               </div>
             </div>
             <div className="flex items-center space-x-3">
-              {selectedCountry && (
-                <button
-                  onClick={() => setShowCountryModal(true)}
-                  className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg hover:bg-gray-200 transition text-sm"
-                >
-                  <span>{selectedCountry === 'colombia' ? '🇨🇴' : '🇺🇾'}</span>
-                  <span className="text-gray-700">{t('student.selectCountry')}</span>
-                </button>
-              )}
+              <div className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg text-sm">
+                <span>🇨🇴</span>
+                <span className="text-gray-700">{t('student.colombia')}</span>
+              </div>
               <div className="flex items-center space-x-2 bg-blue-100 px-4 py-2 rounded-full">
                 <GraduationCap className="h-5 w-5 text-blue-600" />
                 <span className="font-medium text-blue-800">{t('landing.studentRole')}</span>
@@ -127,7 +79,7 @@ export default function StudentDashboard() {
 
       {/* Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {activeTab === 'inicio' && <InicioTab selectedCountry={selectedCountry} />}
+        {activeTab === 'inicio' && <InicioTab />}
         {activeTab === 'ciclo' && <CicloTab />}
         {activeTab === 'huella' && <HuellaTab />}
         {activeTab === 'chatbot' && <ChatbotTab />}
@@ -152,7 +104,7 @@ function TabButton({ icon, label, active, onClick }) {
   )
 }
 
-function InicioTab({ selectedCountry }) {
+function InicioTab() {
   const countryData = {
     colombia: {
       flag: '🇨🇴',
@@ -194,51 +146,10 @@ function InicioTab({ selectedCountry }) {
         'El río Magdalena es la arteria fluvial más importante del país',
         'Bogotá obtiene el 70% de su agua del sistema Chingaza'
       ]
-    },
-    uruguay: {
-      flag: '🇺🇾',
-      name: 'Uruguay',
-      welcome: 'Bienvenido al portal educativo de WaterWay Uruguay',
-      stats: [
-        { label: 'Disponibilidad hídrica', value: '40,000 m³/hab/año', color: 'blue' },
-        { label: 'Población con acceso', value: '97%', color: 'green' },
-        { label: 'Cuencas hidrográficas', value: '3 principales', color: 'purple' }
-      ],
-      news: [
-        {
-          title: 'Mejora en niveles de embalses',
-          description: 'Lluvias recientes elevan reservas de agua en 15% respecto al año pasado',
-          date: 'Hace 1 día',
-          type: 'Buenas noticias'
-        },
-        {
-          title: 'Plan de contingencia hídrica',
-          description: 'Gobierno presenta estrategia para prevenir crisis como la de 2023',
-          date: 'Hace 4 días',
-          type: 'Política pública'
-        },
-        {
-          title: 'Educación sobre agua',
-          description: 'OSE lanza campaña educativa en escuelas sobre uso eficiente del agua',
-          date: 'Hace 1 semana',
-          type: 'Educación'
-        }
-      ],
-      resources: [
-        { name: 'OSE - Obras Sanitarias del Estado', url: 'https://www.ose.com.uy', description: 'Proveedor nacional de agua potable' },
-        { name: 'MVOTMA - Ambiente', url: 'https://www.gub.uy/ministerio-ambiente', description: 'Ministerio de Ambiente' },
-        { name: 'INUMET', url: 'https://www.inumet.gub.uy', description: 'Instituto Uruguayo de Meteorología' },
-        { name: 'Datos Abiertos Uruguay', url: 'https://catalogodatos.gub.uy', description: 'Portal de datos abiertos del gobierno' }
-      ],
-      facts: [
-        'Uruguay fue el primer país de América Latina en declarar el acceso al agua como derecho humano',
-        'El 60% del agua potable proviene de ríos y el 40% de acuíferos',
-        'Montevideo consume el 60% del agua potabilizada del país'
-      ]
     }
   }
 
-  const data = selectedCountry ? countryData[selectedCountry] : null
+  const data = countryData.colombia
 
   if (!data) {
     return (

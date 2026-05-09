@@ -10,56 +10,32 @@ export default function GovernmentDashboard() {
   const navigate = useNavigate()
   const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('inicio')
-  const [selectedCountry, setSelectedCountry] = useState(null)
-  const [showCountryModal, setShowCountryModal] = useState(true)
+  const selectedCountry = 'colombia'
   const [selectedCity, setSelectedCity] = useState('')
   const [realData, setRealData] = useState(null)
   const [loading, setLoading] = useState(false)
-
-  const handleCountrySelect = (country) => {
-    setSelectedCountry(country)
-    setShowCountryModal(false)
-    setSelectedCity('') // Reset city when country changes
-    setRealData(null)
-  }
   
   const loadRealData = async (city, country) => {
-    const shouldLoadRealData = 
-      (country === 'colombia' && city === 'Medellín') ||
-      (country === 'uruguay' && city === 'Montevideo')
+    const shouldLoadRealData = country === 'colombia' && city === 'Medellín'
     
     if (!shouldLoadRealData) return
     
     setLoading(true)
     try {
-      let endpoint, params, source
+      const endpoint = '/api/epm'
+      const params = 'municipio=Medellín'
+      const source = 'EPM'
       
-      if (country === 'colombia' && city === 'Medellín') {
-        endpoint = '/api/epm'
-        params = 'municipio=Medellín'
-        source = 'EPM'
-      } else if (country === 'uruguay' && city === 'Montevideo') {
-        endpoint = '/api/uruguay'
-        params = ''
-        source = 'OSE'
-      }
-      
-      const interrupcionesUrl = params 
-        ? `${endpoint}/interrupciones?${params}&limit=100`
-        : `${endpoint}/interrupciones?limit=100`
+      const interrupcionesUrl = `${endpoint}/interrupciones?${params}&limit=100`
       
       const requests = [
-        fetch(`${endpoint}/${country === 'colombia' ? 'consumo' : 'tarifas'}${params ? '?' + params : ''}`),
-        fetch(`${endpoint}/${country === 'colombia' ? 'reportes-ciudadanos' : 'reportes'}${params ? '?' + params : ''}`),
+        fetch(`${endpoint}/consumo?${params}`),
+        fetch(`${endpoint}/reportes-ciudadanos?${params}`),
         fetch(interrupcionesUrl)
       ]
       
       // Cargar proyecciones ML para Medellín
-      if (country === 'colombia' && city === 'Medellín') {
-        requests.push(
-          fetch('/api/ml/proyecciones?ciudad=Medellín')
-        )
-      }
+      requests.push(fetch('/api/ml/proyecciones?ciudad=Medellín'))
       
       const responses = await Promise.all(requests)
       const [data1, data2, data3] = await Promise.all([
@@ -79,7 +55,7 @@ export default function GovernmentDashboard() {
         reportes: data2.data,
         interrupciones: data3.data,
         proyecciones: proyecciones,
-        source: source // 'EPM' o 'OSE'
+        source: source
       })
     } catch (error) {
       console.error('Error cargando datos reales:', error)
@@ -90,371 +66,80 @@ export default function GovernmentDashboard() {
   }
 
   // Transforma los datos reales del backend al formato que espera la UI
-  const transformRealDataToUI = (realData, city, country) => {
+  const transformRealDataToUI = (realData) => {
     if (!realData) return null
 
-    console.log('Transformando datos reales para:', city, country)
-    console.log('Datos recibidos:', realData)
-    console.log('Tipo de consumo:', typeof realData.consumo, realData.consumo)
-    console.log('Es array?:', Array.isArray(realData.consumo))
-
     try {
-      // Para Medellín (EPM)
-      if (country === 'colombia' && city === 'Medellín') {
-        // Agrupa datos de consumo por mes
-        const consumoPorMes = {}
-        let totalConsumo = 0
-        let countRegistros = 0
+      const consumoData = Array.isArray(realData.consumo) ? realData.consumo : []
+      const mensualMap = new Map()
+      let totalConsumo = 0
 
-        // El backend puede devolver consumo como objeto {data: [...]} o directamente como array
-        let consumoData = realData.consumo
-        
-        // Para EPM, los datos vienen en formato especial: {1: {promedio, total}, 2: ..., Comercial: ..., Industrial: ...}
-        if (consumoData && typeof consumoData === 'object' && !Array.isArray(consumoData)) {
-          console.log('Procesando datos EPM en formato objeto con estratos y sectores')
-          
-          let consumoHogares = 0
-          let consumoComercial = consumoData.Comercial?.promedio || 0
-          let consumoIndustrial = consumoData.Industrial?.promedio || 0
-          for (let estrato = 1; estrato <= 6; estrato++) {
-            if (consumoData[estrato]) {
-              consumoHogares += consumoData[estrato].promedio || 0
-              console.log(`Estrato ${estrato}: ${consumoData[estrato].promedio}`)
-            }
-          }
-          
-          console.log('Consumo por sector:', { 
-            hogares: consumoHogares, 
-            comercial: consumoComercial, 
-            industrial: consumoIndustrial 
-          })
-          
-          // Calcular consumo total y porcentajes
-          const consumoTotalReal = consumoHogares + consumoComercial + consumoIndustrial
-          const consumoTotalMes = Math.round(consumoTotalReal * 1000) // Convertir a m³
-          
-          const pctHogares = Math.round((consumoHogares / consumoTotalReal) * 100)
-          const pctIndustrial = Math.round((consumoIndustrial / consumoTotalReal) * 100)
-          const pctComercial = 100 - pctHogares - pctIndustrial
-          
-          const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun']
-          const mensualData = meses.map((mes, i) => {
-            const factor = 1 + (Math.random() * 0.1 - 0.05)
-            return {
-              mes: mes,
-              hogares: Math.round(consumoHogares * 1000 * factor),
-              industria: Math.round(consumoIndustrial * 1000 * factor),
-              comercio: Math.round(consumoComercial * 1000 * factor)
-            }
-          })
-          
-          console.log('Datos procesados EPM:', { 
-            mensualData, 
-            consumoTotalMes, 
-            porcentajes: { hogares: pctHogares, industrial: pctIndustrial, comercial: pctComercial },
-            consumoReal: consumoTotalReal
-          })
+      consumoData.forEach((item) => {
+        if (!item?.fecha || !item?.consumo_m3) return
 
-          // Procesar proyecciones ML si están disponibles
-          let proyeccionData = []
-          if (realData.proyecciones && realData.proyecciones.length > 0) {
-            console.log('Usando proyecciones del modelo ML:', realData.proyecciones.length)
-            console.log('Muestra proyección:', realData.proyecciones[0])
-            
-            // Agrupar por mes y SUMAR todos los estratos (no promediar)
-            const proyeccionesPorMes = {}
-            realData.proyecciones.forEach(p => {
-              const mesKey = p.fecha.substring(0, 7) // 'YYYY-MM'
-              if (!proyeccionesPorMes[mesKey]) {
-                proyeccionesPorMes[mesKey] = {
-                  actual: 0,
-                  optimista: 0,
-                  pesimista: 0,
-                  count: 0
-                }
-              }
-              proyeccionesPorMes[mesKey].actual += p.consumo_actual
-              proyeccionesPorMes[mesKey].optimista += p.consumo_optimista
-              proyeccionesPorMes[mesKey].pesimista += p.consumo_pesimista
-              proyeccionesPorMes[mesKey].count++
-            })
-            
-            const mesesOrdenados = Object.keys(proyeccionesPorMes).sort()
-            
-            // Obtener consumo total del primer mes como base 100
-            const primerMesData = proyeccionesPorMes[mesesOrdenados[0]]
-            const consumoBaseOptimista = primerMesData.optimista
-            const consumoBaseActual = primerMesData.actual
-            const consumoBasePesimista = primerMesData.pesimista
-            
-            console.log('Base de comparación (mes 1):', {
-              optimista: consumoBaseOptimista,
-              actual: consumoBaseActual,
-              pesimista: consumoBasePesimista,
-              estratos: primerMesData.count
-            })
-            
-            proyeccionData = mesesOrdenados.slice(0, 12).map((mesKey, idx) => {
-              const [year, month] = mesKey.split('-')
-              const data = proyeccionesPorMes[mesKey]
-              
-              // Usar valores absolutos en m³ para mostrar consumo real
-              return {
-                mes: `${month}/${year.slice(2)}`,
-                conservacion: Math.round(data.optimista),
-                actual: Math.round(data.actual),
-                tendencia: Math.round(data.pesimista)
-              }
-            })
-            
-            console.log('Proyecciones procesadas:', {
-              totalMeses: proyeccionData.length,
-              primerMes: proyeccionData[0],
-              ultimoMes: proyeccionData[proyeccionData.length - 1],
-              todosLosMeses: proyeccionData
-            })
-          } else {
-            // Fallback a proyecciones estáticas
-            proyeccionData = [
-              { año: '2024', actual: 100, conservacion: 100, tendencia: 100 },
-              { año: '2026', actual: 106, conservacion: 103, tendencia: 112 },
-              { año: '2028', actual: 112, conservacion: 105, tendencia: 125 },
-              { año: '2030', actual: 120, conservacion: 108, tendencia: 142 },
-              { año: '2035', actual: 135, conservacion: 115, tendencia: 175 }
-            ]
-          }
+        const fecha = new Date(item.fecha)
+        const mesKey = fecha.toLocaleString('es', { month: 'short' })
+        const mes = mesKey.charAt(0).toUpperCase() + mesKey.slice(1, 3)
 
-          return {
-            poblacion: '2.5M',
-            consumoTotal: consumoTotalMes,
-            sectores: {
-              hogares: { 
-                porcentaje: pctHogares, 
-                consumo: Math.round(consumoHogares * 1000), 
-                tendencia: '+1%' 
-              },
-              industria: { 
-                porcentaje: pctIndustrial, 
-                consumo: Math.round(consumoIndustrial * 1000), 
-                tendencia: '+3%' 
-              },
-              comercio: { 
-                porcentaje: pctComercial, 
-                consumo: Math.round(consumoComercial * 1000), 
-                tendencia: '+2%' 
-              }
-            },
-            mensual: mensualData,
-            proyeccion: proyeccionData,
-            dataSource: '',
-            isRealData: true,
-            modeloML: !!realData.proyecciones
-          }
+        if (!mensualMap.has(mes)) {
+          mensualMap.set(mes, { mes, hogares: 0, industria: 0, comercio: 0, count: 0 })
         }
 
-        if (consumoData && Array.isArray(consumoData)) {
-          console.log('Procesando', consumoData.length, 'registros de consumo')
-          consumoData.forEach(item => {
-            if (item.consumo_m3) {
-              totalConsumo += item.consumo_m3
-              countRegistros++
-              
-              const fecha = new Date(item.fecha)
-              const mes = fecha.toLocaleString('es', { month: 'short' })
-              const mesKey = mes.charAt(0).toUpperCase() + mes.slice(1, 3)
-              
-              if (!consumoPorMes[mesKey]) {
-                consumoPorMes[mesKey] = { mes: mesKey, hogares: 0, industria: 0, comercio: 0, count: 0 }
-              }
-              consumoPorMes[mesKey].count++
-              consumoPorMes[mesKey].hogares += item.consumo_m3 * 0.60
-              consumoPorMes[mesKey].industria += item.consumo_m3 * 0.25
-              consumoPorMes[mesKey].comercio += item.consumo_m3 * 0.15
-            }
-          })
-        }
+        const registro = mensualMap.get(mes)
+        registro.count += 1
+        registro.hogares += item.consumo_m3 * 0.6
+        registro.industria += item.consumo_m3 * 0.25
+        registro.comercio += item.consumo_m3 * 0.15
+        totalConsumo += item.consumo_m3
+      })
 
-        const mensualData = Object.values(consumoPorMes)
-          .map(m => ({
-            mes: m.mes,
-            hogares: Math.round(m.hogares / m.count),
-            industria: Math.round(m.industria / m.count),
-            comercio: Math.round(m.comercio / m.count)
-          }))
-          .slice(0, 6)
+      const mensual = Array.from(mensualMap.values())
+        .map((item) => ({
+          mes: item.mes,
+          hogares: Math.round(item.hogares / item.count),
+          industria: Math.round(item.industria / item.count),
+          comercio: Math.round(item.comercio / item.count)
+        }))
+        .slice(0, 6)
 
-        const consumoPromedio = countRegistros > 0 ? totalConsumo / countRegistros : 18500
-        const consumoTotalMes = Math.round(consumoPromedio)
+      const consumoTotal = mensual.length > 0 ? Math.round(totalConsumo / consumoData.length) : 18500
+      const ultimoMes = mensual[mensual.length - 1] || { hogares: 11100, industria: 4625, comercio: 2775 }
 
-        console.log('Datos procesados EPM:', { mensualData, consumoTotalMes, registros: countRegistros })
-
-        return {
-          poblacion: '2.5M',
-          consumoTotal: consumoTotalMes,
-          sectores: {
-            hogares: { porcentaje: 60, consumo: Math.round(consumoTotalMes * 0.60), tendencia: '+1%' },
-            industria: { porcentaje: 25, consumo: Math.round(consumoTotalMes * 0.25), tendencia: '+3%' },
-            comercio: { porcentaje: 15, consumo: Math.round(consumoTotalMes * 0.15), tendencia: '+2%' }
-          },
-          mensual: mensualData.length > 0 ? mensualData : [
-            { mes: 'Ene', hogares: 10800, industria: 4500, comercio: 2700 },
-            { mes: 'Feb', hogares: 10700, industria: 4450, comercio: 2650 },
-            { mes: 'Mar', hogares: 10900, industria: 4550, comercio: 2750 },
-            { mes: 'Abr', hogares: 11000, industria: 4600, comercio: 2760 },
-            { mes: 'May', hogares: 11050, industria: 4610, comercio: 2770 },
-            { mes: 'Jun', hogares: 11100, industria: 4625, comercio: 2775 }
-          ],
-          proyeccion: [
-            { año: '2024', actual: 100, conservacion: 100, tendencia: 100 },
-            { año: '2026', actual: 105, conservacion: 102, tendencia: 110 },
-            { año: '2028', actual: 112, conservacion: 104, tendencia: 122 },
-            { año: '2030', actual: 121, conservacion: 106, tendencia: 138 },
-            { año: '2035', actual: 140, conservacion: 108, tendencia: 168 }
-          ],
-          dataSource: '',
-          isRealData: true
-        }
-      }
-
-      // Para Montevideo (OSE)
-      if (country === 'uruguay' && city === 'Montevideo') {
-        console.log('Procesando datos de OSE Montevideo')
-        
-        // Procesar tarifas OSE: 96 registros (24 meses × 4 brackets)
-        const tarifas = Array.isArray(realData.consumo) ? realData.consumo : []
-        console.log('Tarifas OSE:', tarifas.length)
-        
-        // Agrupar por mes
-        const mesesMap = new Map()
-        tarifas.forEach(tarifa => {
-          if (tarifa.fecha && tarifa.categoria === 'Residencial') {
-            const fecha = new Date(tarifa.fecha + 'T00:00:00')
-            const mesKey = `${fecha.getFullYear()}-${String(fecha.getMonth() + 1).padStart(2, '0')}`
-            
-            if (!mesesMap.has(mesKey)) {
-              mesesMap.set(mesKey, {
-                fecha: fecha,
-                brackets: [],
-                cargoFijo: tarifa.cargo_fijo
-              })
-            }
-            
-            mesesMap.get(mesKey).brackets.push({
-              hasta_m3: tarifa.hasta_m3,
-              tarifa: tarifa.tarifa_por_m3
-            })
-          }
-        })
-        
-        const mesesOrdenados = Array.from(mesesMap.entries())
-          .sort((a, b) => a[1].fecha - b[1].fecha)
-          .slice(-6)
-        
-        const mesesNombres = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
-        
-        const mensualData = mesesOrdenados.map(([mesKey, mesData]) => {
-          const mes = mesesNombres[mesData.fecha.getMonth()]
-          
-          const brackets = mesData.brackets.sort((a, b) => a.hasta_m3 - b.hasta_m3)
-          let consumoResidencial = 0
-          
-          if (brackets.length >= 4) {
-            const bracket1 = (brackets[0].hasta_m3 / 2) * 0.40
-            const bracket2 = ((brackets[0].hasta_m3 + brackets[1].hasta_m3) / 2) * 0.35
-            const bracket3 = ((brackets[1].hasta_m3 + brackets[2].hasta_m3) / 2) * 0.20
-            const bracket4 = ((brackets[2].hasta_m3 + brackets[3].hasta_m3) / 2) * 0.05
-            
-            consumoResidencial = Math.round((bracket1 + bracket2 + bracket3 + bracket4) * 250)
-          } else {
-            consumoResidencial = 7800
-          }
-          
-          const hogares = Math.round(consumoResidencial)
-          const industria = Math.round(hogares * 0.31) // 20/65 = 0.31
-          const comercio = Math.round(hogares * 0.23) // 15/65 = 0.23
-          
-          return { mes, hogares, industria, comercio }
-        })
-        
-        console.log('Datos procesados OSE:', { mensualData, registros: tarifas.length })
-        
-        // Calcular totales
-        const ultimoMes = mensualData[mensualData.length - 1] || { hogares: 0, industria: 0, comercio: 0 }
-        const consumoTotal = ultimoMes.hogares + ultimoMes.industria + ultimoMes.comercio
-        
-        // Calcular porcentajes reales
-        const totalConsumo = consumoTotal || 1
-        const porcentajeHogares = Math.round((ultimoMes.hogares / totalConsumo) * 100)
-        const porcentajeIndustria = Math.round((ultimoMes.industria / totalConsumo) * 100)
-        const porcentajeComercio = Math.round((ultimoMes.comercio / totalConsumo) * 100)
-        
-        return {
-          poblacion: '1.4M',
-          consumoTotal: consumoTotal,
-          sectores: {
-            hogares: { porcentaje: porcentajeHogares, consumo: ultimoMes.hogares, tendencia: '+1%' },
-            industria: { porcentaje: porcentajeIndustria, consumo: ultimoMes.industria, tendencia: '+2%' },
-            comercio: { porcentaje: porcentajeComercio, consumo: ultimoMes.comercio, tendencia: '+1%' }
-          },
-          mensual: mensualData,
-          proyeccion: [
-            { año: '2024', actual: 100, conservacion: 100, tendencia: 100 },
-            { año: '2026', actual: 104, conservacion: 102, tendencia: 108 },
-            { año: '2028', actual: 109, conservacion: 103, tendencia: 118 },
-            { año: '2030', actual: 116, conservacion: 105, tendencia: 130 },
-            { año: '2035', actual: 130, conservacion: 107, tendencia: 155 }
-          ],
-          dataSource: '',
-          isRealData: true
-        }
+      return {
+        poblacion: '2.5M',
+        consumoTotal,
+        sectores: {
+          hogares: { porcentaje: 60, consumo: ultimoMes.hogares, tendencia: '+1%' },
+          industria: { porcentaje: 25, consumo: ultimoMes.industria, tendencia: '+3%' },
+          comercio: { porcentaje: 15, consumo: ultimoMes.comercio, tendencia: '+2%' }
+        },
+        mensual: mensual.length > 0 ? mensual : [
+          { mes: 'Ene', hogares: 10800, industria: 4500, comercio: 2700 },
+          { mes: 'Feb', hogares: 10700, industria: 4450, comercio: 2650 },
+          { mes: 'Mar', hogares: 10900, industria: 4550, comercio: 2750 },
+          { mes: 'Abr', hogares: 11000, industria: 4600, comercio: 2760 },
+          { mes: 'May', hogares: 11050, industria: 4610, comercio: 2770 },
+          { mes: 'Jun', hogares: 11100, industria: 4625, comercio: 2775 }
+        ],
+        proyeccion: [
+          { año: '2024', actual: 100, conservacion: 100, tendencia: 100 },
+          { año: '2026', actual: 105, conservacion: 102, tendencia: 110 },
+          { año: '2028', actual: 112, conservacion: 104, tendencia: 122 },
+          { año: '2030', actual: 121, conservacion: 106, tendencia: 138 },
+          { año: '2035', actual: 140, conservacion: 108, tendencia: 168 }
+        ],
+        dataSource: '',
+        isRealData: true,
+        modeloML: Array.isArray(realData.proyecciones) && realData.proyecciones.length > 0
       }
     } catch (error) {
       console.error('Error transformando datos reales:', error)
       return null
     }
-
-    return null
   }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
-      {/* Modal de selección de país */}
-      {showCountryModal && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-slide-up">
-            <div className="text-center mb-8">
-              <Building2 className="h-16 w-16 text-purple-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold mb-2">{t('government.title')}</h2>
-              <p className="text-gray-600">{t('government.selectCountry')}</p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <button
-                onClick={() => handleCountrySelect('colombia')}
-                className="group bg-gradient-to-br from-yellow-400 to-blue-600 p-8 rounded-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="text-white text-center">
-                  <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Colombia</h3>
-                  <p className="text-sm opacity-90">Datos gubernamentales de Colombia</p>
-                </div>
-              </button>
-              
-              <button
-                onClick={() => handleCountrySelect('uruguay')}
-                className="group bg-gradient-to-br from-sky-400 to-blue-800 p-8 rounded-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="text-white text-center">
-                  <Globe className="h-16 w-16 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold mb-2">Uruguay</h3>
-                  <p className="text-sm opacity-90">Datos gubernamentales de Uruguay</p>
-                </div>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Header */}
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -475,50 +160,38 @@ export default function GovernmentDashboard() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              {selectedCountry && (
-                <button
-                  onClick={() => setShowCountryModal(true)}
-                  className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg hover:bg-gray-200 transition text-sm"
-                >
-                  <Globe className="h-4 w-4 text-gray-700" />
-                  <span className="text-gray-700">{selectedCountry === 'colombia' ? 'Colombia' : 'Uruguay'}</span>
-                </button>
-              )}
-              <div className="flex items-center space-x-2 bg-purple-100 px-4 py-2 rounded-full">
-                <Building2 className="h-5 w-5 text-purple-600" />
-                <span className="font-medium text-purple-800">{t('landing.governmentRole')}</span>
-              </div>
+            <div className="flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg text-sm">
+              <Globe className="h-4 w-4 text-gray-700" />
+              <span className="text-gray-700">Colombia</span>
             </div>
           </div>
         </div>
       </header>
 
-      {/* Navigation Tabs */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex space-x-8">
             <TabButton
               icon={<Home className="h-5 w-5" />}
-              label={t('government.tabs.dashboard')}
+              label="Inicio"
               active={activeTab === 'inicio'}
               onClick={() => setActiveTab('inicio')}
             />
             <TabButton
               icon={<BarChart3 className="h-5 w-5" />}
-              label={t('government.tabs.consumption')}
+              label="Consumo"
               active={activeTab === 'consumo'}
               onClick={() => setActiveTab('consumo')}
             />
             <TabButton
               icon={<TrendingUp className="h-5 w-5" />}
-              label={t('government.tabs.projections')}
+              label="Proyecciones"
               active={activeTab === 'proyecciones'}
               onClick={() => setActiveTab('proyecciones')}
             />
             <TabButton
               icon={<Database className="h-5 w-5" />}
-              label={t('government.tabs.data')}
+              label="Datos"
               active={activeTab === 'datos'}
               onClick={() => setActiveTab('datos')}
             />
@@ -555,7 +228,6 @@ function TabButton({ icon, label, active, onClick }) {
 
 const ciudadesPorPais = {
   colombia: ['Bogotá', 'Medellín', 'Cali', 'Barranquilla', 'Cartagena', 'Cúcuta'],
-  uruguay: ['Montevideo', 'Salto', 'Paysandú', 'Rivera', 'Maldonado', 'Colonia']
 }
 
 const datosPorCiudad = {
@@ -912,11 +584,8 @@ function DashboardTab({ selectedCountry, selectedCity, setSelectedCity, realData
   
   const handleCityChange = (city) => {
     setSelectedCity(city)
-    // Carga datos reales para Medellín (Colombia) o Montevideo (Uruguay)
-    if (
-      (city === 'Medellín' && selectedCountry === 'colombia') ||
-      (city === 'Montevideo' && selectedCountry === 'uruguay')
-    ) {
+    // Carga datos reales para Medellín (Colombia)
+    if (city === 'Medellín' && selectedCountry === 'colombia') {
       loadRealData(city, selectedCountry)
       
       // TEMPORAL: Si el backend no está disponible, simula datos "reales" después de 2 segundos
@@ -935,7 +604,7 @@ function DashboardTab({ selectedCountry, selectedCity, setSelectedCity, realData
               ],
               reportes: [],
               interrupciones: [],
-              source: city === 'Medellín' ? 'EPM' : 'OSE'
+              source: 'EPM'
             }
           }
           return currentData
@@ -1093,11 +762,8 @@ function ConsumoTab({ selectedCountry, selectedCity, setSelectedCity, realData, 
   
   const handleCityChange = (city) => {
     setSelectedCity(city)
-    // Carga datos reales para Medellín (Colombia) o Montevideo (Uruguay)
-    if (
-      (city === 'Medellín' && selectedCountry === 'colombia') ||
-      (city === 'Montevideo' && selectedCountry === 'uruguay')
-    ) {
+    // Carga datos reales para Medellín (Colombia)
+    if (city === 'Medellín' && selectedCountry === 'colombia') {
       loadRealData(city, selectedCountry)
     } else {
       setRealData(null) // Usa datos mock para otras ciudades
@@ -1121,7 +787,7 @@ function ConsumoTab({ selectedCountry, selectedCity, setSelectedCity, realData, 
       
       doc.setFontSize(10)
       doc.setTextColor(100, 100, 100)
-      doc.text(`País: ${selectedCountry === 'colombia' ? 'Colombia' : 'Uruguay'}`, 20, 38)
+      doc.text('País: Colombia', 20, 38)
       doc.text(`Fecha: ${new Date().toLocaleDateString('es-ES')}`, 20, 43)
       
       // Información general
@@ -1427,11 +1093,8 @@ function ProyeccionesTab({ selectedCountry, selectedCity, setSelectedCity, realD
   const handleCityChange = (city) => {
     setSelectedCity(city)
     setAiAnalysis(null)
-    // Carga datos reales para Medellín (Colombia) o Montevideo (Uruguay)
-    if (
-      (city === 'Medellín' && selectedCountry === 'colombia') ||
-      (city === 'Montevideo' && selectedCountry === 'uruguay')
-    ) {
+    // Carga datos reales para Medellín (Colombia)
+    if (city === 'Medellín' && selectedCountry === 'colombia') {
       loadRealData(city, selectedCountry)
     } else {
       setRealData(null) // Usa datos mock para otras ciudades
@@ -1512,7 +1175,7 @@ function ProyeccionesTab({ selectedCountry, selectedCity, setSelectedCity, realD
       
       doc.setFontSize(10)
       doc.setTextColor(100, 100, 100)
-      doc.text(`País: ${selectedCountry === 'colombia' ? 'Colombia' : 'Uruguay'}`, 20, 38)
+      doc.text('País: Colombia', 20, 38)
       doc.text(`Fecha: ${new Date().toLocaleDateString('es-ES')}`, 20, 43)
       doc.text(`Análisis generado con GPT-4`, 20, 48)
       
@@ -1828,162 +1491,79 @@ function ProyeccionesTab({ selectedCountry, selectedCity, setSelectedCity, realD
 }
 
 function DatosTab({ selectedCountry }) {
-  if (!selectedCountry) {
-    return (
-      <div className="text-center py-20">
-        <Globe className="h-20 w-20 text-gray-400 mx-auto mb-4" />
-        <h3 className="text-xl font-semibold text-gray-600">Selecciona un país para ver los datos abiertos disponibles</h3>
-      </div>
-    )
-  }
-
-  // Datasets por país
-  const datasetsPorPais = {
-    colombia: [
-      {
-        title: "Histórico de Tarifas de Acueducto y Aguas Residuales - EPM",
-        description: "Datos históricos de tarifas de acueducto en Medellín. Utilizados en nuestro modelo predictivo para proyectar costos futuros del servicio bajo diferentes escenarios climáticos.",
-        format: "CSV",
-        updated: "Datos oficiales EPM",
-        url: "https://www.datos.gov.co/Funci-n-p-blica/Hist-rico-de-Tarifas-de-Acueducto-y-Aguas-Residual/nfrm-mmfe/about_data",
-        modelUse: "Análisis de tendencias tarifarias y proyección de costos para hogares e industrias"
-      },
-      {
-        title: "Interrupciones de Acueducto - Aguas Nacionales EPM",
-        description: "Registro de interrupciones del servicio de acueducto en la red de EPM. Estos datos alimentan nuestro sistema de alertas tempranas y mapa de riesgo de infraestructura.",
-        format: "CSV",
-        updated: "Actualización continua",
-        url: "https://www.datos.gov.co/Funci-n-p-blica/Interrupciones-de-Acueducto-Aguas-Nacionales-EPM/mvuk-tydp/about_data",
-        modelUse: "Identificación de patrones de fallos y predicción de zonas vulnerables"
-      },
-      {
-        title: "Subsidios y Contribuciones de Servicios Públicos - EPM",
-        description: "Información sobre subsidios al consumo de agua. Usado en modelos de equidad tarifaria y análisis de vulnerabilidad socioeconómica.",
-        format: "CSV",
-        updated: "Datos oficiales EPM",
-        url: "https://www.datos.gov.co/Funci-n-p-blica/Subsidios-y-Contribuciones-de-Servicios-P-blicos-D/av6t-m6ju/about_data",
-        modelUse: "Análisis de impacto social de políticas hídricas"
-      },
-      {
-        title: "Temperatura Ambiente del Aire",
-        description: "Series temporales de temperatura en Colombia. Variable clave en nuestros modelos de evaporación y proyección de disponibilidad hídrica.",
-        format: "CSV",
-        updated: "IDEAM",
-        url: "https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Temperatura-Ambiente-del-Aire/sbwg-7ju4/about_data",
-        modelUse: "Modelos predictivos de estrés hídrico vinculados a cambio climático"
-      },
-      {
-        title: "Precipitación",
-        description: "Datos de precipitación en estaciones meteorológicas. Esenciales para proyectar disponibilidad de agua en cuencas y embalses.",
-        format: "CSV",
-        updated: "IDEAM",
-        url: "https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Precipitaci-n/s54a-sgyg/about_data",
-        modelUse: "Predicción de escenarios de sequía e inundación"
-      },
-      {
-        title: "API de Pronósticos Meteorológicos",
-        description: "API en tiempo real de pronósticos del IDEAM. Integrada para generar alertas automáticas de eventos climáticos extremos.",
-        format: "API REST",
-        updated: "Tiempo real",
-        url: "http://www.pronosticosyalertas.gov.co/datos-abiertos-ideam",
-        modelUse: "Sistema de alertas tempranas automatizado"
-      },
-      {
-        title: "Calidad del Agua en Quebradas",
-        description: "Parámetros fisicoquímicos del agua. Usado para clasificar zonas según calidad y priorizar intervenciones de saneamiento.",
-        format: "CSV",
-        updated: "Datos abiertos Colombia",
-        url: "https://www.datos.gov.co/d/e48y-j9mp",
-        modelUse: "Mapas de calidad del agua y clasificación de riesgo sanitario"
-      },
-      {
-        title: "Consulta y Descarga de Datos Hidrometeorológicos",
-        description: "Portal completo de datos hidrometeorológicos del IDEAM. Base de datos histórica para calibración de modelos.",
-        format: "Múltiples formatos",
-        updated: "IDEAM",
-        url: "http://dhime.ideam.gov.co/atencionciudadano/",
-        modelUse: "Calibración y validación de modelos de Machine Learning"
-      }
-    ],
-    uruguay: [
-      {
-        title: "Análisis del Agua durante la Crisis Hídrica",
-        description: "Monitoreo de calidad del agua durante crisis 2023 en Montevideo. Datos clave para entrenar modelos de predicción de crisis hídricas y contaminación.",
-        format: "CSV, Dashboard externo",
-        updated: "Crisis hídrica 2023",
-        url: "https://catalogodatos.gub.uy/dataset/analisis-del-agua-durante-la-crisis-hidrica",
-        dashboard: "https://graf.montevideo.gub.uy/",
-        modelUse: "Modelos de alerta temprana de crisis y análisis de parámetros críticos (cloruros, sodio)"
-      },
-      {
-        title: "Catálogo de Datos INUMET",
-        description: "Datos meteorológicos completos del Instituto Uruguayo de Meteorología. Variables climáticas para proyecciones de largo plazo.",
-        format: "CSV",
-        updated: "INUMET",
-        url: "https://catalogodatos.gub.uy/organization/inumet",
-        modelUse: "Proyecciones climáticas y escenarios de estrés hídrico"
-      },
-      {
-        title: "DINAGUA - Mediciones de Nivel de Agua 2019",
-        description: "Niveles históricos de agua en cuerpos hídricos. Usado para entrenar modelos de predicción de disponibilidad hídrica.",
-        format: "CSV",
-        updated: "2019",
-        url: "https://catalogodatos.gub.uy/dataset/ambiente-dinagua-mediciones-de-nivel-2019",
-        modelUse: "Series temporales de disponibilidad hídrica"
-      },
-      {
-        title: "Observaciones Meteorológicas - Temperatura del Aire",
-        description: "Series temporales de temperatura en Uruguay. Variable fundamental en modelos de evaporación y demanda hídrica.",
-        format: "CSV",
-        updated: "INUMET",
-        url: "https://catalogodatos.gub.uy/dataset/inumet-observaciones-meteorologicas-temperatura-del-aire-en-el-uruguay",
-        modelUse: "Modelos de demanda hídrica y evapotranspiración"
-      },
-      {
-        title: "Observaciones Meteorológicas - Humedad Relativa",
-        description: "Datos de humedad atmosférica. Complementan análisis de balance hídrico y proyecciones de sequía.",
-        format: "CSV",
-        updated: "INUMET",
-        url: "https://catalogodatos.gub.uy/dataset/inumet-observaciones-meteorologicas-humedad-relativa-en-el-uruguay",
-        modelUse: "Balance hídrico atmosférico"
-      },
-      {
-        title: "Observaciones Meteorológicas - Precipitación Puntual",
-        description: "Precipitaciones medidas en estaciones de Uruguay. Base para modelos de disponibilidad y recarga de acuíferos.",
-        format: "CSV",
-        updated: "INUMET",
-        url: "https://catalogodatos.gub.uy/dataset/inumet-observaciones-meteorologicas-precipitacion-puntual-en-el-uruguay",
-        modelUse: "Predicción de sequías y disponibilidad de agua superficial"
-      },
-      {
-        title: "DINAGUA - Aprovechamientos de Recursos Hídricos 2019",
-        description: "Registro de concesiones y usos del agua. Analizado para entender presión sobre recursos hídricos por sector.",
-        format: "CSV",
-        updated: "2019",
-        url: "https://catalogodatos.gub.uy/dataset/ambiente-dinagua-aprovechamientos-de-los-recursos-hidricos-vigentes-2019",
-        modelUse: "Análisis de demanda por sector y zonas de sobreexplotación"
-      },
-      {
-        title: "Índice de Bienestar Hídrico por Grilla (IBH)",
-        description: "Índice espacializado de bienestar hídrico. Usado para validar nuestras proyecciones de estrés hídrico regional.",
-        format: "CSV, Grilla",
-        updated: "INIA",
-        url: "https://catalogodatos.gub.uy/dataset/inia-ibh-por-grilla",
-        modelUse: "Validación de modelos y mapas de riesgo"
-      }
-    ]
-  }
-
-  const datasets = datasetsPorPais[selectedCountry]
+  const datasets = [
+    {
+      title: 'Histórico de Tarifas de Acueducto y Aguas Residuales - EPM',
+      description: 'Datos históricos de tarifas de acueducto en Medellín. Utilizados en nuestro modelo predictivo para proyectar costos futuros del servicio bajo diferentes escenarios climáticos.',
+      format: 'CSV',
+      updated: 'Datos oficiales EPM',
+      url: 'https://www.datos.gov.co/Funci-n-p-blica/Hist-rico-de-Tarifas-de-Acueducto-y-Aguas-Residual/nfrm-mmfe/about_data',
+      modelUse: 'Análisis de tendencias tarifarias y proyección de costos para hogares e industrias'
+    },
+    {
+      title: 'Interrupciones de Acueducto - Aguas Nacionales EPM',
+      description: 'Registro de interrupciones del servicio de acueducto en la red de EPM. Estos datos alimentan nuestro sistema de alertas tempranas y mapa de riesgo de infraestructura.',
+      format: 'CSV',
+      updated: 'Actualización continua',
+      url: 'https://www.datos.gov.co/Funci-n-p-blica/Interrupciones-de-Acueducto-Aguas-Nacionales-EPM/mvuk-tydp/about_data',
+      modelUse: 'Identificación de patrones de fallos y predicción de zonas vulnerables'
+    },
+    {
+      title: 'Subsidios y Contribuciones de Servicios Públicos - EPM',
+      description: 'Información sobre subsidios al consumo de agua. Usado en modelos de equidad tarifaria y análisis de vulnerabilidad socioeconómica.',
+      format: 'CSV',
+      updated: 'Datos oficiales EPM',
+      url: 'https://www.datos.gov.co/Funci-n-p-blica/Subsidios-y-Contribuciones-de-Servicios-P-blicos-D/av6t-m6ju/about_data',
+      modelUse: 'Análisis de impacto social de políticas hídricas'
+    },
+    {
+      title: 'Temperatura Ambiente del Aire',
+      description: 'Series temporales de temperatura en Colombia. Variable clave en nuestros modelos de evaporación y proyección de disponibilidad hídrica.',
+      format: 'CSV',
+      updated: 'IDEAM',
+      url: 'https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Temperatura-Ambiente-del-Aire/sbwg-7ju4/about_data',
+      modelUse: 'Modelos predictivos de estrés hídrico vinculados a cambio climático'
+    },
+    {
+      title: 'Precipitación',
+      description: 'Datos de precipitación en estaciones meteorológicas. Esenciales para proyectar disponibilidad de agua en cuencas y embalses.',
+      format: 'CSV',
+      updated: 'IDEAM',
+      url: 'https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Precipitaci-n/s54a-sgyg/about_data',
+      modelUse: 'Predicción de escenarios de sequía e inundación'
+    },
+    {
+      title: 'API de Pronósticos Meteorológicos',
+      description: 'API en tiempo real de pronósticos del IDEAM. Integrada para generar alertas automáticas de eventos climáticos extremos.',
+      format: 'API REST',
+      updated: 'Tiempo real',
+      url: 'http://www.pronosticosyalertas.gov.co/datos-abiertos-ideam',
+      modelUse: 'Sistema de alertas tempranas automatizado'
+    },
+    {
+      title: 'Calidad del Agua en Quebradas',
+      description: 'Parámetros fisicoquímicos del agua. Usado para clasificar zonas según calidad y priorizar intervenciones de saneamiento.',
+      format: 'CSV',
+      updated: 'Datos abiertos Colombia',
+      url: 'https://www.datos.gov.co/d/e48y-j9mp',
+      modelUse: 'Mapas de calidad del agua y clasificación de riesgo sanitario'
+    },
+    {
+      title: 'Consulta y Descarga de Datos Hidrometeorológicos',
+      description: 'Portal completo de datos hidrometeorológicos del IDEAM. Base de datos histórica para calibración de modelos.',
+      format: 'Múltiples formatos',
+      updated: 'IDEAM',
+      url: 'http://dhime.ideam.gov.co/atencionciudadano/',
+      modelUse: 'Calibración y validación de modelos de Machine Learning'
+    }
+  ]
 
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-3xl font-bold">Datos Abiertos - {selectedCountry === 'colombia' ? 'Colombia' : 'Uruguay'}</h2>
-          <p className="text-gray-600 mt-2">
-            Datasets oficiales utilizados en nuestros modelos predictivos de Machine Learning
-          </p>
+          <h2 className="text-3xl font-bold">Datos Abiertos - Colombia</h2>
+          <p className="text-gray-600 mt-2">Datasets oficiales utilizados en nuestros modelos predictivos de Machine Learning</p>
         </div>
       </div>
 
@@ -1992,10 +1572,7 @@ function DatosTab({ selectedCountry }) {
           <Database className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Transparencia y Open Data</h4>
-            <p className="text-sm text-gray-700">
-              Todos los datasets utilizados en WaterWay provienen de fuentes gubernamentales oficiales bajo licencias abiertas. 
-              Nuestros modelos de IA se entrenan exclusivamente con datos públicos para garantizar transparencia y replicabilidad.
-            </p>
+            <p className="text-sm text-gray-700">Todos los datasets utilizados en WaterWay provienen de fuentes gubernamentales oficiales bajo licencias abiertas. Nuestros modelos de IA se entrenan exclusivamente con datos públicos para garantizar transparencia y replicabilidad.</p>
           </div>
         </div>
       </div>
@@ -2003,55 +1580,13 @@ function DatosTab({ selectedCountry }) {
       <div className="bg-white rounded-2xl shadow-lg p-8">
         <div className="mb-6">
           <h3 className="text-xl font-semibold mb-2">Datasets Utilizados</h3>
-          <p className="text-gray-600">
-            Haz clic en "Descargar" para acceder al portal de datos abiertos oficial
-          </p>
+          <p className="text-gray-600">Haz clic en "Descargar" para acceder al portal de datos abiertos oficial</p>
         </div>
 
         <div className="space-y-4">
           {datasets.map((dataset, idx) => (
             <DatasetItemWithModel key={idx} {...dataset} />
           ))}
-        </div>
-      </div>
-
-      {selectedCountry === 'uruguay' && (
-        <div className="bg-yellow-50 rounded-2xl p-6 border-l-4 border-yellow-500">
-          <div className="flex items-start space-x-3">
-            <AlertTriangle className="h-6 w-6 text-yellow-600 flex-shrink-0 mt-1" />
-            <div>
-              <h4 className="font-bold text-gray-800 mb-2">Nota sobre OSE (Obras Sanitarias del Estado)</h4>
-              <p className="text-sm text-gray-700">
-                OSE no tiene datasets descargables en formato abierto. Sin embargo, WaterWay integra información pública 
-                disponible en su sitio web oficial sobre calidad del agua, red de laboratorios y análisis (50,000 análisis/año).
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <div className="bg-gradient-to-r from-purple-500 to-blue-600 rounded-2xl p-8 text-white">
-        <div className="flex items-center mb-4">
-          <Brain className="h-10 w-10 mr-3" />
-          <h3 className="text-2xl font-bold">Modelos de Machine Learning</h3>
-        </div>
-        <p className="mb-4">
-          Nuestros modelos predictivos combinan múltiples fuentes de datos para generar proyecciones 
-          de estrés hídrico, alertas tempranas y recomendaciones de política pública.
-        </p>
-        <div className="grid md:grid-cols-3 gap-4 mt-6">
-          <div className="bg-white/20 backdrop-blur rounded-lg p-4">
-            <h4 className="font-bold mb-2">Random Forest</h4>
-            <p className="text-sm">Clasificación de reportes ciudadanos y detección de patrones</p>
-          </div>
-          <div className="bg-white/20 backdrop-blur rounded-lg p-4">
-            <h4 className="font-bold mb-2">LSTM</h4>
-            <p className="text-sm">Series temporales de consumo y proyecciones climáticas</p>
-          </div>
-          <div className="bg-white/20 backdrop-blur rounded-lg p-4">
-            <h4 className="font-bold mb-2">GPT-4</h4>
-            <p className="text-sm">Análisis de lenguaje natural en chatbots y generación de reportes</p>
-          </div>
         </div>
       </div>
     </div>
